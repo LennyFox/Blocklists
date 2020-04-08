@@ -6,7 +6,7 @@
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
 !
-! Block third-party access and Urchin Tracking cookies 
+! Block third-party and Urchin tracking cookies to view eporner and pornhub more safely and privately
 !
 *^$third-party,object,script,subdocument,websocket,cookie,ping,domain=eporner.com|pornhub.com|phncdn.com
 /.*porn.*\.com/$cookie=/__utm[a-z]/
