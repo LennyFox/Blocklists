@@ -4,7 +4,7 @@
 ! Title: Strip my bookmarked websites from garbage
 !
 ! Expires: 365 days (I am still testing this under-development-list)
-! You are free to copy and distribute this file for non-commercial use
+! You are free to copy and distribute this file, but use at your own risk
 !
 ! JS API START
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
