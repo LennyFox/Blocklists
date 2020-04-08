@@ -1,0 +1,100 @@
+[AdBlockPlus 3.5]
+!
+! Version: 2020 
+! Title: Strip my bookmarked websites from garbage
+!
+! Expires: 365 days (I am still testing this under-development-list)
+! You are free to copy and distribute this file for non-commercial use
+!
+! JS API START
+#%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
+! JS API FINISH
+!
+! Google Search
+google.*##.xFNJP
+google.*###taw
+google.*###rhs
+google.*###fsl
+google.*###hdtb
+google.*###bottomads
+||google.*/gen_204
+||google.*/client_204
+||gstatic.com/shopping
+!
+! Youtube
+/.*pagead.*/$domain=youtube.com
+/.*scheduler.*/$domain=youtube.com
+/.*instream.*/$domain=youtube.com
+/.*midroll.*/$domain=youtube.com
+||*/generate_204$domain=youtube.com
+||youtube.com/ptracking$domain=youtube.com
+||youtube.com/api/stats/$domain=youtube.com
+||youtube.com/youtubei/$domain=youtube.com
+||gstatic.com/inputtools/images/$domain=youtube.com
+youtube.com###ticker
+youtube.com##.ytd-popup-container
+youtube.com##div:contains(/.*promoted.*/)
+youtube.com##div:contains(/.*consent.*/)
+!
+! nos.nl
+nos.nl###ccm_notification
+ster.nl^$domain=nos.nl
+!
+! nu.nl
+nu.nl###header
+nu.nl##cookiebar_wrapper
+nu.nl#%#AG_onLoad(function() { setTimeout(function() { var el=document.querySelector('a#sanoma-consent-accept-button'); if(el) el.click(); }, 300); });
+talpatvcdn.nl^$domain=nu.nl
+!
+! volkskrant.nl
+volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
+volkskrant.nl/temptation/resolve$domain=volkskrant.nl
+advertising-cdn.dpgmedia.cloud/web-advertising/*$domain=volkskrant.nL
+Sel-static.persgroep.net/teasers/*$domain=volkskrant.nl
+volkskrant.nl##div:contains(/.*top1.*/)
+volkskrant.nl#%#AG_onLoad(function() { setTimeout(function() {if(document.getElementsByClassName("modal-overlay")[0].isvisible = true){document.getElementsByClassName("button button--accept")[0].click();}}, 300); });
+!
+! bbc.com
+bbc.co.uk/bbcdotcom/*adverts.js^$script,domain=bbc.com
+bbc.co.uk/bbcdotcom/*/analytics.js^$script,domain=bbc.com
+bbc.co.uk/frameworks/fig/2/fig.js^$domain=bbc.com
+mybbc-analytics.files.bbci.co.uk^$script,domain=www.bbc.com
+/cookie-banners.bundle.js$domain=bbc.com
+/breakingNewsBanner.js$domain=bbc.com
+bbc.com##.nw-c-breaking-news-banner
+bbc.com###cookiePrompt
+!
+! cnn.com
+cnn.com/ad/*$domain=cnn.com
+cnn.com/ads/*$domain=cnn.com
+cnn.com/*/adzones.*.bundle.js$script,domain=cnn.com
+turner.com/analytics/comscore/*$domain=cnn.com
+cnn.com##.brGKeP.breaking-newsstyles__BreakingNewsContainer-*
+cnn.com##.user-msg
+!
+! foxnews.com
+foxnews.com##.collection-fox-nation
+foxnews.com/static/orion/scripts/core/base/app/modules/referral.js$script,domain=www.foxnews.com
+fncstatic.com/static/*/js/ads.js^$script,domain=foxnews.com
+!
+! thewindowsclub.com
+player.anyclip.com^$domain=thewindowsclub.com
+thewindowsclub.com###ez-cookie-dialog-wrapper
+thewindowsclub.com##.ezoic-ad, .ezoic-adl
+!
+! diverse nederlandse websites 
+!
+9292.nl#%#AG_onLoad(function() { document.cookie = "9292-cookie-consent-2=consent%20given; path=/;"; });
+!
+beleggen.nl###aspnetForm > aside.banner.ut--billboard:nth-child(11)
+!
+hardware.info#%#AG_onLoad(function() { setTimeout(function() { var el=document.querySelector('button.button--primary[name="accept"]'); if(el) el.click(); }, 30); });
+!
+moviemeter.nl#%#AG_onLoad(function() { if (document.cookie.indexOf("cok") == -1) { cookieProceed(); } });
+!
+rtlz.nl#%#var cw;Object.defineProperty(window,"cookieWallSettings",{get:function(){return cw},set:function(a){document.cookie="rtlcookieconsent="+a.version.toString()+";";cw=a}});
+!
+tweakers.net#%#AG_onLoad(function() { var el=document.querySelector('button.ctaButton[value="accept"]'); if(el) el.click(); });
+!
+weeronline.nl#%#AG_onLoad(function() { setTimeout(function() {var check = document.getElementsByClassName('btn-accept')[0]; if (check){check.click();}; }, 300); });
+weeronline.nl###mainContainer > div.wol-column-module__row___2JdRx:nth-child(3)
