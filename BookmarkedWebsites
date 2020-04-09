@@ -52,8 +52,7 @@ volkskrant.nl/temptation/resolve$domain=volkskrant.nl
 advertising-cdn.dpgmedia.cloud/web-advertising/*$domain=volkskrant.nL
 Sel-static.persgroep.net/teasers/*$domain=volkskrant.nl
 volkskrant.nl##div:contains(/.*top1.*/)
-volkskrant.nl#%#AG_onLoad(function() { if (document.cookie.indexOf('nl_cookiewall_version') == -1) { document.cookie = "nl_cookiewall_version=1"; location.reload(); } });
-volkskrant.nl#%#AG_onLoad(function() { setTimeout(function() {if(document.getElementsByClassName("modal-overlay")[0].isvisible = true){document.getElementsByClassName("button button--accept")[0].click();}}, 300); });
+myprivacy.dpgmedia.net#%#AG_onLoad(function() { setTimeout(function() { var el = document.getElementsByClassName("form__button-group")[0]; if(el) { el.submit(); }; }, 300); });
 !
 ! bbc.com
 bbc.co.uk/bbcdotcom/*adverts.js^$script,domain=bbc.com
