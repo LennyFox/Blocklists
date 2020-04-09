@@ -7,6 +7,10 @@
 ! You are free to copy and distribute this file, but use at your own risk
 !
 !
+! Block third-party except stylesheets, images and video's on the porn domains listed
+!
+||*$third-party,~stylesheet,~image,~media,domain=eporner.com|pornhub.com|phncdn.com
+!
 ! Strip eporner
 !
 ||eporner.com$object,script,subdocument,websocket
