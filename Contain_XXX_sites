@@ -42,9 +42,12 @@ pornhub.com#%#Object.defineProperty(window, 'UAParser', { get: function() { retu
 pornhub.com#%#Object.defineProperty(Object.prototype, 'loadPopUnder', { get: function(){ return function() {}; }, set: function(){ return function() {}; }});
 pornhub.com#%#Object.defineProperty(window,'tj_ads',{get:function(){return[]}});
 pornhub.com#%#window.opera = true;
+!
+! Strip pornhub's content delivery network 
+!
+||phncdn.com/pics/promobanners/*$domain=pornhub.com
 ||phncdn.com$object,script,subdocument,websocket,xmlhttprequest
 @@phncdn.com/html5player/*$script,domain=pornhub.com
 @@phncdn.com/videos/*$script,domain=pornhub.com
 @@phncdn.com/www-static/js/widgets-player.js^$script,domain=pornhub.com
 @@phncdn.com/www-static/js/lib/*$script,domain=pornhub.com
-||phncdn.com/pics/promobanners/*$domain=nl.pornhub.com
