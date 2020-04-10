@@ -1,0 +1,33 @@
+[AdBlockPlus 3.5]
+!
+! Version: 2020 
+! Title: Strip unessecary stuff from Google search and youtube
+!
+! Expires: 365 days 
+! You are free to copy and distribute this file, but use at your own risk
+!
+! Google Search
+google.*##.xFNJP
+google.*###taw
+google.*###rhs
+google.*###fsl
+google.*###hdtb
+google.*###bottomads
+||google.*/gen_204
+||google.*/client_204
+||gstatic.com/shopping
+!
+! Youtube
+/.*pagead.*/$domain=youtube.com
+/.*scheduler.*/$domain=youtube.com
+/.*instream.*/$domain=youtube.com
+/.*midroll.*/$domain=youtube.com
+||*/generate_204$domain=youtube.com
+||youtube.com/ptracking$domain=youtube.com
+||youtube.com/api/stats/$domain=youtube.com
+||youtube.com/youtubei/$domain=youtube.com
+||gstatic.com/inputtools/images/$domain=youtube.com
+youtube.com###ticker
+youtube.com##.ytd-popup-container
+youtube.com##div:contains(/.*promoted.*/)
+youtube.com##div:contains(/.*consent.*/)
