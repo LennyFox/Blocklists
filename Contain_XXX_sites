@@ -6,14 +6,13 @@
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
 !
+! IMPORTANT: Disable this list for normal browsing because it disables all active content
 !
-! Block third-party except stylesheets, images and video's on the porn domains listed
+||*$object,script,subdocument,websocket,xmlhttprequest
 !
-||*$third-party,~stylesheet,~image,~media,domain=eporner.com|pornhub.com|phncdn.com
+! Allow eporner to run with minimal dynamic content
 !
-! Strip eporner
-!
-||eporner.com$object,script,subdocument,websocket
+@@eporner.com/$xmlhttprequest,~third-party,domain=eporner.com
 @@eporner.com/vjs/*$script,domain=eporner.com
 @@eporner.com/js/new/jquery-*.js^$script,domain=eporner.com
 @@eporner.com/ajax2.js$script,domain=eporner.com
@@ -23,13 +22,9 @@ eporner.com###footadframe
 eporner.com###btasd
 eporner.com###foot
 eporner.com##.dropdown > li > a[rel="nofollow"]
-eporner.com#%#//scriptlet("abort-on-property-read", "ExoLoader")
-eporner.com#%#//scriptlet("prevent-addEventListener", "getexoloader")
-eporner.com#%#//scriptlet("abort-on-property-read", "BetterJsPop")
 !
-! Strip pornhub 
+! Allow pornhub to run with minimal dynamic content
 !
-||pornhub.com$object,script,subdocument,websocket,xmlhttprequest
 pornhub.com###hotVideosSection > deicc:first-child
 pornhub.com###cmtWrapper
 pornhub.com##.alpha
@@ -39,16 +34,11 @@ pornhub.com##.realsex
 pornhub.com##div.footerContentWrapper
 pornhub.com###under-player-comments
 pornhub.com#?#body > .wrapper + div[class][-ext-has='> .removeAdLink']
-pornhub.com#%#Object.defineProperty(window, 'UAParser', { get: function() { return function() { }; } });
-pornhub.com#%#Object.defineProperty(Object.prototype, 'loadPopUnder', { get: function(){ return function() {}; }, set: function(){ return function() {}; }});
-pornhub.com#%#Object.defineProperty(window,'tj_ads',{get:function(){return[]}});
-pornhub.com#%#window.opera = true;
 !
 ! Strip pornhub's content delivery network 
 !
-||phncdn.com/pics/promobanners/*$domain=pornhub.com
-||phncdn.com$object,script,subdocument,websocket,xmlhttprequest
 @@phncdn.com/html5player/*$script,domain=pornhub.com
 @@phncdn.com/videos/*$script,domain=pornhub.com
 @@phncdn.com/www-static/js/widgets-player.js^$script,domain=pornhub.com
 @@phncdn.com/www-static/js/lib/*$script,domain=pornhub.com
+||phncdn.com/pics/promobanners/*$domain=pornhub.com
