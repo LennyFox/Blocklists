@@ -37,6 +37,7 @@ pornhub.com##.ad-link
 pornhub.com##.removeAdsStyle
 pornhub.com##.realsex
 pornhub.com##div.footerContentWrapper
+pornhub.com###under-player-comments
 pornhub.com#?#body > .wrapper + div[class][-ext-has='> .removeAdLink']
 pornhub.com#%#Object.defineProperty(window, 'UAParser', { get: function() { return function() { }; } });
 pornhub.com#%#Object.defineProperty(Object.prototype, 'loadPopUnder', { get: function(){ return function() {}; }, set: function(){ return function() {}; }});
