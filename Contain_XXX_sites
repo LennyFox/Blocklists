@@ -12,7 +12,7 @@
 !
 ! Allow eporner to run with minimal dynamic content
 !
-@@eporner.com/$xmlhttprequest,~third-party,domain=eporner.com
+@@eporner.com$xmlhttprequest,~third-party,domain=eporner.com
 @@eporner.com/vjs/*$script,domain=eporner.com
 @@eporner.com/js/new/jquery-*.js^$script,domain=eporner.com
 @@eporner.com/ajax2.js$script,domain=eporner.com
@@ -41,4 +41,6 @@ pornhub.com#?#body > .wrapper + div[class][-ext-has='> .removeAdLink']
 @@phncdn.com/videos/*$script,domain=pornhub.com
 @@phncdn.com/www-static/js/widgets-player.js^$script,domain=pornhub.com
 @@phncdn.com/www-static/js/lib/*$script,domain=pornhub.com
+@@phncdn.com$subdocument,domain=pornhub.com
 ||phncdn.com/pics/promobanners/*$domain=pornhub.com
+||phncdn.com/*/premium/$domain=pornhub.com
