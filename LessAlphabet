@@ -13,11 +13,15 @@ google.*###rhs
 google.*###fsl
 google.*###hdtb
 google.*###bottomads
-||gstatic.com/shopping
+||gstatic.com/shopping^$domain=google.*
 !
 ! Google Maps
 !
 google.*###consent-bump > div.widget-consent.widget-consent-small
+google.*###gb > div.gb_0f > div.gb_Xa.gb_Fg.gb_i.gb_Eg.gb_E > div.gb_Zc.gb_Fg.gb_i:first-child > div.gb_id.gb_jd.gb_7c.gb_td.gb_Dd.gb_na:last-child > div.gb_F.gb_na
+google.*##.section-cardbox
+||tpc.googlesyndication.com^$domain=google.*
+||play.google.com^$domain=google.*
 !
 ! Youtube
 /.*pagead.*/$domain=youtube.com
