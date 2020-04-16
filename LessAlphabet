@@ -15,6 +15,10 @@ google.*###hdtb
 google.*###bottomads
 ||gstatic.com/shopping
 !
+! Google Maps
+!
+google.*###consent-bump > div.widget-consent.widget-consent-small
+!
 ! Youtube
 /.*pagead.*/$domain=youtube.com
 /.*scheduler.*/$domain=youtube.com
