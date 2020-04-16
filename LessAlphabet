@@ -13,6 +13,7 @@ google.*###rhs
 google.*###fsl
 google.*###hdtb
 google.*###bottomads
+||google.*^$cookie=NID,domain=google.*
 ||id.google.*^$domain=google.*
 ||gstatic.com/shopping^$domain=google.*
 !
