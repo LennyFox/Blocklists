@@ -37,7 +37,7 @@ google.*##.section-cardbox
 youtube.com###ticker
 youtube.com##.ytd-popup-container
 !
-! Prevent blocks logging into your google account
+! Prevent blocks signing into your google account
 !
 @@accounts.google.com^$important
 @@myaccount.google.com^$important
