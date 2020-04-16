@@ -13,6 +13,7 @@ google.*###rhs
 google.*###fsl
 google.*###hdtb
 google.*###bottomads
+||id.google.*^$domain=google.*
 ||gstatic.com/shopping^$domain=google.*
 !
 ! Google Maps
