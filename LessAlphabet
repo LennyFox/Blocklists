@@ -35,3 +35,8 @@ google.*##.section-cardbox
 ||gstatic.com/inputtools/images/$domain=youtube.com
 youtube.com###ticker
 youtube.com##.ytd-popup-container
+!
+! Prevent blocks logging into your google account
+!
+@@accounts.google.com^$important
+@@myaccount.google.com^$important
