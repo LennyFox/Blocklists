@@ -13,47 +13,47 @@
 !
 ! nos.nl
 nos.nl###ccm_notification
-ster.nl^$domain=nos.nl
+||ster.nl$domain=nos.nl
 !
 ! nu.nl
 nu.nl###header
 nu.nl##cookiebar_wrapper
 nu.nl#%#AG_onLoad(function() { setTimeout(function() { var el=document.querySelector('a#sanoma-consent-accept-button'); if(el) el.click(); }, 300); });
-talpatvcdn.nl^$domain=nu.nl
+||talpatvcdn.nl$domain=nu.nl
 !
 ! volkskrant.nl
-volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
-volkskrant.nl/temptation/resolve$domain=volkskrant.nl
-volkskrant.nl##div:contains(/.*top1.*/)
+||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
+||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
+||volkskrant.nl##div:contains(/.*top1.*/)
 myprivacy.dpgmedia.net#%#AG_onLoad(function() { setTimeout(function() { var el = document.getElementsByClassName("form__button-group")[0]; if(el) { el.submit(); }; }, 300); });
-persgroep.net/teasers/*$domain=volkskrant.nl
-advertising-cdn.dpgmedia.cloud$domain=volkskrant.nl
+||persgroep.net/teasers/$domain=volkskrant.nl
+||advertising-cdn.dpgmedia.cloud$domain=volkskrant.nl
 !
 ! bbc.com
-bbc.co.uk/bbcdotcom/*adverts.js^$script,domain=bbc.com
-bbc.co.uk/bbcdotcom/*/analytics.js^$script,domain=bbc.com
-bbc.co.uk/frameworks/fig/2/fig.js^$domain=bbc.com
-mybbc-analytics.files.bbci.co.uk^$script,domain=www.bbc.com
+||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
+||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
+||bbc.co.uk/frameworks/fig/2/fig.js$domain=bbc.com
+||mybbc-analytics.files.bbci.co.uk$script,domain=www.bbc.com
 /cookie-banners.bundle.js$domain=bbc.com
 /breakingNewsBanner.js$domain=bbc.com
 bbc.com##.nw-c-breaking-news-banner
 bbc.com###cookiePrompt
 !
 ! cnn.com
-cnn.com/ad/*$domain=cnn.com
-cnn.com/ads/*$domain=cnn.com
-cnn.com/*/adzones.*.bundle.js$script,domain=cnn.com
-turner.com/analytics/comscore/*$domain=cnn.com
+||cnn.com/ad/$domain=cnn.com
+||cnn.com/ads/$domain=cnn.com
+||cnn.com/*/adzones.*.bundle.js$script,domain=cnn.com
+||turner.com/analytics/comscore/$domain=cnn.com
 cnn.com##.brGKeP.breaking-newsstyles__BreakingNewsContainer-*
 cnn.com##.user-msg
 !
 ! foxnews.com
 foxnews.com##.collection-fox-nation
-foxnews.com/static/orion/scripts/core/base/app/modules/referral.js$script,domain=www.foxnews.com
-fncstatic.com/static/*/js/ads.js^$script,domain=foxnews.com
+||foxnews.com/static/orion/scripts/core/base/app/modules/referral.js$script,domain=www.foxnews.com
+||fncstatic.com/static/*/js/ads.js$script,domain=foxnews.com
 !
 ! thewindowsclub.com
-player.anyclip.com^$domain=thewindowsclub.com
+||player.anyclip.com$domain=thewindowsclub.com
 thewindowsclub.com###ez-cookie-dialog-wrapper
 thewindowsclub.com##.ezoic-ad, .ezoic-adl
 !
