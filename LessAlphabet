@@ -41,5 +41,5 @@ youtube.com##.ytd-popup-container
 !
 ! Prevent blocks signing into your google account
 !
-@@||accounts.google.com^$important
-@@||myaccount.google.com^$important
+@@||accounts.google.com
+@@||myaccount.google.com
