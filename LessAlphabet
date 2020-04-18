@@ -27,9 +27,9 @@ google.*##.section-cardbox
 !
 ! Youtube
 !
-/.*scheduler.*/$domain=youtube.com
 /.*instream.*/$domain=youtube.com
 /.*midroll.*/$domain=youtube.com
+||youtube.com/*/scheduler.js$script
 ||youtube.com/ptracking
 ||youtube.com/api/stats
 ||youtube.com/youtubei
