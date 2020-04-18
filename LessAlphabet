@@ -12,7 +12,6 @@ google.*##.xFNJP
 google.*###taw
 google.*###rhs
 google.*###fsl
-google.*###hdtb
 google.*###bottomads
 ||google.*$cookie=NID,domain=google.*
 ||id.google.*$domain=google.*
@@ -28,13 +27,14 @@ google.*##.section-cardbox
 !
 ! Youtube
 !
-/.*pagead.*/$domain=youtube.com
 /.*scheduler.*/$domain=youtube.com
 /.*instream.*/$domain=youtube.com
 /.*midroll.*/$domain=youtube.com
 ||youtube.com/ptracking
 ||youtube.com/api/stats
 ||youtube.com/youtubei
+||youtube.com/pagead/
+||google.com/pagead/
 ||gstatic.com/inputtools/images/$domain=youtube.com
 youtube.com###ticker
 youtube.com##.ytd-popup-container
