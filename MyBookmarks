@@ -24,7 +24,7 @@ nu.nl#%#AG_onLoad(function() { setTimeout(function() { var el=document.querySele
 ! volkskrant.nl
 ||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
 ||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
-||volkskrant.nl##div:contains(/.*top1.*/)
+volkskrant.nl##div:contains(/.*top1.*/)
 myprivacy.dpgmedia.net#%#AG_onLoad(function() { setTimeout(function() { var el = document.getElementsByClassName("form__button-group")[0]; if(el) { el.submit(); }; }, 300); });
 ||persgroep.net/teasers/$domain=volkskrant.nl
 ||advertising-cdn.dpgmedia.cloud$domain=volkskrant.nl
