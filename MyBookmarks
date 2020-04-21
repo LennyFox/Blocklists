@@ -13,9 +13,8 @@
 !
 ! nos.nl
 @@||cookiesv2.publiekeomroep.nl/data/script/cconsent-no-rw.$domain=nos.nl
-!nos.nl###ccm_notification
 nos.nl###ccm_notification_wrapper
-nos.nl##div:contains(/.*notificationBar.*/)
+nos.nl##div[class*=notificationBar]
 ||ster.nl$domain=nos.nl
 !
 ! nu.nl
