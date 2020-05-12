@@ -1,0 +1,27 @@
+[AdblockPlus 3.5]
+!
+! Version: 2020 
+! Title: Reduce Google nuisances on search, maps and youtube
+!
+! Expires: 365 days (I am still testing this under-development-list)
+! You are free to copy and distribute this file, but use at your own risk
+!
+||id.google.*$domain=google.*
+||play.google.com$domain=google.*
+||gstatic.com/shopping$domain=google.*
+google.*##.xFNJP
+google.*###fsl
+google.*###taw
+google.*###bottomads
+google.*###rhs
+google.*###fsl
+google.*###consent-bump
+google.*##.section-cardbox
+google.*##.widget-consent-dialog
+||youtube.com/*/scheduler.js$script
+||youtube.com/youtubei
+||youtube.com/api/stats
+||youtube.com/ptracking
+youtube.com###ticker
+||google.com/pagead/$domain=youtube.com
+/.*midroll.*/$domain=youtube.com
