@@ -13,7 +13,6 @@ google.*###taw
 google.*###rhs
 google.*###fsl
 google.*###bottomads
-||google.*$cookie=NID,domain=google.*
 ||id.google.*$domain=google.*
 ||gstatic.com/shopping$domain=google.*
 !
