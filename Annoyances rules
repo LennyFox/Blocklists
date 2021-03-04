@@ -5,8 +5,8 @@
 ||ogs.google.*/widget/callout$all
 
 ! Strip Google click identtifier and Google search location parameter
-||google.nl/*gclid$removeparam=gclid,domain=google.nl
-||google.nl/*gs_lcp$removeparam=gs_lcp,domain=google.nl
+||google.*/*gclid$removeparam=gclid,domain=google.*
+||google.*/*gs_lcp$removeparam=gs_lcp,domain=google.*
 
 ! Hide Google Search consent popup (on search & maps)
 ||consent.google.*^
