@@ -1,65 +1,28 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2021 
-! Title: General rules
+! Title: Block rules for commmen websites (google, youtube, facebook, etc)
 !
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
 !
-! -----------security
-
-! Block third-party executable content from insecure HTTP websites
-||HTTP://*$third-party,~stylesheet,~media,~image
-
-! Block downloading executable content from insecure HTTP websites
-http://*.exe^$empty
-http://*.msi^$empty
-http://*.bat^$empty
-http://*.dll^$empty
-http://*.hta^$empty
-http://*.jar^$empty
-http://*.msu^$empty
-http://*.pif^$empty
-http://*.ps1^$empty
-http://*.ps2^$empty
-http://*.reg^$empty
-http://*.scr^$empty
-http://*.sys^$empty
-http://*.vbe^$empty
-http://*.vbs^$empty
-http://*.tmp^$empty
-
 !
-! -----------privacy
-
-! Block ping (for sending beacons and hyperlink auditing)
-||*$ping,$cookie=__cfduid
-
-!
-! -----------annoyances 
-
-! Block switch to Chrome popop on Google search
+! ----------- Google
 ||ogs.google.nl/widget/callout$all
-
-! Hide Google cookie-consent-popup 
 google.*##.wwYr3.aID8W.bErdLd
 google.*##.aID8W.m114nf.t7xA6
 google.*##div[jsname][jsaction^="dg_close"]
 google.*##html:style(overflow: visible !important;)
 google.*##.widget-consent-fullscreen.widget-consent
 
-! Hide Youtube signin and consent popup
-youtube.com###dialog
+! Youtube
 youtube.com##.opened
 youtube.com##ytd-popup-container
 youtube.com##ytd-consent-bump-lightbox.style-scope
 youtube.com##.opened
-
-! Hide youtube ads
 =adunit&$domain=youtube.com
 log_event?$domain=youtube.com
 /pagead/lvz?$domain=youtube.com
-
 ||gstatic.com/youtube/img/promos/*$domain=youtube.com
 ||accounts.google.com*$script,domain=youtube.com
 ||tpc.googlesyndication.com^$domain=youtube.com
@@ -68,7 +31,6 @@ log_event?$domain=youtube.com
 ||youtube.com/api/stats/qoe?
 ||youtube.com/pagead/*
 ||youtube.com/ptracking
-
 youtube.com###masthead-ad
 youtube.com##.ytd-promoted-sparkles-web-renderer.style-scope
 youtube.com#%#//scriptlet('set-constant' playerResponse.adPlacements, undefined)
@@ -76,7 +38,6 @@ youtube.com#%#//scriptlet('set-constant' ytInitialPlayerResponse.adPlacements, u
 youtube.com#%#//scriptlet('json-prune', [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope
 
-!----------- social media
 ! linkedin
 ||api.linkedin.com/*/shares^$domain=~linkedin.com
 ||linkedin.com/shareArticle$third-party
