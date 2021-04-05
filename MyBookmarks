@@ -1,26 +1,16 @@
-[AdBlockPlus 3.5]
+[AdBlockPlus 2.0]
 !
-! Version: 2020 
+! Version: 2021 
 ! Title: Strip my bookmarked websites from garbage
 !
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
 !
-! JS API START
-#%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
-! JS API FINISH
-!
-!
+
 ! nos.nl
-@@||cookiesv2.publiekeomroep.nl/data/script/cconsent-no-rw.$domain=nos.nl
-nos.nl###ccm_notification_wrapper
-nos.nl##div[class*=notificationBar]
 ||ster.nl$domain=nos.nl
 !
 ! nu.nl
-nu.nl###header
-nu.nl##cookiebar_wrapper
-nu.nl#%#AG_onLoad(function() { setTimeout(function() { var el=document.querySelector('a#sanoma-consent-accept-button'); if(el) el.click(); }, 300); });
 ||talpatvcdn.nl$domain=nu.nl
 ||beak.bigdata.dpgmmservices.nl/*/track$domain=nu.nl
 !
@@ -34,22 +24,8 @@ volkskrant.nl###LOGIN_TOP
 volkskrant.nl###top1
 volkskrant.nl###PURCHASE
 volkskrant##div[class^="app-overlay"]
-||persgroep.net/teasers/$domain=volkskrant.nl
 ||dpgmedia.cloud/web-advertising/*$domain=volkskrant.nl
-myprivacy.dpgmedia.net#%#AG_onLoad(function() { setTimeout(function() { var el = document.getElementsByClassName("form__button-group")[0]; if(el) { el.submit(); }; }, 300); });
 
-
-! ------------ Dutch trackers
-
-||active24stats.nl^$third-party
-||istats.nl^$third-party
-||metriweb.be^$third-party
-||mtrack.nl^$third-party
-||mystats.nl^$third-party
-||stealth.nl^$third-party
-||svtrd.com^$third-party
-||synovite-scripts.com^$third-party
-||traffic4u.nl^$third-party
 
 ! ------------ News websites
 !
@@ -79,9 +55,5 @@ foxnews.com##.ad-container
 ||foxnews.com/static/orion/scripts/core/base/app/modules/referral.js$script,domain=www.foxnews.com
 ||fncstatic.com/static/*/js/ads.js$script,domain=foxnews.com
 !
-! thewindowsclub.com
-||player.anyclip.com$domain=thewindowsclub.com
-thewindowsclub.com###ez-cookie-dialog-wrapper
-thewindowsclub.com##.ezoic-ad, .ezoic-adl
-!
+
 
