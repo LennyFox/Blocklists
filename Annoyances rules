@@ -1,33 +1,61 @@
+[AdBlockPlus 2.0]
 !
-! -----------annoyances
+! Title: Lenny's personal blocklist.
+!
+! -----------security
+
+! Block third-party executable content from insecure HTTP websites
+||HTTP://*$third-party,~stylesheet,~media,~image
+
+! Block downloading executable content from insecure HTTP websites
+http://*.exe^$empty
+http://*.msi^$empty
+http://*.bat^$empty
+http://*.dll^$empty
+http://*.hta^$empty
+http://*.jar^$empty
+http://*.msu^$empty
+http://*.pif^$empty
+http://*.ps1^$empty
+http://*.ps2^$empty
+http://*.reg^$empty
+http://*.scr^$empty
+http://*.sys^$empty
+http://*.vbe^$empty
+http://*.vbs^$empty
+http://*.tmp^$empty
+
+!
+! -----------privacy
+
+! Block ping (for sending beacons and hyperlink auditing)
+||*$ping,$cookie=__cfduid
+
+!
+! -----------annoyances 
 
 ! Block switch to Chrome popop on Google search
-||ogs.google.*/widget/callout$all
+||ogs.google.nl/widget/callout$all
 
-! Strip Google click identtifier and Google search location parameter
-||google.*/*gclid$removeparam=gclid,domain=google.*
-||google.*/*gs_lcp$removeparam=gs_lcp,domain=google.*
-
-! Hide Google Search consent popup (on search & maps)
-||consent.google.*^
-google.*##.widget-consent-fullscreen.widget-consent
+! Hide Google cookie-consent-popup 
 google.*##.wwYr3.aID8W.bErdLd
 google.*##.aID8W.m114nf.t7xA6
 google.*##div[jsname][jsaction^="dg_close"]
 google.*##html:style(overflow: visible !important;)
-google.*##+js(aeld, DOMContentLoaded, CONSENT)
-google.*###lb
+google.*##.widget-consent-fullscreen.widget-consent
 
 ! Hide Youtube signin and consent popup
 youtube.com###dialog
 youtube.com##.opened
 youtube.com##ytd-popup-container
 youtube.com##ytd-consent-bump-lightbox.style-scope
+youtube.com##.opened
 
-! Replace embedded iframes with click-to-load redirect to skip ad pop-up on Youtube
-||youtube.com/embed/$3p,frame,redirect=click2load.html
+! Hide youtube ads
+=adunit&$domain=youtube.com
+log_event?$domain=youtube.com
+/pagead/lvz?$domain=youtube.com
 
-! Block and hide Youtube advertisements and tracking
 ||gstatic.com/youtube/img/promos/*$domain=youtube.com
 ||accounts.google.com*$script,domain=youtube.com
 ||tpc.googlesyndication.com^$domain=youtube.com
@@ -37,17 +65,14 @@ youtube.com##ytd-consent-bump-lightbox.style-scope
 ||youtube.com/pagead/*
 ||youtube.com/ptracking
 
-=adunit&$domain=youtube.com
-log_event?$domain=youtube.com
-/pagead/lvz?$domain=youtube.com
-
 youtube.com###masthead-ad
 youtube.com##.ytd-promoted-sparkles-web-renderer.style-scope
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com#%#//scriptlet('set-constant' playerResponse.adPlacements, undefined)
+youtube.com#%#//scriptlet('set-constant' ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com#%#//scriptlet('json-prune', [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope
 
+!----------- social media
 ! linkedin
 ||api.linkedin.com/*/shares^$domain=~linkedin.com
 ||linkedin.com/shareArticle$third-party
@@ -96,3 +121,7 @@ youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-ren
 ||reddit.com/api/info.json?$third-party
 ||reddit.com/static/button/$third-party
 ||redditstatic.com/button/button*.$domain=~reddit.com
+
+
+
+
