@@ -22,14 +22,36 @@ nu.nl###header
 nu.nl##cookiebar_wrapper
 nu.nl#%#AG_onLoad(function() { setTimeout(function() { var el=document.querySelector('a#sanoma-consent-accept-button'); if(el) el.click(); }, 300); });
 ||talpatvcdn.nl$domain=nu.nl
+||beak.bigdata.dpgmmservices.nl/*/track$domain=nu.nl
 !
 ! volkskrant.nl
+||volkskrant.nl$script,third-party,domain=volkskrant.nl
 ||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
 ||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
-volkskrant.nl##div:contains(/.*top1.*/)
-myprivacy.dpgmedia.net#%#AG_onLoad(function() { setTimeout(function() { var el = document.getElementsByClassName("form__button-group")[0]; if(el) { el.submit(); }; }, 300); });
+volkskrant.nl###LOGIN_BIG_BOTTOM
+volkskrant.nl###NEWSLETTER_BOTTOM
+volkskrant.nl###LOGIN_TOP
+volkskrant.nl###top1
+volkskrant.nl###PURCHASE
+volkskrant##div[class^="app-overlay"]
 ||persgroep.net/teasers/$domain=volkskrant.nl
-||advertising-cdn.dpgmedia.cloud$domain=volkskrant.nl
+||dpgmedia.cloud/web-advertising/*$domain=volkskrant.nl
+myprivacy.dpgmedia.net#%#AG_onLoad(function() { setTimeout(function() { var el = document.getElementsByClassName("form__button-group")[0]; if(el) { el.submit(); }; }, 300); });
+
+
+! ------------ Dutch trackers
+
+||active24stats.nl^$third-party
+||istats.nl^$third-party
+||metriweb.be^$third-party
+||mtrack.nl^$third-party
+||mystats.nl^$third-party
+||stealth.nl^$third-party
+||svtrd.com^$third-party
+||synovite-scripts.com^$third-party
+||traffic4u.nl^$third-party
+
+! ------------ News websites
 !
 ! bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
@@ -62,19 +84,4 @@ foxnews.com##.ad-container
 thewindowsclub.com###ez-cookie-dialog-wrapper
 thewindowsclub.com##.ezoic-ad, .ezoic-adl
 !
-! diverse nederlandse websites 
-!
-9292.nl#%#AG_onLoad(function() { document.cookie = "9292-cookie-consent-2=consent%20given; path=/;"; });
-!
-beleggen.nl###aspnetForm > aside.banner.ut--billboard:nth-child(11)
-!
-hardware.info#%#AG_onLoad(function() { setTimeout(function() { var el=document.querySelector('button.button--primary[name="accept"]'); if(el) el.click(); }, 30); });
-!
-moviemeter.nl#%#AG_onLoad(function() { if (document.cookie.indexOf("cok") == -1) { cookieProceed(); } });
-!
-rtlz.nl#%#var cw;Object.defineProperty(window,"cookieWallSettings",{get:function(){return cw},set:function(a){document.cookie="rtlcookieconsent="+a.version.toString()+";";cw=a}});
-!
-tweakers.net#%#AG_onLoad(function() { var el=document.querySelector('button.ctaButton[value="accept"]'); if(el) el.click(); });
-!
-weeronline.nl#%#AG_onLoad(function() { setTimeout(function() {var check = document.getElementsByClassName('btn-accept')[0]; if (check){check.click();}; }, 300); });
-weeronline.nl###mainContainer > div.wol-column-module__row___2JdRx:nth-child(3)
+
