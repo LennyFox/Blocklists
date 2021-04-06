@@ -1,20 +1,12 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2021 
-! Title: Block rules for popular websites (google, youtube, facebook, etc)
+! Title: Block rules for popular websites (youtube, facebook, linkedin, etc)
 !
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
 !
 !
-! ----------- Google
-||ogs.google.*/widget/callout$all
-google.*##.wwYr3.aID8W.bErdLd
-google.*##.aID8W.m114nf.t7xA6
-google.*##div[jsname][jsaction^="dg_close"]
-google.*##html:style(overflow: visible !important;)
-google.*##.widget-consent-fullscreen.widget-consent
-
 ! Youtube
 youtube.com##.opened
 youtube.com##ytd-popup-container
