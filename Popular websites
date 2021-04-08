@@ -63,9 +63,3 @@ youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-ren
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||creative.*.facebook.com$third-party
 ||facebook.net$third-party,domain=~facebook.com
-
-
-
-
-
-
