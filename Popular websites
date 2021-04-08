@@ -64,20 +64,7 @@ youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-ren
 ||creative.*.facebook.com$third-party
 ||facebook.net$third-party,domain=~facebook.com
 
-! Pinterest
-||assets.pinterest.com/images/pidgets/$third-party
-||assets.pinterest.com/js/pinit.js^$third-party
-||pinterest.com/js/pinit_main.js$third-party
-||pinterest.com/pin/create/button/?url=$third-party
-||pinterest.com/pinit.html$third-party
-||pinterest.com/v1/urls/count.json$third-party
-||platform.linkedin.com^$third-party
-||platform.stumbleupon.com/*/widgets.js$third-party
 
-! Reddit
-||reddit.com/api/info.json?$third-party
-||reddit.com/static/button/$third-party
-||redditstatic.com/button/button*.$domain=~reddit.com
 
 
 
