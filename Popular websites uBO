@@ -1,0 +1,83 @@
+!
+! -----------annoyances
+
+! Block switch to Chrome popop on Google search
+||ogs.google.*/widget/callout$all
+
+! Strip Google click identtifier and Google search location parameter
+||google.*/*gclid$removeparam=gclid,domain=google.*
+||google.*/*gs_lcp$removeparam=gs_lcp,domain=google.*
+||google.*/*ved$removeparam=ved,domain=google.*
+
+! Hide Google Search consent popup (on search & maps & translate)
+google.*##.widget-consent-fullscreen.widget-consent
+google.*##div[jsname][jsaction^="dg_close"]
+google.*##html:style(overflow: visible !important;)
+google.*##+js(aeld, DOMContentLoaded, CONSENT)
+google.*###gt-promo-lr
+google.*##div[class^="gb_"][data-cbh="consent.google.com"]
+google.*##.tlid-notification-container
+
+! Hide Youtube signin and consent popup
+youtube.com###dialog
+youtube.com##.opened
+youtube.com##ytd-popup-container
+youtube.com##ytd-consent-bump-lightbox.style-scope
+
+! Replace embedded iframes with click-to-load redirect to skip ad pop-up on Youtube
+||youtube.com/embed/$3p,frame,redirect=click2load.html
+
+! Block and hide Youtube advertisements and tracking
+||gstatic.com/youtube/img/promos/*$domain=youtube.com
+||accounts.google.com*$script,domain=youtube.com
+||tpc.googlesyndication.com^$domain=youtube.com
+||youtube.com/get_midroll_
+||youtube.com/api/stats/atr
+||youtube.com/api/stats/qoe?
+||youtube.com/pagead/*
+||youtube.com/ptracking
+
+=adunit&$domain=youtube.com
+log_event?$domain=youtube.com
+/pagead/lvz?$domain=youtube.com
+
+youtube.com###masthead-ad
+youtube.com##.ytd-promoted-sparkles-web-renderer.style-scope
+youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope
+
+! linkedin
+||api.linkedin.com/*/shares^$domain=~linkedin.com
+||linkedin.com/shareArticle$third-party
+
+! Twitter
+||ads-twitter.com$third-party
+||ads.twitter.com$third-party
+||twitter-badges.$third-party
+||twitter.com/home?status=$third-party
+||twitter.com/share$third-party
+||api.twitter.com/*/count.json$third-party
+||platform.twitter.com/js/button.$third-party
+||platform.twitter.com/oct.js$third-party
+||platform.twitter.com/widgets/follow_button$third-party
+||platform.twitter.com/widgets/tweet_button$third-party
+||syndication.twitter.com$third-party
+||widgets.twimg.com/$third-party
+
+! facebook
+||facebook.com/*/plugins/$domain=~facebook.com
+||facebook.com/*/plugins/page.php$third-party
+||facebook.com/*/plugins/share_button.php$third-party
+||facebook.com/connect/connect.php$third-party
+||facebook.com/method/links.getStats$third-party
+||facebook.com/plugins/$domain=~facebook.com|~freepresets.com
+||facebook.com/sharer.php$third-party,domain=~speedtest.net
+||facebook.com/sharer/sharer.php$third-party
+||facebook.com/tr/?
+||facebook.com/widgets/$third-party
+||graph.facebook.com/?id=$third-party
+||graph.facebook.com/fql?q=SELECT$third-party
+||creative.*.facebook.com$third-party
+||facebook.net$third-party,domain=~facebook.com
