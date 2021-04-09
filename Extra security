@@ -30,3 +30,8 @@
 |http://*.vbs^$empty
 |http://*.tmp^$empty
 
+!
+! -----------privacy
+
+! Block ping (sending beacons and hyperlink auditing) 
+||*$ping
