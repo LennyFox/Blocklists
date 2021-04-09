@@ -56,4 +56,8 @@ foxnews.com##.ad-container
 ||fncstatic.com/static/*/js/ads.js$script,domain=foxnews.com
 !
 
+! Rugby World
+rugbyworld.com##.entry-content > div[style*="height:"]:style(height: 100% !important)
+rugbyworld.com##div[style*=linear-gradient]
+rugbyworld.com###olay-frame
 
