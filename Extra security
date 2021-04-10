@@ -10,7 +10,7 @@
 ! -----------security
 
 ! Block third-party executable content from insecure HTTP websites
-|HTTP://*$third-party,~stylesheet,~media,~image
+||HTTP://*$third-party,~stylesheet,~media,~image
 
 ! Block downloading executable content from insecure HTTP websites
 |http://*.exe^$empty
