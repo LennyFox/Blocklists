@@ -1,0 +1,29 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2021 
+! Title: uBlockOrigin block rules for increased security 
+
+! Expires: 365 days (I am still testing this under-development-list)
+! You are free to copy and distribute this file, but use at your own risk
+!
+
+! Block third-party executable content from insecure HTTP websites
+||HTTP://*$third-party,~stylesheet,~media,~image
+
+! Block downloading executable content from insecure HTTP websites  
+|http://*.exe^$document
+|http://*.msi^$document
+|http://*.bat^$document
+|http://*.dll^$document
+|http://*.hta^$document
+|http://*.jar^$document
+|http://*.msu^$document
+|http://*.pif^$document
+|http://*.ps1^$document
+|http://*.ps2^$document
+|http://*.reg^$document
+|http://*.scr^$document
+|http://*.sys^$document
+|http://*.vbe^$document
+|http://*.vbs^$document
+|http://*.tmp^$document
