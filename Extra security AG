@@ -1,7 +1,7 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2021 
-! Title: Block rules for increased security 
+! Title: Block rules for increased security ONLY WORKS WITH ADGUARD
 !
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
@@ -12,7 +12,7 @@
 ! Block third-party executable content from insecure HTTP websites
 ||HTTP://*$third-party,~stylesheet,~media,~image
 
-! Block downloading executable content from insecure HTTP websites
+! Block downloading executable content from insecure HTTP websites  
 |http://*.exe^$empty
 |http://*.msi^$empty
 |http://*.bat^$empty
@@ -34,4 +34,4 @@
 ! -----------privacy
 
 ! Block ping (sending beacons and hyperlink auditing) 
-||*$ping
+||*$ping,cookie=__cfduid
