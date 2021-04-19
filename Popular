@@ -1,0 +1,63 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2021 
+! Title: AdblockPlus block rules for popular websites (youtube, facebook, linkedin, etc)
+!
+! Expires: 365 days (I am still testing this under-development-list)
+! You are free to copy and distribute this file, but use at your own risk
+!
+!
+! Youtube
+||youtube.com/subscribe_embed?$third-party
+||youtube.com/subscribe_widget$third-party
+||youtube.com/get_midroll_
+||youtube.com/api/stats/atr
+||youtube.com/api/stats/qoe?
+||youtube.com/pagead/*
+||youtube.com/ptracking
+youtube.com##.ytp-ce-playlist
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-title-channel
+youtube.com##.ytd-statement-banner-renderer
+youtube.com##.ytd-primetime-promo-renderer
+youtube.com##.ytd-promoted-sparkles-web-renderer.style-scope
+youtube.com##.opened
+youtube.com##ytd-popup-container
+youtube.com##ytd-consent-bump-lightbox.style-scope
+youtube.com###masthead-ad
+youtube.com###secondary-links
+youtube.com###alert-banner > .ytd-browse > .yt-alert-with-actions-renderer
+
+! linkedin
+||api.linkedin.com/*/shares^$domain=~linkedin.com
+||linkedin.com/shareArticle$third-party
+
+! Twitter
+||ads-twitter.com$third-party
+||ads.twitter.com$third-party
+||twitter-badges.$third-party
+||twitter.com/home?status=$third-party
+||twitter.com/share$third-party
+||api.twitter.com/*/count.json$third-party
+||platform.twitter.com/js/button.$third-party
+||platform.twitter.com/oct.js$third-party
+||platform.twitter.com/widgets/follow_button$third-party
+||platform.twitter.com/widgets/tweet_button$third-party
+||syndication.twitter.com$third-party
+||widgets.twimg.com/$third-party
+
+! facebook
+||facebook.com/*/plugins/$domain=~facebook.com
+||facebook.com/*/plugins/page.php$third-party
+||facebook.com/*/plugins/share_button.php$third-party
+||facebook.com/connect/connect.php$third-party
+||facebook.com/method/links.getStats$third-party
+||facebook.com/plugins/$domain=~facebook.com|~freepresets.com
+||facebook.com/sharer.php$third-party,domain=~speedtest.net
+||facebook.com/sharer/sharer.php$third-party
+||facebook.com/tr/?
+||facebook.com/widgets/$third-party
+||graph.facebook.com/?id=$third-party
+||graph.facebook.com/fql?q=SELECT$third-party
+||creative.*.facebook.com$third-party
+||facebook.net$third-party,domain=~facebook.com
