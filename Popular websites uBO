@@ -16,7 +16,6 @@
 ! Strip Google click identtifier and Google search location parameter
 *$removeparam=gclid,domain=google.*
 *$removeparam=gs_lcp,domain=google.*
-*$removeparam=ved,domain=google.*
 
 ! Hide Google Search consent popup (on search & maps & translate)
 google.*##.widget-consent-fullscreen.widget-consent
