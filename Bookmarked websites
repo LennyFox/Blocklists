@@ -15,6 +15,23 @@
 ||beak.bigdata.dpgmmservices.nl/*/track$domain=nu.nl
 
 !
+! volkskrant.nl
+||volkskrant.nl$script,third-party,domain=volkskrant.nl
+||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
+||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
+volkskrant.nl###LOGIN_BIG_BOTTOM
+volkskrant.nl###NEWSLETTER_BOTTOM
+volkskrant.nl###LOGIN_TOP
+volkskrant.nl###top1
+volkskrant.nl###PURCHASE
+volkskrant##div[class^="app-overlay"]
+||dpgmedia.cloud/web-advertising/*$domain=volkskrant.nl
+||temptation.volkskrant.nl/temptation.js$script,domain=www.volkskrant.nl
+
+! telegraaf.nl
+www.telegraaf.nl##.MeteringNotification__backdrop.PopupBackdrop__block
+
+!
 ! bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
@@ -46,17 +63,3 @@ foxnews.com##.ad-container
 rugbyworld.com##.entry-content > div[style*="height:"]:style(height: 100% !important)
 rugbyworld.com##div[style*=linear-gradient]
 rugbyworld.com###olay-frame
-
-!
-! volkskrant.nl
-||volkskrant.nl$script,third-party,domain=volkskrant.nl
-||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
-||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
-volkskrant.nl###LOGIN_BIG_BOTTOM
-volkskrant.nl###NEWSLETTER_BOTTOM
-volkskrant.nl###LOGIN_TOP
-volkskrant.nl###top1
-volkskrant.nl###PURCHASE
-volkskrant##div[class^="app-overlay"]
-||dpgmedia.cloud/web-advertising/*$domain=volkskrant.nl
-||temptation.volkskrant.nl/temptation.js$script,domain=www.volkskrant.nl
