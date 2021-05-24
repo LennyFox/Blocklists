@@ -7,8 +7,8 @@
 !
 
 !
-! -----------annoyances
-
+! Google
+!
 ! Block switch to Chrome popop on Google search
 ||ogs.google.*/widget/callout$all
 
@@ -16,44 +16,38 @@
 *$removeparam=gclid,domain=google.*
 *$removeparam=gs_lcp,domain=google.*
 
-! Hide Google Search consent popup (on search & maps & translate)
-google.*##.widget-consent-fullscreen.widget-consent
-google.*##div[jsname][jsaction^="dg_close"]
-google.*##html:style(overflow: visible !important;)
-google.*##+js(aeld, DOMContentLoaded, CONSENT)
-google.*###gt-promo-lr
-google.*##div[class^="gb_"][data-cbh="consent.google.com"]
-google.*##.tlid-notification-container
+! Block Google FLOC tagging
+*##+js(no-floc)
 
-! Hide Youtube signin and consent popup
-youtube.com###dialog
-youtube.com##.opened
-youtube.com##ytd-popup-container
-youtube.com##ytd-consent-bump-lightbox.style-scope
-
-! Replace embedded iframes with click-to-load redirect to skip ad pop-up on Youtube
-||youtube.com/embed/$3p,frame,redirect=click2load.html
-
-! Block and hide Youtube advertisements and tracking
-||gstatic.com/youtube/img/promos/*$domain=youtube.com
-||accounts.google.com*$script,domain=youtube.com
-||tpc.googlesyndication.com^$domain=youtube.com
-||youtube.com/get_midroll_
-||youtube.com/api/stats/atr
-||youtube.com/api/stats/qoe?
-||youtube.com/pagead/*
-||youtube.com/ptracking
-
-=adunit&$domain=youtube.com
-log_event?$domain=youtube.com
-/pagead/lvz?$domain=youtube.com
-
-youtube.com###masthead-ad
-youtube.com##.ytd-promoted-sparkles-web-renderer.style-scope
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope
+! Youtube
+||youtube.com/subscribe_embed?$third-party
+||youtube.com/subscribe_widget$third-party
+youtube.com###alert-banner > .ytd-browse > .yt-alert-with-actions-renderer
+youtube.com###mealbar\:3 > ytm-mealbar.mealbar-promo-renderer
+youtube.com###notification-footer
+youtube.com###secondary-links
+youtube.com###yt-feedback
+youtube.com###yt-hitchhiker-feedback
+youtube.com###yt-lang-alert-container
+youtube.com##.yt-consent
+youtube.com##.ytd-banner-promo-renderer.style-scope.ytd-banner-promo-renderer-content
+youtube.com##.ytd-banner-promo-renderer.style-scope.ytd-banner-promo-renderer-background
+youtube.com##.ytd-primetime-promo-renderer
+youtube.com##.ytd-statement-banner-renderer
+youtube.com##.ytp-ce-playlist
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-title-channel
+youtube.com##+js(json-prune, *.playerResponse.adPlacements)
+youtube.com##+js(json-prune, *.playerResponse.playerAds)
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
+youtube.com##+js(json-prune, playerResponse.adPlacements)
+youtube.com##+js(json-prune, playerResponse.playerAds) 
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
+youtube.com##div[class^="ytd-consent"]
+youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
+youtube.com#@##consent-bump
+||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
 
 ! linkedin
 ||api.linkedin.com/*/shares^$domain=~linkedin.com
