@@ -1,0 +1,23 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2021 
+! Title: Block rules for increased security for uBO
+
+! Expires: 365 days (I am still testing this under-development-list)
+! You are free to copy and distribute this file, but use at your own risk
+!
+
+!
+! Enhance security
+!
+! Block beacons, plugins and websockets everywhere
+||*$ping,object,websocket
+
+! Block opening webpages on top level domains and countries I never visit
+||*$document,~stylesheet,~image,~media,~script,~subdocument,~xmlhttprequest,domain=~nl|~com|~net|~org|~info|~io
+
+! Block potentially unsafe third-party content to unencrypted websites 
+|HTTP://*$third-party,~document,~stylesheet,~image,~media
+
+! Block subdocuments, popups and popunders containing "porn" in URL
+/.*porn.*/$subdocument,popup,popunder
