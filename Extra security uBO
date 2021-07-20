@@ -7,9 +7,6 @@
 ! You are free to copy and distribute this file, but use at your own risk
 !
 
-!
-! Enhance security
-!
 ! Block beacons, plugins and websockets everywhere
 ||*$ping,object,websocket
 
