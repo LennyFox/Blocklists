@@ -91,7 +91,7 @@
 !  
 ! pornhub.com
 ||*^$third-party,domain=pornhub.com,~image,~media,~stylesheet
-||*$subdcoument,domain=pornhub.com
+||*$subdocument,websocket,domain=pornhub.com
 @@phncdn.com$script,domain=pornhub.com
 ||phncdn.com/*/premium/^$domain=pornhub.com,important
 ||phncdn.com/*/widgets-live-popup.js$domain=pornhub.com,important
@@ -101,14 +101,22 @@ pornhub.com###cmtWrapper
 
 ! xvideos.com
 ||*$third-party,domain=xvideos.com,~stylesheet,~image,~media
+||*$subdocument,websocket,domain=xvideos.com
 @@xvideos-cdn.com$script,xmlhttprequest,domain=xvideos.com
 ||xvideos-cdn.com/*/js/skins/default/xcams/^$domain=xvideos.com,important
 ||xvideos-cdn.com/*/js/skins/default/mozaique/^$domain=xvideos.com,important
 xvideos.com###tabComments
 
+!  
+! xhamster.com
+||*^$third-party,domain=xhamster.com,~image,~media,~stylesheet
+||*$subdocument,websocket,domain=xhamster.com
+@@xhcdn.com$script,xmlhttprequest,domain=xhamster.com
+
 ! eporner.com
 ||*^$third-party,domain=eporner.com
-||*$subdcoument,domain=eporner.com
+||*$subdocument,websocket,domain=eporner.com
 ||eporner.com/i/piwik.js$domain=eporner.com
 ||eporner.com/dot/dot.php$domain=eporner.com
 ||eporner.com/dot/pop4.php$domain=eporner.com
+eporner.com###commentdiv
