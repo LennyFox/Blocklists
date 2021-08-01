@@ -112,6 +112,7 @@ xvideos.com###tabComments
 ||*^$third-party,domain=xhamster.com,~image,~media,~stylesheet
 ||*$subdocument,websocket,domain=xhamster.com
 @@xhcdn.com$script,xmlhttprequest,domain=xhamster.com
+xhamster.com###commentBox
 
 ! eporner.com
 ||*^$third-party,domain=eporner.com
