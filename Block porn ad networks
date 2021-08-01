@@ -86,3 +86,20 @@
 ||xcams.com
 ||xlovecam.com
 ||zeropark.com
+
+! eporner.com
+||*^$third-party,domain=eporner.com
+||*$subdcoument,domain=eporner.com
+||eporner.com/i/piwik.js$domain=eporner.com
+||eporner.com/dot/dot.php$domain=eporner.com
+||eporner.com/dot/pop4.php$domain=eporner.com
+!  
+! pornhub.com
+||*^$third-party,domain=pornhub.com,~image,~media,~stylesheet
+||*$subdcoument,domain=pornhub.com
+@@phncdn.com$script,domain=pornhub.com
+||phncdn.com/*/premium/^$domain=pornhub.com,important
+||phncdn.com/*/widgets-live-popup.js$domain=pornhub.com,important
+||phncdn.com/*/widgets-comments.js$domain=pornhub.com,important
+||phncdn.com/*/htmlPauseRoll/pb_block.js$domain=pornhub.com,important
+pornhub.com###cmtWrapper
