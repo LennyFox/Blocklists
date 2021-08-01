@@ -95,7 +95,7 @@
 ! pornhub.com
 ||*^$third-party,domain=pornhub.com,~image,~media,~stylesheet
 ||*$subdocument,websocket,domain=pornhub.com
-@@phncdn.com$script,domain=pornhub.com
+@@phncdn.com$script,xmlhttprequest,domain=pornhub.com
 ||phncdn.com/*/premium/^$domain=pornhub.com,important
 ||phncdn.com/*/widgets-live-popup.js$domain=pornhub.com,important
 ||phncdn.com/*/widgets-comments.js$domain=pornhub.com,important
