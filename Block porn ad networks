@@ -110,13 +110,6 @@ pornhub.com###cmtWrapper
 ||xvideos-cdn.com/*/js/skins/default/mozaique/^$domain=xvideos.com,important
 xvideos.com###tabComments
 
-!  
-! xhamster.com
-||*^$third-party,domain=xhamster.com,~image,~media,~stylesheet
-||*$subdocument,websocket,domain=xhamster.com
-@@xhcdn.com$script,xmlhttprequest,domain=xhamster.com
-xhamster.com###commentBox
-
 ! eporner.com
 ||*^$third-party,domain=eporner.com
 ||*$subdocument,websocket,domain=eporner.com
