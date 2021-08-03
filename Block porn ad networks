@@ -1,7 +1,7 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2021 
-! Title: Block rules against porm adnetworks for ABP/AG/uBO
+! Title: Block rules against porn adnetworks for ABP/AG/uBO
 
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
@@ -94,7 +94,7 @@
 !  
 ! pornhub.com
 ||*^$third-party,domain=pornhub.com,~image,~media,~stylesheet
-||*$subdocument,websocket,popup,popunder,domain=pornhub.com
+||*$subdocument,websocket,popup,domain=pornhub.com
 @@phncdn.com$script,xmlhttprequest,domain=pornhub.com
 ||phncdn.com/*/premium/^$domain=pornhub.com,important
 ||phncdn.com/*/widgets-live-popup.js$domain=pornhub.com,important
@@ -104,7 +104,7 @@ pornhub.com###cmtWrapper
 
 ! xvideos.com
 ||*$third-party,domain=xvideos.com,~stylesheet,~image,~media
-||*$subdocument,websocket,popup,popunder,domain=xvideos.com
+||*$subdocument,websocket,popup,domain=xvideos.com
 @@xvideos-cdn.com$script,xmlhttprequest,domain=xvideos.com
 ||xvideos-cdn.com/*/js/skins/default/xcams/^$domain=xvideos.com,important
 ||xvideos-cdn.com/*/js/skins/default/mozaique/^$domain=xvideos.com,important
@@ -112,7 +112,7 @@ xvideos.com###tabComments
 
 ! eporner.com
 ||*^$third-party,domain=eporner.com
-||*$subdocument,websocket,popup,popunder,domain=eporner.com
+||*$subdocument,websocket,popup,domain=eporner.com
 ||eporner.com/dot/dot.php$domain=eporner.com
 ||eporner.com/dot/pop4.php$domain=eporner.com
 eporner.com###commentdiv
