@@ -7,7 +7,7 @@
 ! You are free to copy and distribute this file, but use at your own risk
 !
 
-! Block beacons, plugins and websockets everywhere
+! Block beacons and plugins everywhere
 ||*$ping,object,websocket
 
 ! Block opening webpages on top level domains and countries I never visit
@@ -16,5 +16,4 @@
 ! Block potentially unsafe third-party content to unencrypted websites 
 |HTTP://*$third-party,~document,~stylesheet,~image,~media
 
-! Block subdocuments, popups and popunders containing "porn" in URL
-/.*porn.*/$subdocument,popup,popunder
+
