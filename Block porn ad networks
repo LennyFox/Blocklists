@@ -93,26 +93,28 @@
 
 !  
 ! pornhub.com
-||*^$third-party,domain=pornhub.com,~image,~media,~stylesheet
-||*$subdocument,websocket,popup,domain=pornhub.com
-@@phncdn.com$script,xmlhttprequest,domain=pornhub.com
-||phncdn.com/*/premium/^$domain=pornhub.com,important
+||*^$third-party,domain=pornhub.com,~image,~media,~stylesheet,important
+||*$subdocument,websocket,popup,domain=pornhub.com,,important
+@@phncdn.com$script,xmlhttprequest,domain=pornhub.com,important
+||phncdn.com/*/premium/^$domain=pornhub.com,important,,important
 ||phncdn.com/*/widgets-live-popup.js$domain=pornhub.com,important
 ||phncdn.com/*/widgets-comments.js$domain=pornhub.com,important
 ||phncdn.com/*/htmlPauseRoll/pb_block.js$domain=pornhub.com,important
 pornhub.com###cmtWrapper
 
 ! xvideos.com
-||*$third-party,domain=xvideos.com,~stylesheet,~image,~media
-||*$subdocument,websocket,popup,domain=xvideos.com
-@@xvideos-cdn.com$script,xmlhttprequest,domain=xvideos.com
+||*$third-party,domain=xvideos.com,~stylesheet,~image,~media,important
+||*$subdocument,websocket,popup,domain=xvideos.com,important
+@@xvideos-cdn.com$script,xmlhttprequest,domain=xvideos.com,important
 ||xvideos-cdn.com/*/js/skins/default/xcams/^$domain=xvideos.com,important
 ||xvideos-cdn.com/*/js/skins/default/mozaique/^$domain=xvideos.com,important
 xvideos.com###tabComments
 
 ! eporner.com
-||*^$third-party,domain=eporner.com
-||*$subdocument,websocket,popup,domain=eporner.com
-||eporner.com/dot/dot.php$domain=eporner.com
-||eporner.com/dot/pop4.php$domain=eporner.com
+||*^$third-party,domain=eporner.com,important
+||*$subdocument,websocket,popup,domain=eporner.com,important
+||eporner.com/dot/dot.php$domain=eporner.com,important
+||eporner.com/dot/pop4.php$domain=eporner.com,important
 eporner.com###commentdiv
+
+! I added important because for some dodgy reason Easylist allows A-B testing on porn websites
