@@ -6,18 +6,18 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 !
-@@ideal.nl$important
-@@ayden.com$important
-@@buckaroo.nl$important
-@@cardgate.com$important
-@@cm.com$important
-@@icepay.nl$important
-@@mollie.com$important
-@@multisafepay.com$important
-@@pay.nl$important
-@@omnikassa.nl$important
-@@sisow.nl$important
-@@targetpay.com$important
-@@worldpay.com$important
-@@ingenico.nl$important
+@@*.ideal.nl$important
+@@*.ayden.com$important
+@@*.buckaroo.nl$important
+@@*.cardgate.com$important
+@@*.cm.com$important
+@@*.icepay.nl$important
+@@*.mollie.com$important
+@@*.multisafepay.com$important
+@@*.pay.nl$important
+@@*.omnikassa.nl$important
+@@*.sisow.nl$important
+@@*.targetpay.com$important
+@@*.worldpay.com$important
+@@*.ingenico.nl$important
 
