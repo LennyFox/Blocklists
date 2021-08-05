@@ -5,3 +5,11 @@
 !
 ! You are free to copy and distribute this file, but use at your own risk
 !
+!
+! Google
+!
+! Block switch to Chrome popop on Google search
+||ogs.google.nl/widget/callout^
+
+! Block Google consent
+||google.nl$script
