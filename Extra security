@@ -13,8 +13,5 @@
 ! Block potentially unsafe third-party content to unencrypted websites 
 |HTTP://*$third-party,~document,~stylesheet,~image,~media
 
-! Block opening webpages on top level domains and countries I never visit (from Holland)
-||*$document,~stylesheet,~image,~media,~script,~subdocument,~xmlhttprequest,domain=~nl|~com|~net|~org|~info|~io|~tv
-
 ! Prevent popups, popunders, redirects to subpages (frames) and connections (websockets) to domains with "porn" in website name
 /.*porn.*\.com/$popup,popunder,subdocument,websocket
