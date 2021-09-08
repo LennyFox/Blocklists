@@ -30,6 +30,7 @@ volkskrant##div[class^="app-overlay"]
 
 ! telegraaf.nl
 www.telegraaf.nl##.MeteringNotification__backdrop.PopupBackdrop__block
+www.telegraaf.nl##.MeteringNotification__backdrop.Modal
 
 !
 ! bbc.com
