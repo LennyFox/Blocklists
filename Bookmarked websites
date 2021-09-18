@@ -42,7 +42,6 @@ volkskrant##div[class^="app-overlay"]
 www.telegraaf.nl##.MeteringNotification__backdrop.PopupBackdrop__block
 www.telegraaf.nl##.MeteringNotification__backdrop.Modal
 
-!
 ! bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
@@ -53,7 +52,7 @@ www.telegraaf.nl##.MeteringNotification__backdrop.Modal
 bbc.com##.nw-c-breaking-news-banner
 bbc.com###breaking-news-container
 bbc.com###cookiePrompt
-!
+
 ! cnn.com
 ||cnn.com/ad/$domain=cnn.com
 ||cnn.com/ads/$domain=cnn.com
@@ -61,12 +60,10 @@ bbc.com###cookiePrompt
 ||turner.com/analytics/comscore/$domain=cnn.com
 cnn.com##.brGKeP.breaking-newsstyles__BreakingNewsContainer-*
 cnn.com##.user-msg
-!
+
 ! foxnews.com
 foxnews.com##.collection-fox-nation
 foxnews.com##.notification-banner
 foxnews.com##.ad-container
 ||foxnews.com/static/orion/scripts/core/base/app/modules/referral.js$script,domain=www.foxnews.com
 ||fncstatic.com/static/*/js/ads.js$script,domain=foxnews.com
-!
-
