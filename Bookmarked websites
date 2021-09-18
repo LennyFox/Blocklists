@@ -10,15 +10,23 @@
 ! nos.nl
 ||ster.nl^
 !
-! nu.nl
-||talpatvcdn.nl$domain=nu.nl
-||beak.bigdata.dpgmmservices.nl/*/track$domain=nu.nl
-||static.qmusic.be/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
-||outbrain.com$domain=nu.nl
-nu.nl##.block-wrapper-image.block-wrapper
+! DPG media
+||advertising-cdn.dpgmedia.cloud/header-bidding^$domain=nu.nl|volkskrant.nl
+||dpgmedia.cloud/web-advertising^$domain=nu.nl|volkskrant.nl
+||config.dpns-notifications.com/configurations^$domain=nu.nl|volkskrant.nl
 
-!
-! volkskrant.nl
+! NU.nl
+||static.qmusic.be/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
+||adnxs-simple.com^$script,,domain=embed.kijk.nl|nu.nl
+||fwmrm.net/ad/*$domain=embed.kijk.nl|nu.nl
+||jwpltx.com/v*/ping.gif$image,domain=embed.kijk.nl|nu.nll
+||*/newrelic.js$script,domain=embed.kijk.nl|nu.nl
+||fwmrm.net/*/AdManager.js$script,domain=embed.kijk.nl|nu.nl
+nu.nl##.block-wrapper-image.block-wrapper
+nu.nl###header
+nu.nl##.active.webpush-popup.overlay
+
+! Volkskrant.nl
 ||volkskrant.nl$script,third-party,domain=volkskrant.nl
 ||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
 ||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
@@ -28,7 +36,6 @@ volkskrant.nl###LOGIN_TOP
 volkskrant.nl###top1
 volkskrant.nl###PURCHASE
 volkskrant##div[class^="app-overlay"]
-||dpgmedia.cloud/web-advertising/*$domain=volkskrant.nl
 ||temptation.volkskrant.nl/temptation.js$script,domain=www.volkskrant.nl
 
 ! telegraaf.nl
