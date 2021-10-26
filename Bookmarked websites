@@ -26,18 +26,6 @@ nu.nl##.block-wrapper-image.block-wrapper
 nu.nl###header
 nu.nl##.active.webpush-popup.overlay
 
-! Volkskrant.nl
-||volkskrant.nl$script,third-party,domain=volkskrant.nl
-||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
-||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
-volkskrant.nl###LOGIN_BIG_BOTTOM
-volkskrant.nl###NEWSLETTER_BOTTOM
-volkskrant.nl###LOGIN_TOP
-volkskrant.nl###top1
-volkskrant.nl###PURCHASE
-volkskrant##div[class^="app-overlay"]
-||temptation.volkskrant.nl/temptation.js$script,domain=www.volkskrant.nl
-
 ! telegraaf.nl
 www.telegraaf.nl##.MeteringNotification__backdrop.PopupBackdrop__block
 www.telegraaf.nl##.MeteringNotification__backdrop.Modal
@@ -58,7 +46,6 @@ bbc.com###cookiePrompt
 ||cnn.com/ads/$domain=cnn.com
 ||cnn.com/*/adzones.*.bundle.js$script,domain=cnn.com
 ||turner.com/analytics/comscore/$domain=cnn.com
-cnn.com##.brGKeP.breaking-newsstyles__BreakingNewsContainer-*
 cnn.com##.user-msg
 
 ! foxnews.com
@@ -67,3 +54,29 @@ foxnews.com##.notification-banner
 foxnews.com##.ad-container
 ||foxnews.com/static/orion/scripts/core/base/app/modules/referral.js$script,domain=www.foxnews.com
 ||fncstatic.com/static/*/js/ads.js$script,domain=foxnews.com
+
+! eporner.com
+eporner.com###commentdiv
+eporner.com##.vjs-inplayer-container
+||eporner.com$subdocument,websocket,object,other,popup,popunder,domain=eporner.com
+||eporner.com/dot/pop4.php$domain=eporner.com
+||eporner.com/event.php$domain=eporner.com
+||eporner.com/dot/dot.php?v=2&adZones$domain=www.eporner.com
+||*$third-party,domain=eporner.com
+
+! pornhub.com
+pornhub.com##[src^="bloB:https://www.pornhub.com/"]
+pornhub.com###under-player-comments
+pornhub.com###cmtWrapper
+pornhub.com##.backgroundImg
+pornhub.com###customSkin
+||pornhub.com/_xa/ads_batch$domain=pornhub.com
+||pornhub.com$script,subdocument,websocket,object,other,popup,popunder,xmlhttprequest,domain=pornhub.com
+||*$third-party,domain=pornhub.com
+@@||phncdn.com$stylesheet,image,media,domain=pornhub.com
+@@||pornhub.com/video/*$xmlhttprequest,domain=pornhub.com
+@@||phncdn.com/www-static/js/*$script,domain=pornhub.com
+@@||phncdn.com/html5player/*$script,domain=pornhub.com
+@@||phncdn.com/jquery*$script,domain=pornhub.com
+||phncdn.com/stattracker-1.4.2.js$domain=pornhub.com,important
+||phncdn.com/networkbar-4.0.5.js$domain=pornhub.com,important
