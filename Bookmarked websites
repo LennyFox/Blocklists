@@ -73,29 +73,3 @@ rugbyworld.com##.entry-content > div[style*="height:"]:style(height: 100% !impor
 rugbyworld.com##div[style*=linear-gradient]
 rugbyworld.com###olay-frame
 rugbyworld.com##.header-advert.advert.row
-
-! eporner.com
-eporner.com###commentdiv
-eporner.com##.vjs-inplayer-container
-||eporner.com$subdocument,websocket,object,other,popup,popunder,domain=eporner.com
-||eporner.com/dot/pop4.php$domain=eporner.com
-||eporner.com/event.php$domain=eporner.com
-||eporner.com/dot/dot.php?v=2&adZones$domain=www.eporner.com
-||*$third-party,domain=eporner.com
-
-! pornhub.com
-pornhub.com##[src^="bloB:https://www.pornhub.com/"]
-pornhub.com###under-player-comments
-pornhub.com###cmtWrapper
-pornhub.com##.backgroundImg
-pornhub.com###customSkin
-||pornhub.com/_xa/ads_batch$domain=pornhub.com
-||pornhub.com$script,subdocument,websocket,object,other,popup,popunder,xmlhttprequest,domain=pornhub.com
-||*$third-party,domain=pornhub.com
-@@||phncdn.com$stylesheet,image,media,domain=pornhub.com
-@@||pornhub.com/video/*$xmlhttprequest,domain=pornhub.com
-@@||phncdn.com/www-static/js/*$script,domain=pornhub.com
-@@||phncdn.com/html5player/*$script,domain=pornhub.com
-@@||phncdn.com/jquery*$script,domain=pornhub.com
-||phncdn.com/stattracker-1.4.2.js$domain=pornhub.com,important
-||phncdn.com/networkbar-4.0.5.js$domain=pornhub.com,important
