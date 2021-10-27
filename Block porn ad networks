@@ -6,6 +6,8 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 !
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Block%20porn%20ad%20networks
+!
 ||50onred.com
 ||adcash.com
 ||adextrem.com
@@ -87,4 +89,28 @@
 ||xlovecam.com
 ||zeropark.com
 
+! eporner.com
+eporner.com###commentdiv
+eporner.com##.vjs-inplayer-container
+||eporner.com$subdocument,websocket,object,other,popup,popunder,domain=eporner.com
+||eporner.com/dot/pop4.php$domain=eporner.com
+||eporner.com/event.php$domain=eporner.com
+||eporner.com/dot/dot.php?v=2&adZones$domain=www.eporner.com
+||*$third-party,domain=eporner.com
 
+! pornhub.com
+pornhub.com##[src^="bloB:https://www.pornhub.com/"]
+pornhub.com###under-player-comments
+pornhub.com###cmtWrapper
+pornhub.com##.backgroundImg
+pornhub.com###customSkin
+||pornhub.com/_xa/ads_batch$domain=pornhub.com
+||pornhub.com$script,subdocument,websocket,object,other,popup,popunder,xmlhttprequest,domain=pornhub.com
+||*$third-party,domain=pornhub.com
+@@||phncdn.com$stylesheet,image,media,domain=pornhub.com
+@@||pornhub.com/video/*$xmlhttprequest,domain=pornhub.com
+@@||phncdn.com/www-static/js/*$script,domain=pornhub.com
+@@||phncdn.com/html5player/*$script,domain=pornhub.com
+@@||phncdn.com/jquery*$script,domain=pornhub.com
+||phncdn.com/stattracker-1.4.2.js$domain=pornhub.com,important
+||phncdn.com/networkbar-4.0.5.js$domain=pornhub.com,important
