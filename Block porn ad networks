@@ -92,7 +92,7 @@
 ! eporner.com
 eporner.com###commentdiv
 eporner.com##.vjs-inplayer-container
-||eporner.com$subdocument,websocket,object,other,popup,popunder,domain=eporner.com
+||eporner.com$subdocument,websocket,object,other,popup,important,domain=eporner.com
 ||eporner.com/dot/pop4.php$domain=eporner.com
 ||eporner.com/event.php$domain=eporner.com
 ||eporner.com/dot/dot.php?v=2&adZones$domain=www.eporner.com
@@ -104,9 +104,8 @@ pornhub.com###under-player-comments
 pornhub.com###cmtWrapper
 pornhub.com##.backgroundImg
 pornhub.com###customSkin
-||pornhub.com/_xa/ads_batch$domain=pornhub.com
-||pornhub.com$script,subdocument,websocket,object,other,popup,xmlhttprequest,domain=pornhub.com
-||pornhub.com$popunder,domain=pornhub.com
+||pornhub.com/_xa/ads_batch$important,domain=pornhub.com
+||pornhub.com$script,subdocument,websocket,object,other,popup,xmlhttprequest,important,domain=pornhub.com
 ||*$third-party,domain=pornhub.com
 @@||phncdn.com$stylesheet,image,media,domain=pornhub.com
 @@||pornhub.com/video/*$xmlhttprequest,domain=pornhub.com
@@ -115,3 +114,4 @@ pornhub.com###customSkin
 @@||phncdn.com/jquery*$script,domain=pornhub.com
 ||phncdn.com/stattracker-1.4.2.js$domain=pornhub.com,important
 ||phncdn.com/networkbar-4.0.5.js$domain=pornhub.com,important
+||nl.pornhub.com/svvt/add$domain=nl.pornhub.com,important
