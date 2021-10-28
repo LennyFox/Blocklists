@@ -99,13 +99,14 @@ eporner.com##.vjs-inplayer-container
 ||*$third-party,domain=eporner.com
 
 ! pornhub.com
-pornhub.com##[src^="bloB:https://www.pornhub.com/"]
+pornhub.com##[src^="bloB:"]
 pornhub.com###under-player-comments
 pornhub.com###cmtWrapper
 pornhub.com##.backgroundImg
 pornhub.com###customSkin
 ||pornhub.com/_xa/ads_batch$domain=pornhub.com
-||pornhub.com$script,subdocument,websocket,object,other,popup,popunder,xmlhttprequest,domain=pornhub.com
+||pornhub.com$script,subdocument,websocket,object,other,popup,xmlhttprequest,domain=pornhub.com
+||pornhub.com$popunder,domain=pornhub.com
 ||*$third-party,domain=pornhub.com
 @@||phncdn.com$stylesheet,image,media,domain=pornhub.com
 @@||pornhub.com/video/*$xmlhttprequest,domain=pornhub.com
