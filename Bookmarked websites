@@ -10,6 +10,7 @@
 
 ! nos.nl
 ||ster.nl^
+nos.nl##[id*="regio"]
 !
 ! DPG media
 ||advertising-cdn.dpgmedia.cloud/header-bidding^$domain=nu.nl|volkskrant.nl
@@ -47,9 +48,9 @@ bbc.com###cookiePrompt
 ||cnn.com/ads/$domain=cnn.com
 ||cnn.com/*/adzones.*.bundle.js$script,domain=cnn.com
 ||turner.com/analytics/comscore/$domain=cnn.com
+||outbrain.com$domain=cnn.com
 cnn.com##.user-msg
-cnn.com##div[class*="outbrain"]
-cnn.com##div[class*="smartfeed"]
+
 
 ! foxnews.com
 foxnews.com##.collection-fox-nation
