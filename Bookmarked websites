@@ -48,6 +48,8 @@ bbc.com###cookiePrompt
 ||cnn.com/*/adzones.*.bundle.js$script,domain=cnn.com
 ||turner.com/analytics/comscore/$domain=cnn.com
 cnn.com##.user-msg
+cnn.com##div[class*="outbrain"]
+cnn.com##div[class*="smartfeed"]
 
 ! foxnews.com
 foxnews.com##.collection-fox-nation
