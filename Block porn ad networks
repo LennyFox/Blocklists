@@ -89,9 +89,3 @@
 ||xlovecam.com
 ||zeropark.com
 
-! block links to embedded pages (iframes), browser plugins (objects), data connections (websockets), popups and popunders from domains with porn in website name
-/.*porn.*\.com/$subdocument,object,websocket,popup,popunder
-
-! hide binary large objects (like images, gifs and videos) from domains with porn in website name (to prevent accidentically clicking and triggering a popup or redirect)
-*##[src^="bloB:https://"][src*="porn"]
-
