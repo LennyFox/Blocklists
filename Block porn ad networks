@@ -89,3 +89,12 @@
 ||xlovecam.com
 ||zeropark.com
 
+! block links to subdocuments (iframes) and popups with porn in website name
+/.*porn.*\.com/$subdocument,object,websocket,popup
+
+! block binary large objects (images, audio, video) with porn in source name
+##[src^="bloB"][src*="porn"]
+
+! regular expressions to block pre-loading advertisement batches 
+\/ads_batch\?ads=true/
+/htmlPauseRoll\/pb_block\.js/
