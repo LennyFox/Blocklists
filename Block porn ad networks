@@ -88,3 +88,9 @@
 ||xcams.com
 ||xlovecam.com
 ||zeropark.com
+
+! Block iframes and popups from websites with "porn" in URL
+/.*porn.*/$subdocument,popup
+
+! Hide binary large objects (images, gifs and movies) with "porn" in source 
+##[src^="bloB"][src*="porn"]
