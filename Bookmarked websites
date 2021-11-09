@@ -76,3 +76,12 @@ rugbyworld.com##.entry-content > div[style*="height:"]:style(height: 100% !impor
 rugbyworld.com##div[style*=linear-gradient]
 rugbyworld.com###olay-frame
 rugbyworld.com##.header-advert.advert.row
+
+youtube.com##+js(json-prune, *.playerResponse.adPlacements)
+youtube.com##+js(json-prune, *.playerResponse.playerAds)
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
+youtube.com##+js(json-prune, playerResponse.adPlacements)
+youtube.com##+js(json-prune, playerResponse.playerAds) 
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
+||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
