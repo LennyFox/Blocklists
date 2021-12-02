@@ -41,6 +41,8 @@ www.telegraaf.nl##.MeteringNotification__backdrop.Modal
 /breakingNewsBanner.js$domain=bbc.com
 bbc.com###breaking-news-container
 bbc.com###cookiePrompt
+bbc.com##.nw-c-breaking-news-banner
+bbc.com##.nw-c-leaderboard-ad
 
 ! cnn.com
 ||cnn.com/ad/$domain=cnn.com
