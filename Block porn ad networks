@@ -90,7 +90,7 @@
 ||xlovecam.com
 ||zeropark.com
 
-! Sandbox pornhub
+! Sanatize pornhub
 ||*$script,subdocument,xmlhttprequest,image,media,domain=pornhub.com
 @@||phncdn.com$third-party,script,xmlhttprequest,image,media,domain=pornhub.com
 ||phncdn.com/www-static/js/widgets-pornstar^$important
@@ -99,8 +99,7 @@
 pornhub.com##[src^="bloB"]
 pornhub.com###under-player-comments
 
-
-! Sandbox eporner
+! Sanatize eporner
 ||*$script,subdocument,xmlhttprequest,image,media,domain=eporner.com
 @@||eporner.com$first-party,script,xmlhttprequest,image,media,domain=eporner.com
 ||eporner.com/dot/pop4.php^$important
