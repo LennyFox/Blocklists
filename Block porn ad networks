@@ -90,9 +90,19 @@
 ||xlovecam.com
 ||zeropark.com
 
-
-! Some annoyances
+! Sandbox pornhub
+||*$script,subdocument,xmlhttprequest,image,media,domain=pornhub.com
+@@||phncdn.com$third-party,script,xmlhttprequest,image,media,domain=pornhub.com
+||phncdn.com/www-static/js/widgets-pornstar^$important
+||phncdn.com/www-static/js/widgets-rating^$important
+||phncdn.com/www-static/js/widgets-comment^$important
 pornhub.com##[src^="bloB"]
 pornhub.com###under-player-comments
+
+
+! Sandbox eporner
+||*$script,subdocument,xmlhttprequest,image,media,domain=eporner.com
+@@||eporner.com$first-party,script,xmlhttprequest,image,media,domain=eporner.com
+||eporner.com/dot/pop4.php^$important
 eporner.com##.vjs-inplayer-container
 eporner.com###commentdiv
