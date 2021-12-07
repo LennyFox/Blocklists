@@ -33,12 +33,6 @@
 ||datingfactory.com
 ||datinggold.com
 ||eroadvertising.com
-
-! Some annoyances
-pornhub.com##[src^="bloB"]
-pornhub.com###under-player-comments
-eporner.com##.vjs-inplayer-container
-eporner.com###commentdiv
 ||ero-advertising.com
 ||etahub.com
 ||eurolive.com
@@ -95,3 +89,10 @@ eporner.com###commentdiv
 ||xcams.com
 ||xlovecam.com
 ||zeropark.com
+
+
+! Some annoyances
+pornhub.com##[src^="bloB"]
+pornhub.com###under-player-comments
+eporner.com##.vjs-inplayer-container
+eporner.com###commentdiv
