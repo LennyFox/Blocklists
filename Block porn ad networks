@@ -93,5 +93,8 @@
 ! Block iframes, duplex data connections, webbeacons and popups from websites with "porn" in URL
 /.*porn.*/$subdocument,websockets,ping,popup
 
+! Add sandbox to webpages containing "porn"
+/.*porn.*/$csp=sandbox allow-scripts
+
 ! Hide binary large objects (images, gifs and movies) with "porn" in source 
 ##[src^="bloB"][src*="porn"]
