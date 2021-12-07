@@ -90,11 +90,4 @@
 ||xlovecam.com
 ||zeropark.com
 
-! Block iframes, duplex data connections and webbeacons from websites with "porn" in URL
-/.*porn.*/$subdocument,websocket,ping
 
-! Add sandbox to webpages containing "porn"
-/.*porn.*/$csp=sandbox allow-scripts
-
-! Hide binary large objects (images, gifs and movies) with "porn" in source 
-##[src^="bloB"][src*="porn"]
