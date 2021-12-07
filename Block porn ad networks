@@ -90,8 +90,8 @@
 ||xlovecam.com
 ||zeropark.com
 
-! Block iframes, duplex data connections, webbeacons and popups from websites with "porn" in URL
-/.*porn.*/$subdocument,websockets,ping,popup
+! Block iframes, duplex data connections and webbeacons from websites with "porn" in URL
+/.*porn.*/$subdocument,websocket,ping
 
 ! Add sandbox to webpages containing "porn"
 /.*porn.*/$csp=sandbox allow-scripts
