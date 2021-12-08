@@ -90,29 +90,3 @@
 ||xlovecam.com
 ||zeropark.com
 
-!
-! Family filter in the router blocks adult content except below two favorite adult websites of my brother :-) 
-!
-
-! Sanatize pornhub (limit network request, block annoying content and risky stuff)
-*$script,subdocument,xmlhttprequest,websocket,object,ping,popup,domain=pornhub.com
-pornhub.com##[src^="bloB"]
-pornhub.com###abAlert
-pornhub.com###pb_block
-pornhub.com###under-player-comments
-pornhub.com##+js(noeval)
-pornhub.com##+js(nowebrtc)
-@@||phncdn.com$third-party,script,xmlhttprequest,domain=pornhub.com
-||phncdn.com/*/widgets-pornstar^$important,domain=pornhub.com
-||phncdn.com/*/widgets-rating^$important,domain=pornhub.com
-||phncdn.com/*/widgets-comment^$important,domain=pornhub.com
-
-
-! Sanatize eporner (limit network request, block annoying content and risky stuff)
-*$script,subdocument,xmlhttprequest,websocket,object,ping,popup,domain=eporner.com
-@@||eporner.com$first-party,script,xmlhttprequest,domain=eporner.com
-||eporner.com/dot/pop4.php^$important,domain=eporner.com
-eporner.com##.vjs-inplayer-container
-eporner.com###commentdiv
-eporner.com##+js(noeval)
-eporner.com##+js(nowebrtc)
