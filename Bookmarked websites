@@ -124,6 +124,10 @@ pornhub.com##+js(nowebrtc)
 *$script,subdocument,xmlhttprequest,websocket,object,ping,popup,domain=eporner.com
 @@||eporner.com$first-party,script,xmlhttprequest,domain=eporner.com
 ||eporner.com/dot/pop4.php^$important,domain=eporner.com
+||eporner.com/*/piwik.js$script,important,domain=eporner.com
+||eporner.com/event.php$xhr,important,domain=eporner.com
+||eporner.com/dash-report.php$xhr,important,domain=eporner.com
+||eporner.com/dot/dot.php?*&adZones$xhr,important,domain=eporner.com
 eporner.com##.vjs-inplayer-container
 eporner.com###commentdiv
 eporner.com##+js(noeval)
