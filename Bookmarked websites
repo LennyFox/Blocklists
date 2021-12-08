@@ -19,7 +19,7 @@ nos.nl##[id*="regio"]
 
 ! NU.nl
 ||static.qmusic.be/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
-||adnxs-simple.com^$script,,domain=embed.kijk.nl|nu.nl
+||adnxs-simple.com^$script,domain=embed.kijk.nl|nu.nl
 ||fwmrm.net/ad/*$domain=embed.kijk.nl|nu.nl
 ||jwpltx.com/v*/ping.gif$image,domain=embed.kijk.nl|nu.nll
 ||*/newrelic.js$script,domain=embed.kijk.nl|nu.nl
