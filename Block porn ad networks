@@ -101,8 +101,6 @@ pornhub.com##[src^="bloB"]
 pornhub.com###abAlert
 pornhub.com###pb_block
 pornhub.com###under-player-comments
-pornhub.com##+js(noeval)
-pornhub.com##+js(nowebrtc)
 @@||phncdn.com$third-party,script,xmlhttprequest,domain=pornhub.com
 ||phncdn.com/*/widgets-pornstar^$important,domain=pornhub.com
 ||phncdn.com/*/widgets-rating^$important,domain=pornhub.com
@@ -119,5 +117,4 @@ pornhub.com##+js(nowebrtc)
 ||eporner.com/dot/dot.php?*&adZones$xhr,important,domain=eporner.com
 eporner.com##.vjs-inplayer-container
 eporner.com###commentdiv
-eporner.com##+js(noeval)
-eporner.com##+js(nowebrtc)
+
