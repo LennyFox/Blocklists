@@ -39,11 +39,11 @@ www.telegraaf.nl##.MeteringNotification__backdrop.Modal
 ||mybbc-analytics.files.bbci.co.uk$script,domain=www.bbc.com
 /cookie-banners.bundle.js$domain=bbc.com
 /breakingNewsBanner.js$domain=bbc.com
-bbc.com###breaking-news-container
-bbc.com###dotcom-leaderboard
 bbc.com###cookiePrompt
-bbc.com##.nw-c-breaking-news-banner
-bbc.com##.nw-c-leaderboard-ad
+bbc.com###dotcom-leaderboard
+bbc.com##div[class*="leaderboard-ad"]
+bbc.com###breaking-news-container
+bbc.com##div[class*="breaking-news-banner"]
 
 ! cnn.com
 ||cnn.com/ad/$domain=cnn.com
