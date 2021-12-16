@@ -101,8 +101,3 @@ youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlac
 youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
 ||google.*/js/bg/*.js$domain=youtube.com
 ||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
-
-!
-! Family filter in the router blocks adult content except below two favorite adult websites of my brother :-) 
-!
-
