@@ -1,0 +1,30 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2021 
+! Title: Lenny's block rules for bookmarked websites 
+!
+! Expires: 365 days (I am still testing this under-development-list)
+! You are free to copy and distribute this file, but use at your own risk
+! 
+! Youtube
+||youtube.com*adunit$domain=youtube.com
+||youtube.com/*event=$domain=youtube.com
+||youtube.com/*favicon$domain=youtube.com
+||youtube.com/*log_event$domain=youtube.com
+||youtube.com/*pagead-id.js$domain=youtube.com
+||youtube.com/api/stats$domain=youtube.com
+||youtube.com/ptracking$domain=youtube.com
+||youtube.com/*/feedback$domain=youtube.com
+||youtube.com/live_chat$subdocument
+/pagead$domain=youtube.com
+/generate_204$domain=youtube.com
+/error_204$domain=youtube.com
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
+youtube.com##+js(json-prune, playerResponse.adPlacements)
+youtube.com##+js(json-prune, playerResponse.playerAds) 
+youtube.com##+js(json-prune, *.playerResponse.adPlacements)
+youtube.com##+js(json-prune, *.playerResponse.playerAds)
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
+||google.*/js/bg/*.js$domain=youtube.com
+||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
