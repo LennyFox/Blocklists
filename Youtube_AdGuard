@@ -1,0 +1,36 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2021 
+! Title: Lenny's block rules for bookmarked websites 
+!
+! Expires: 365 days (I am still testing this under-development-list)
+! You are free to copy and distribute this file, but use at your own risk
+! 
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Youtube_AdGuard
+!
+! Youtube
+||youtube.com/adunit$domain=youtube.com
+||youtube.com/api/stats$domain=youtube.com
+||youtube.com/generate_204$domain=youtube.com
+||youtube.com/error_204$domain=youtube.com
+||youtube.com/live_chat$subdocument
+||youtube.com/ptracking$domain=youtube.com
+
+||youtube.com/*event=$domain=youtube.com
+||youtube.com/*favicon$domain=youtube.com
+||youtube.com/*/feedback$domain=youtube.com
+||youtube.com/*log_event$domain=youtube.com
+||youtube.com/*pagead-id.js$domain=youtube.com
+
+
+youtube-nocookie.com,youtube.com#%#//scriptlet('set-constant', 'playerResponse.adPlacements', 'undefined')
+youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds')
+youtube-nocookie.com,youtube.com#%#//scriptlet('set-constant', 'ytInitialPlayerResponse.adPlacements', 'undefined')
+
+youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
+youtube.com##.ytd-companion-slot-renderer
+youtube.com###masthead-ad
+
+||doubleclick.net$third-party
+||google.*/js/bg/*.js$domain=youtube.com
+||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
