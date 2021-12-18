@@ -78,26 +78,3 @@ rugbyworld.com##.entry-content > div[style*="height:"]:style(height: 100% !impor
 rugbyworld.com##div[style*=linear-gradient]
 rugbyworld.com###olay-frame
 rugbyworld.com##.header-advert.advert.row
-
-! Youtube
-||youtube.com*adunit$domain=youtube.com
-||youtube.com/*event=$domain=youtube.com
-||youtube.com/*favicon$domain=youtube.com
-||youtube.com/*log_event$domain=youtube.com
-||youtube.com/*pagead-id.js$domain=youtube.com
-||youtube.com/api/stats$domain=youtube.com
-||youtube.com/ptracking$domain=youtube.com
-||youtube.com/*/feedback$domain=youtube.com
-||youtube.com/live_chat$subdocument
-/pagead$domain=youtube.com
-/generate_204$domain=youtube.com
-/error_204$domain=youtube.com
-youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
-youtube.com##+js(json-prune, playerResponse.adPlacements)
-youtube.com##+js(json-prune, playerResponse.playerAds) 
-youtube.com##+js(json-prune, *.playerResponse.adPlacements)
-youtube.com##+js(json-prune, *.playerResponse.playerAds)
-youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
-||google.*/js/bg/*.js$domain=youtube.com
-||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
