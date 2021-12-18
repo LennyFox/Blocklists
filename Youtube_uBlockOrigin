@@ -6,6 +6,8 @@
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Youtube_uBlockOrigin
+!
 ! Youtube
 ||youtube.com*adunit$domain=youtube.com
 ||youtube.com/*event=$domain=youtube.com
