@@ -52,7 +52,8 @@ bbc.com##div[class*="breaking-news-banner"]
 ||turner.com/analytics/comscore/$domain=cnn.com
 ||outbrain.com$domain=cnn.com
 cnn.com##.user-msg
-
+@@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
+@@||prebid.adnxs.com^$xmlhttprequest,domain=cnn.com
 
 ! foxnews.com
 foxnews.com##.collection-fox-nation
