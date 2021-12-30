@@ -1,6 +1,4 @@
-[AdBlockPlus 2.0]
-!
-! Title: Block adult websites (advertising, dating and cam websites)
+! Title: Block porn adnetworks with uBbLock Origin $all
 ! Expires: 365 days 
 !
 ! Version: 2021 
@@ -89,5 +87,7 @@
 ||voyeur-house.tv
 ||xcams.com
 ||xlovecam.com
+||xxxcounter.com$
+||xxxjmp.com
+||xxxwebtraffic.com
 ||zeropark.com
-
