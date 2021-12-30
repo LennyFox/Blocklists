@@ -1,12 +1,4 @@
-! Title: Block porn adnetworks with uBbLock Origin $all
-! Expires: 365 days 
-!
-! Version: 2021 
-!
-! You are free to copy and distribute this file, but use at your own risk
-!
-! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Block%20porn%20ad%20networks
-!
+! use uBlockOrigin $all to block all
 ||50onred.com$all
 ||adcash.com$all
 ||adextrem.com$all
