@@ -1,3 +1,11 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2022 
+! Title: Block rules for adult advertising 
+!
+! Expires: 365 days 
+! You are free to copy and distribute this file, but use at your own risk
+!
 ||50onred.com$all
 ||adcash.com$all
 ||adextrem.com$all
@@ -35,6 +43,7 @@
 ||hotjar.com$all
 ||imlive.com$all
 ||islive.nl$all
+||iwanttodeliver.com$all
 ||jerkmate.com$all
 ||juicyads.com$all
 ||livejasmin.com$all
