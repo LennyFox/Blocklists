@@ -96,3 +96,4 @@ zeropark.com
 ||*$third-party,domain=eporner.com|pornhub.com|xvideos.com
 @@phncdn.com$domain=pornhub.com
 @@xvideos-cdn.com@$domain=xvideos.com
+##[src^="bloB"][src*="porn"]
