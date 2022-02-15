@@ -92,7 +92,7 @@ xxxjmp.com
 xxxwebtraffic.com
 zeropark.com
 
-! hard mode containment for my brother's favourite websites
+! restrict three popular sites 
 ||*$third-party,domain=eporner.com|pornhub.com|xvideos.com
 @@phncdn.com$domain=pornhub.com
 @@xvideos-cdn.com$domain=xvideos.com
