@@ -13,17 +13,14 @@
 nos.nl##[id*="regio"]
 !
 ! DPG media
-||advertising-cdn.dpgmedia.cloud/header-bidding^$domain=nu.nl|volkskrant.nl
 ||dpgmedia.cloud/web-advertising^$domain=nu.nl|volkskrant.nl
 ||config.dpns-notifications.com/configurations^$domain=nu.nl|volkskrant.nl
+||bigdata.dpgmmservices.nl$third-party
+||313.nl$third-party
 
 ! NU.nl
 ||static.qmusic.be/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
-||adnxs-simple.com^$script,domain=embed.kijk.nl|nu.nl
-||fwmrm.net/ad/*$domain=embed.kijk.nl|nu.nl
-||jwpltx.com/v*/ping.gif$image,domain=embed.kijk.nl|nu.nll
 ||*/newrelic.js$script,domain=embed.kijk.nl|nu.nl
-||fwmrm.net/*/AdManager.js$script,domain=embed.kijk.nl|nu.nl
 nu.nl##.block-wrapper-image.block-wrapper
 nu.nl###header
 nu.nl##.active.webpush-popup.overlay
