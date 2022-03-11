@@ -24,6 +24,7 @@ nos.nl##[id*="regio"]
 nu.nl##.block-wrapper-image.block-wrapper
 nu.nl###header
 nu.nl##.active.webpush-popup.overlay
+nu.nl##.article-login-wall
 
 ! telegraaf.nl
 www.telegraaf.nl##.MeteringNotification__backdrop.PopupBackdrop__block
