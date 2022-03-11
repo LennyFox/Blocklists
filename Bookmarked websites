@@ -3,7 +3,7 @@
 ! Version: 2021 
 ! Title: Lenny's block rules for bookmarked websites 
 !
-! Expires: 365 days (I am still testing this under-development-list)
+! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
 ! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Bookmarked%20websites
@@ -48,7 +48,6 @@ bbc.com##div[class*="breaking-news-banner"]
 ||cnn.com/ads/$domain=cnn.com
 ||cnn.com/*/adzones.*.bundle.js$script,domain=cnn.com
 ||turner.com/analytics/comscore/$domain=cnn.com
-||outbrain.com$domain=cnn.com
 cnn.com##.user-msg
 @@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
 @@||prebid.adnxs.com^$xmlhttprequest,domain=cnn.com
