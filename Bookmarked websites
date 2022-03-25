@@ -68,7 +68,10 @@ volkskrant.nl###NEWSLETTER_BOTTOM
 volkskrant.nl###LOGIN_TOP
 volkskrant.nl###top1
 volkskrant.nl###PURCHASE
-volkskrant.nl##div[class^="app-overlay"]
+volkskrant.nl##div[class*="app-overlay"]
+volkskrant.nl##div[class*="ad- -layer"]
+volkskrant.nl##[class*="app-bottom-navigation"]
+volkskrant.nl##[class*="subscribe-bar"]
 ||temptation.volkskrant.nl/temptation.js$script,domain=www.volkskrant.nl
 
 ! Rugby World
