@@ -73,7 +73,7 @@ volkskrant.nl##div[class*="ad- -layer"]
 volkskrant.nl##[class*="app-bottom-navigation"]
 volkskrant.nl##[class*="subscribe-bar"]
 volkskrant.nl##[class*="banner"]
-||temptation.volkskrant.nl/temptation.js$script,domain=www.volkskrant.nl
+||*/temptation.js$script,domain=www.volkskrant.nl
 
 ! Rugby World
 rugbyworld.com##.entry-content > div[style*="height:"]:style(height: 100% !important)
