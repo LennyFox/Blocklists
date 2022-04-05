@@ -187,7 +187,6 @@
 ||imglnka.com$third-party
 ||imglnkb.com$third-party
 ||imglnkc.com$third-party
-||imlive.com$script,third-party,domain=~imnude.com
 ||imlive.com$third-party
 ||impactslam.com$third-party
 ||impressionmonster.com$third-party
@@ -240,7 +239,7 @@
 ||lofv.xyz$third-party
 ||lostun.com$third-party
 ||loveadverts.com$third-party
-||lovecam.com.br$third-party
+||lovecam.com$third-party
 ||lovercash.com$third-party
 ||lsawards.com$third-party
 ||lucidcommerce.com$third-party
@@ -615,4 +614,4 @@
 ||yurivideo.com$third-party
 ||zeropark.com$third-party
 
-||*$popup,domain=pornhub.com|xvideos.com|livejasmin.com|youporn.com|eporner.com|xhamster.com|Xnxx.com
+||*$popup,domain=pornhub.com|xvideos.com|livejasmin.com|youporn.com|eporner.com|xhamster.com|xnxx.com
