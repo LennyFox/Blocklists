@@ -1,6 +1,6 @@
 [AdBlockPlus 2.0]
 !
-! Version: 2021 
+! Version: 2022 
 ! Title: Lenny's block rules for bookmarked websites 
 !
 ! Expires: 365 days 
@@ -60,9 +60,11 @@ foxnews.com##.ad-container
 ||fncstatic.com/static/*/js/ads.js$script,domain=foxnews.com
 
 ! Volkskrant.nl
-||volkskrant.nl$script,third-party,domain=volkskrant.nl
 ||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
 ||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
+||volkskrant.nl/analytics.js$script,domain=volkskrant.nl
+||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script,domain=volkskrant.nl
+||volkskrant.nl/*/collect$ping,xmlhttprequest,domain=volkskrant.nl
 volkskrant.nl###LOGIN_BIG_BOTTOM
 volkskrant.nl###NEWSLETTER_BOTTOM
 volkskrant.nl###LOGIN_TOP
@@ -73,7 +75,9 @@ volkskrant.nl##div[class*="ad- -layer"]
 volkskrant.nl##[class*="app-bottom-navigation"]
 volkskrant.nl##[class*="subscribe-bar"]
 volkskrant.nl##[class*="banner"]
+volkskrant.nl##.artstyle__loader.loading
 ||*/temptation.js$script,domain=www.volkskrant.nl
+||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 
 ! Rugby World
 rugbyworld.com##.entry-content > div[style*="height:"]:style(height: 100% !important)
