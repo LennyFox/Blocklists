@@ -33,9 +33,6 @@ www.telegraaf.nl##.MeteringNotification__backdrop.Modal
 ! bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
-||bbc.co.uk/frameworks/fig/2/fig.js$domain=bbc.com
-||mybbc-analytics.files.bbci.co.uk$script,domain=www.bbc.com
-/cookie-banners.bundle.js$domain=bbc.com
 /breakingNewsBanner.js$domain=bbc.com
 bbc.com###dotcom-leaderboard
 bbc.com##div[class*="leaderboard-ad"]
