@@ -19,6 +19,7 @@ nos.nl##[id*="regio"]
 ||313.nl$third-party
 
 ! NU.nl
+||nu.nl/dpns_sw.js$script,domain=nu.nl
 ||static.qmusic.be/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
 ||*/newrelic.js$script,domain=embed.kijk.nl|nu.nl
 nu.nl##.block-wrapper-image.block-wrapper
