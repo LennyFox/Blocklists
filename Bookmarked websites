@@ -36,10 +36,12 @@ www.telegraaf.nl##.MeteringNotification__backdrop.Modal
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
 /breakingNewsBanner.js$domain=bbc.com
+bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc)
 bbc.com###dotcom-leaderboard
 bbc.com##div[class*="leaderboard-ad"]
 bbc.com###breaking-news-container
 bbc.com##div[class*="breaking-news-banner"]
+bbc.com##.bbccom_advert
 
 ! cnn.com
 ||cnn.com/ad/$domain=cnn.com
