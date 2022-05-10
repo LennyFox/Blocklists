@@ -9,25 +9,26 @@
 ! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Youtube_uBlockOrigin
 !
 ! Youtube
-||youtube.com*adunit$domain=youtube.com
+||youtube.com/live_chat$domain=youtube.com
+||youtube.com/api/stats$domain=youtube.com
+||youtube.com/ptracking$domain=youtube.com
+||youtube.com/*/feedback$domain=youtube.com
+||youtube.com/*/pagead$domain=youtube.com
+||youtube.com/*adunit$domain=youtube.com
 ||youtube.com/*event=$domain=youtube.com
 ||youtube.com/*favicon$domain=youtube.com
 ||youtube.com/*log_event$domain=youtube.com
 ||youtube.com/*pagead-id.js$domain=youtube.com
-||youtube.com/api/stats$domain=youtube.com
-||youtube.com/ptracking$domain=youtube.com
-||youtube.com/*/feedback$domain=youtube.com
-||youtube.com/live_chat$subdocument
-/pagead$domain=youtube.com
-/generate_204$domain=youtube.com
-/error_204$domain=youtube.com
-youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
-youtube.com##+js(json-prune, playerResponse.adPlacements)
-youtube.com##+js(json-prune, playerResponse.playerAds) 
-youtube.com##+js(json-prune, *.playerResponse.adPlacements)
-youtube.com##+js(json-prune, *.playerResponse.playerAds)
-youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
+
+youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+
+##.ytp-ad-progress-list$domain=youtube.com
+###player-ads$domain=youtube.com
+###offer-module$domain=youtube.com
+###merch-shelf$domain=youtube.com
+###masthead-ad$domain=youtube.com
+
 ||google.*/js/bg/*.js$domain=youtube.com
 ||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
-
