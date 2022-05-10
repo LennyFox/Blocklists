@@ -28,10 +28,6 @@ nu.nl##.active.webpush-popup.overlay
 nu.nl##.article-login-wall
 @@||ads-talpa.adhese.com/json/*$xhr,domain=embed.kijk.nl
 
-! telegraaf.nl
-www.telegraaf.nl##.MeteringNotification__backdrop.PopupBackdrop__block
-www.telegraaf.nl##.MeteringNotification__backdrop.Modal
-
 ! bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
@@ -59,16 +55,6 @@ cnn.com###scrollover-ad-wrap
 @@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
 @@||prebid.adnxs.com^$xmlhttprequest,domain=cnn.com
 
-! foxnews.com
-foxnews.com##.collection-fox-nation
-foxnews.com##.notification-banner
-foxnews.com##.ad-container
-foxnews.com##.ad-w-300
-foxnews.com##.ad-h-250
-foxnews.com##.ad
-||foxnews.com/static/orion/scripts/core/base/app/modules/referral.js$script,domain=www.foxnews.com
-||fncstatic.com/static/*/js/ads.js$script,domain=foxnews.com
-
 ! Volkskrant.nl
 ||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
 ||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
@@ -88,9 +74,3 @@ volkskrant.nl##[class*="banner"]
 volkskrant.nl##.artstyle__loader.loading
 ||*/temptation.js$script,domain=www.volkskrant.nl
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
-
-! Rugby World
-rugbyworld.com##.entry-content > div[style*="height:"]:style(height: 100% !important)
-rugbyworld.com##div[style*=linear-gradient]
-rugbyworld.com###olay-frame
-rugbyworld.com##.header-advert.advert.row
