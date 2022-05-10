@@ -63,6 +63,9 @@ cnn.com###scrollover-ad-wrap
 foxnews.com##.collection-fox-nation
 foxnews.com##.notification-banner
 foxnews.com##.ad-container
+foxnews.com##.ad-w-300
+foxnews.com##.ad-h-250
+foxnews.com##.ad
 ||foxnews.com/static/orion/scripts/core/base/app/modules/referral.js$script,domain=www.foxnews.com
 ||fncstatic.com/static/*/js/ads.js$script,domain=foxnews.com
 
