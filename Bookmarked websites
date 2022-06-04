@@ -83,9 +83,14 @@ volkskrant.nl##.artstyle__loader.loading
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 
 !
-! Sanitize porn websites (for my brother, not for me :-)
+! Sanitize porn websites (for my brother, not for me :-) 
 ! 
-||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com|xhamster.com
+
+! Block use of NOEVAL javascript 
+eporner.com,pornhub.com,youporn.com,xhamster.com,xvideos.com,xnxx.com##+js(noeval)
+
+! Block third-party
+||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com
 @@phncdn.com$script,css,image,media,xmlhttprequest,domain=pornhub.com|youporn.com
 @@ypncdn.com$script,css,image,media,xmlhttprequest,domain=youporn.com
 @@xhcdn.com$script,css,image,media,xmlhttprequest,domain=xhamster.com
@@ -94,6 +99,16 @@ youporn.com##[src*="blob"][src*="porn"]
 @@xnxx-cdn.com$script,css,image,media,xmlhttprequest,domain=xnxx.com
 @@xvideos-cdn.com$script,css,image,media,xmlhttprequest,domain=xvideos.com
 
+! Block popups & popunders
+||*$popup,popunder,domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com
+@@eporner.com$popunder,domain=eporner.com
+@@pornhub.com$popunder,domain=pornhub.com
+@youporn.com$popunder,domain=youporn.com
+@@xhamster.com$popunder,domain=xhamster.com
+@@xvideos.com$popunder,domain=xvideos.com
+@@xnxx.com$popunder,domain=xnxx.com
+
+! Clean up (ads, banners, tracking)
 eporner.com##.vjs-inplayer-container
 */pop4.php$domain=eporner.com,important
 */_xa/ads_batch$domain=youporn.com|pornhub.com|xhamster.com,important
