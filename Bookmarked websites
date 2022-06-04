@@ -106,6 +106,10 @@ eporner.com,pornhub.com,youporn.com,xhamster.com,xvideos.com,xnxx.com##+js(noeva
 @@xvideos.com$popunder,domain=xvideos.com
 @@xnxx.com$popunder,domain=xnxx.com
 
+! remove premium content and comments
+/.*premium.*/$domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com
+/.*comment.*/$domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com
+
 ! Clean up (ads, banners, gifs, popups)
 eporner.com##.vjs-inplayer-container
 */pop4.php$domain=eporner.com,important
