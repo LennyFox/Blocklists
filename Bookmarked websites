@@ -94,8 +94,6 @@ eporner.com,pornhub.com,youporn.com,xhamster.com,xvideos.com,xnxx.com##+js(noeva
 @@phncdn.com$script,css,image,media,xmlhttprequest,domain=pornhub.com|youporn.com
 @@ypncdn.com$script,css,image,media,xmlhttprequest,domain=youporn.com
 @@xhcdn.com$script,css,image,media,xmlhttprequest,domain=xhamster.com
-pornhub.com##[src*="bloB"][src*="porn"]
-youporn.com##[src*="blob"][src*="porn"]
 @@xnxx-cdn.com$script,css,image,media,xmlhttprequest,domain=xnxx.com
 @@xvideos-cdn.com$script,css,image,media,xmlhttprequest,domain=xvideos.com
 
@@ -108,12 +106,14 @@ youporn.com##[src*="blob"][src*="porn"]
 @@xvideos.com$popunder,domain=xvideos.com
 @@xnxx.com$popunder,domain=xnxx.com
 
-! Clean up (ads, banners, popups)
+! Clean up (ads, banners, gifs, popups)
 eporner.com##.vjs-inplayer-container
 */pop4.php$domain=eporner.com,important
 */_xa/ads_batch$domain=youporn.com|pornhub.com|xhamster.com,important
 */js/promo-banner.js$domain=youporn.com|pornhub.com|xhamster.com,important
 */js/widgets-live-popup.js$domain=youporn.com|pornhub.com|xhamster.com,important
 */live-banners$domain=xnxx.com|xvideos.com,important
+pornhub.com##[src*="bloB"][src*="porn"]
+youporn.com##[src*="blob"][src*="porn"]
 youporn.com###adblock_tooltip
 youporn.com###pbs_block
