@@ -28,6 +28,13 @@ nu.nl##.active.webpush-popup.overlay
 nu.nl##.article-login-wall
 @@||ads-talpa.adhese.com/json/*$xhr,domain=embed.kijk.nl
 
+!
+!RTL nieuws
+||*$third-party,domain=rtlnieuws.nl
+@@cookielaw.org$domain=rtlnieuws.nl
+@@akamaized.net$domain=rtlnieuws.nl
+@@rtl.nl$domain=rtlnieuws.nl
+
 ! bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
@@ -75,7 +82,9 @@ volkskrant.nl##.artstyle__loader.loading
 ||*/temptation.js$script,domain=www.volkskrant.nl
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 
-! For my brother, not for me :-) 
+!
+! Sanitize porn websites (for my brother, not for me :-)
+! 
 ||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com|xhamster.com
 @@phncdn.com$script,css,image,media,xmlhttprequest,domain=pornhub.com|youporn.com
 @@ypncdn.com$script,css,image,media,xmlhttprequest,domain=youporn.com
