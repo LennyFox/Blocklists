@@ -108,13 +108,12 @@ youporn.com##[src*="blob"][src*="porn"]
 @@xvideos.com$popunder,domain=xvideos.com
 @@xnxx.com$popunder,domain=xnxx.com
 
-! Clean up (ads, banners, tracking)
+! Clean up (ads, banners, popups)
 eporner.com##.vjs-inplayer-container
 */pop4.php$domain=eporner.com,important
 */_xa/ads_batch$domain=youporn.com|pornhub.com|xhamster.com,important
 */js/promo-banner.js$domain=youporn.com|pornhub.com|xhamster.com,important
 */js/widgets-live-popup.js$domain=youporn.com|pornhub.com|xhamster.com,important
+*/live-banners$domain=xnxx.com|xvideos.com,important
 youporn.com###adblock_tooltip
 youporn.com###pbs_block
-*/video/tracking.js$domain=xnxx.com|xvideos.com,important
-*/live-banners$domain=xnxx.com|xvideos.com,important
