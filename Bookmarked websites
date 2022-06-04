@@ -74,3 +74,23 @@ volkskrant.nl##[class*="banner"]
 volkskrant.nl##.artstyle__loader.loading
 ||*/temptation.js$script,domain=www.volkskrant.nl
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
+
+! For my brother, not for me :-) 
+||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com|xhamster.com
+@@phncdn.com$script,css,image,media,xmlhttprequest,domain=pornhub.com|youporn.com
+@@ypncdn.com$script,css,image,media,xmlhttprequest,domain=youporn.com
+@@xhcdn.com$script,css,image,media,xmlhttprequest,domain=xhamster.com
+pornhub.com##[src*="bloB"][src*="porn"]
+youporn.com##[src*="blob"][src*="porn"]
+@@xnxx-cdn.com$script,css,image,media,xmlhttprequest,domain=xnxx.com
+@@xvideos-cdn.com$script,css,image,media,xmlhttprequest,domain=xvideos.com
+
+eporner.com##.vjs-inplayer-container
+*/pop4.php$domain=eporner.com,important
+*/_xa/ads_batch$domain=youporn.com|pornhub.com|xhamster.com,important
+*/js/promo-banner.js$domain=youporn.com|pornhub.com|xhamster.com,important
+*/js/widgets-live-popup.js$domain=youporn.com|pornhub.com|xhamster.com,important
+youporn.com###adblock_tooltip
+youporn.com###pbs_block
+*/video/tracking.js$domain=xnxx.com|xvideos.com,important
+*/live-banners$domain=xnxx.com|xvideos.com,important
