@@ -118,6 +118,8 @@ eporner.com##.vjs-inplayer-container
 */htmlPauseRoll/pb_block.js$domain=youporn.com|pornhub.com|xhamster.com,important
 */_xa/ads_batch$domain=youporn.com|pornhub.com|xhamster.com,important
 pornhub.com##[src*="bloB"][src*="porn"]
+pornhub.com###abAlert
 youporn.com##[src*="blob"][src*="porn"]
 youporn.com###adblock_tooltip
 youporn.com###pbs_block
+xhamster.com##.vpn-geo-picker-container
