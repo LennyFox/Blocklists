@@ -87,7 +87,7 @@ volkskrant.nl##.artstyle__loader.loading
 ! 
 
 ! Block use of NOEVAL javascript 
-eporner.com,pornhub.com,youporn.com,xhamster.com,xvideos.com,xnxx.com##+js(noeval)
+eporner.com,pornhub.com,youporn.com,xvideos.com,xnxx.com##+js(noeval)
 
 ! Block third-party
 ||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com
