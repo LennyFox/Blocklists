@@ -104,7 +104,7 @@ eporner.com,pornhub.com,youporn.com,xvideos.com,xnxx.com##+js(noeval)
 @@xvideos.com$popup,popunder,domain=xvideos.com
 @@xnxx.com$popup,popunder,domain=xnxx.com
 
-! Regex blocks for premium content, comments, banners, popup
+! Regex blocks for premium content, comments, banners, popups
 /.*premium.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
 /.*comment.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
 /.*banner.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
