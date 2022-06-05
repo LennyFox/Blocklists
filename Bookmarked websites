@@ -89,14 +89,14 @@ volkskrant.nl##.artstyle__loader.loading
 ! Block first-party use of EVAL javascript command 
 eporner.com,pornhub.com,youporn.com,xvideos.com,xnxx.com##+js(noeval)
 
-! Block third-party
+! Block third-party except (allow) for website's content delivery server(s)
 ||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com
 @@phncdn.com$script,css,image,media,xmlhttprequest,domain=pornhub.com|youporn.com
 @@ypncdn.com$script,css,image,media,xmlhttprequest,domain=youporn.com
 @@xnxx-cdn.com$script,css,image,media,xmlhttprequest,domain=xnxx.com
 @@xvideos-cdn.com$script,css,image,media,xmlhttprequest,domain=xvideos.com
 
-! Block popups & popunders (new windows)
+! Block popups & popunders except (allow) to own website
 ||*$popup,popunder,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com
 @@eporner.com$popup,popunder,domain=eporner.com
 @@pornhub.com$popup,popunder,domain=pornhub.com
@@ -104,19 +104,27 @@ eporner.com,pornhub.com,youporn.com,xvideos.com,xnxx.com##+js(noeval)
 @@xvideos.com$popup,popunder,domain=xvideos.com
 @@xnxx.com$popup,popunder,domain=xnxx.com
 
-! Regex blocks for premium content, comments, banners, popups
+! Generic regex blocks for premium content, comments, banners, popups (overruling allow exceptions with important)
 /.*premium.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
 /.*comment.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
 /.*banner.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
 /.*popup.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
 
-! Clean up remaining nuisances (adblock warnings, gifs, invideo-popups)
+! Clean up remaining nuisances (adblock warnings, gifs, invideo-popups, comments, footers)
 */pop4.php$domain=eporner.com,important
 eporner.com##.vjs-inplayer-container
+eporner.com###commentdiv
+eporner.com###btasd
+eporner.com###deskadmiddle
 */htmlPauseRoll/pb_block.js$domain=youporn.com|pornhub.com,important
 */_xa/ads_batch$domain=youporn.com|pornhub.com,important
 pornhub.com##[src*="bloB"][src*="porn"]
 pornhub.com###abAlert
+pornhub.com###cmtWrapper
+pornhub.com##bbdae
 youporn.com##[src*="blob"][src*="porn"]
 youporn.com###adblock_tooltip
 youporn.com###pbs_block
+pornhub.com##.footerContentWrapper
+youporn.com###videoComments
+youporn.com##footer
