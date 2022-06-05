@@ -110,7 +110,7 @@ eporner.com,pornhub.com,youporn.com,xvideos.com,xnxx.com##+js(noeval)
 /.*banner.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
 /.*popup.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
 
-! Clean up (ads, banners, gifs, popups)
+! Clean up remaining nuisances (ads, anti-adblock, banners, gifs, popups)
 */pop4.php$domain=eporner.com,important
 eporner.com##.vjs-inplayer-container
 */htmlPauseRoll/pb_block.js$domain=youporn.com|pornhub.com,important
