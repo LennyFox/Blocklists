@@ -104,9 +104,6 @@ eporner.com,pornhub.com,youporn.com,xvideos.com,xnxx.com##+js(noeval)
 @@xvideos.com$popup,popunder,domain=xvideos.com
 @@xnxx.com$popup,popunder,domain=xnxx.com
 
-! Generic regex block for (paid) premium content (overruling allow exceptions with important)
-/.*premium.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
-
 ! Clean up remaining nuisances (adblock warnings, gifs, invideo-popups, comments, footers)
 */pop4.php$domain=eporner.com,important
 eporner.com##.vjs-inplayer-container
