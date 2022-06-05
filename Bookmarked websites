@@ -90,36 +90,33 @@ volkskrant.nl##.artstyle__loader.loading
 eporner.com,pornhub.com,youporn.com,xhamster.com,xvideos.com,xnxx.com##+js(noeval)
 
 ! Block third-party
-||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com
+||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com
 @@phncdn.com$script,css,image,media,xmlhttprequest,domain=pornhub.com|youporn.com
 @@ypncdn.com$script,css,image,media,xmlhttprequest,domain=youporn.com
-@@xhcdn.com$script,css,image,media,xmlhttprequest,domain=xhamster.com
 @@xnxx-cdn.com$script,css,image,media,xmlhttprequest,domain=xnxx.com
 @@xvideos-cdn.com$script,css,image,media,xmlhttprequest,domain=xvideos.com
 
 ! Block popups & popunders (new windows)
-||*$popup,popunder,domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com
+||*$popup,popunder,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com
 @@eporner.com$popup,popunder,domain=eporner.com
 @@pornhub.com$popup,popunder,domain=pornhub.com
 @youporn.com$popup,popunder,domain=youporn.com
-@@xhamster.com$popup,popunder,domain=xhamster.com
 @@xvideos.com$popup,popunder,domain=xvideos.com
 @@xnxx.com$popup,popunder,domain=xnxx.com
 
 ! Regex blocks for premium content, comments, banners, popup
-/.*premium.*/$domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com,important
-/.*comment.*/$domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com,important
-/.*banner.*/$domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com,important
-/.*popup.*/$domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com,important
+/.*premium.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
+/.*comment.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
+/.*banner.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
+/.*popup.*/$domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com,important
 
 ! Clean up (ads, banners, gifs, popups)
 */pop4.php$domain=eporner.com,important
 eporner.com##.vjs-inplayer-container
-*/htmlPauseRoll/pb_block.js$domain=youporn.com|pornhub.com|xhamster.com,important
-*/_xa/ads_batch$domain=youporn.com|pornhub.com|xhamster.com,important
+*/htmlPauseRoll/pb_block.js$domain=youporn.com|pornhub.com,important
+*/_xa/ads_batch$domain=youporn.com|pornhub.com,important
 pornhub.com##[src*="bloB"][src*="porn"]
 pornhub.com###abAlert
 youporn.com##[src*="blob"][src*="porn"]
 youporn.com###adblock_tooltip
 youporn.com###pbs_block
-xhamster.com##.vpn-geo-picker-container
