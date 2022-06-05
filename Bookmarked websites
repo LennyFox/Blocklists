@@ -86,7 +86,7 @@ volkskrant.nl##.artstyle__loader.loading
 ! Sanitize porn websites (for my brother, not for me :-) 
 ! 
 
-! Block use of NOEVAL javascript 
+! Block first-party use of EVAL javascript command 
 eporner.com,pornhub.com,youporn.com,xvideos.com,xnxx.com##+js(noeval)
 
 ! Block third-party
