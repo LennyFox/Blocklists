@@ -99,12 +99,12 @@ eporner.com,pornhub.com,youporn.com,xhamster.com,xvideos.com,xnxx.com##+js(noeva
 
 ! Block popups & popunders (new windows)
 ||*$popup,popunder,domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com
-@@eporner.com$popunder,domain=eporner.com
-@@pornhub.com$popunder,domain=pornhub.com
-@youporn.com$popunder,domain=youporn.com
-@@xhamster.com$popunder,domain=xhamster.com
-@@xvideos.com$popunder,domain=xvideos.com
-@@xnxx.com$popunder,domain=xnxx.com
+@@eporner.com$popup,popunder,domain=eporner.com
+@@pornhub.com$popup,popunder,domain=pornhub.com
+@youporn.com$popup,popunder,domain=youporn.com
+@@xhamster.com$popup,popunder,domain=xhamster.com
+@@xvideos.com$popup,popunder,domain=xvideos.com
+@@xnxx.com$popup,popunder,domain=xnxx.com
 
 ! Regex blocks for premium content, comments, banners, popup
 /.*premium.*/$domain=eporner.com|pornhub.com|youporn.com|xhamster.com|xvideos.com|xnxx.com,important
