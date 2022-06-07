@@ -92,10 +92,10 @@ eporner.com,pornhub.com,youporn.com,xvideos.com,xnxx.com##+js(noeval)
 
 ! Block third-party except (allow) for website's content delivery server(s)
 ||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com
-@@phncdn.com$script,css,image,media,xmlhttprequest,domain=pornhub.com|youporn.com
-@@ypncdn.com$script,css,image,media,xmlhttprequest,domain=youporn.com
-@@xnxx-cdn.com$script,css,image,media,xmlhttprequest,domain=xnxx.com
-@@xvideos-cdn.com$script,css,image,media,xmlhttprequest,domain=xvideos.com
+@@phncdn.com$script,stylesheet,image,media,xmlhttprequest,domain=pornhub.com|youporn.com
+@@ypncdn.com$script,stylesheet,,image,media,xmlhttprequest,domain=youporn.com
+@@xnxx-cdn.com$script,stylesheet,,image,media,xmlhttprequest,domain=xnxx.com
+@@xvideos-cdn.com$script,stylesheet,image,media,xmlhttprequest,domain=xvideos.com
 
 ! Block popups & popunders except (allow) to own website
 ||*$popup,popunder,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com
