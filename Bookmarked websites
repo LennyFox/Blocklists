@@ -82,6 +82,11 @@ volkskrant.nl##.artstyle__loader.loading
 ||*/temptation.js$script,domain=www.volkskrant.nl
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 
+! F1 websites
+gpfans.com##.top-leaderboard
+racingnews365.nl##.ad__wrapper
+
+
 !
 ! Sanitize porn websites (for my brother, not for me :-) 
 ! 
