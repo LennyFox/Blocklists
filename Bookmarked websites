@@ -91,40 +91,33 @@ racingnews365.nl##.ad__wrapper
 ! Sanitize porn websites (for my brother, not for me :-) 
 ! 
 
-! Block first-party use of EVAL javascript command 
-eporner.com,pornhub.com,youporn.com,xvideos.com,xnxx.com##+js(noeval)
+! Block use of EVAL command in javascript 
+eporner.com,pornhub.com,xvideos.com,xnxx.com##+js(noeval)
 
 ! Block third-party except (allow) for website's content delivery server(s)
-||*$third-party,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com
-@@phncdn.com$script,stylesheet,image,media,xmlhttprequest,domain=pornhub.com|youporn.com
-@@ypncdn.com$script,stylesheet,,image,media,xmlhttprequest,domain=youporn.com
+||*$third-party,domain=eporner.com|pornhub.com|xvideos.com|xnxx.com
+@@phncdn.com$script,stylesheet,image,media,xmlhttprequest,domain=pornhub.com
 @@xnxx-cdn.com$script,stylesheet,,image,media,xmlhttprequest,domain=xnxx.com
 @@xvideos-cdn.com$script,stylesheet,image,media,xmlhttprequest,domain=xvideos.com
 
 ! Block popups & popunders except (allow) to own website
-||*$popup,popunder,domain=eporner.com|pornhub.com|youporn.com|xvideos.com|xnxx.com
+||*$popup,popunder,domain=eporner.com|pornhub.com|xvideos.com|xnxx.com
 @@eporner.com$popup,popunder,domain=eporner.com
 @@pornhub.com$popup,popunder,domain=pornhub.com
-@youporn.com$popup,popunder,domain=youporn.com
 @@xvideos.com$popup,popunder,domain=xvideos.com
 @@xnxx.com$popup,popunder,domain=xnxx.com
 
 ! Clean up remaining nuisances (adblock warnings, gifs, invideo-popups, comments, footers)
-*/pop4.php$domain=eporner.com,important
 eporner.com##.vjs-inplayer-container
 eporner.com###commentdiv
 eporner.com###btasd
 eporner.com###deskadmiddle
-*/htmlPauseRoll/pb_block.js$domain=youporn.com|pornhub.com,important
-*/_xa/ads_batch$domain=youporn.com|pornhub.com,important
+*/pop4.php$domain=eporner.com,important
 pornhub.com##[src*="bloB"][src*="porn"]
 pornhub.com###abAlert
 pornhub.com###cmtWrapper
 pornhub.com##bbdae
-youporn.com##[src*="blob"][src*="porn"]
-youporn.com###adblock_tooltip
-youporn.com###pbs_block
 pornhub.com##.footerContentWrapper
-youporn.com###videoComments
-youporn.com##footer
+*/htmlPauseRoll/pb_block.js$domain=pornhub.com,important
+*/_xa/ads_batch$domain=pornhub.com,important
 xvideos.com###tabComments_bottom_page
