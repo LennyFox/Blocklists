@@ -86,32 +86,6 @@ volkskrant.nl##.artstyle__loader.loading
 gpfans.com##.top-leaderboard
 racingnews365.nl##.ad__wrapper
 
-
-!
-! Sanitize porn websites (for my brother, not for me :-) 
-! 
-
-! Block use of EVAL command in javascript 
-eporner.com,pornhub.com,xvideos.com,xnxx.com##+js(noeval)
-
-! Block third-party except (allow) for website's content delivery server(s)
-||*$third-party,domain=eporner.com|pornhub.com|xvideos.com|xnxx.com
-@@phncdn.com$script,stylesheet,image,media,xmlhttprequest,domain=pornhub.com
-@@xnxx-cdn.com$script,stylesheet,,image,media,xmlhttprequest,domain=xnxx.com
-@@xvideos-cdn.com$script,stylesheet,image,media,xmlhttprequest,domain=xvideos.com
-
-! Block popups & popunders except (allow) to own website
-||*$popup,popunder,domain=eporner.com|pornhub.com|xvideos.com|xnxx.com
-@@eporner.com$popup,popunder,domain=eporner.com
-@@pornhub.com$popup,popunder,domain=pornhub.com
-@@xvideos.com$popup,popunder,domain=xvideos.com
-@@xnxx.com$popup,popunder,domain=xnxx.com
-
-! Clean up remaining nuisances (adblock warnings, gifs, invideo-popups, comments, footers)
-eporner.com##.vjs-inplayer-container
-eporner.com###commentdiv
-eporner.com###btasd
-eporner.com###deskadmiddle
 */pop4.php$domain=eporner.com,important
 pornhub.com##[src*="bloB"][src*="porn"]
 pornhub.com###abAlert
