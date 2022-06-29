@@ -6,7 +6,7 @@
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Youtube_uBlockOrigin
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Youtube_ABP
 !
 ! Youtube
 ||youtube.com/live_chat$domain=youtube.com
