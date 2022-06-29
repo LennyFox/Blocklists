@@ -1,33 +1,7 @@
-[AdBlockPlus 3.10]
-!
-! Version: 2022 
-! Title: Lenny's block rules for Youtube with ABP scriptlets
-!
-! Expires: 365 days (I am still testing this under-development-list)
-! You are free to copy and distribute this file, but use at your own risk
+
 ! 
-! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Youtube_ABP
+! Add below rules in advanced section manually
 !
-! Youtube
-||youtube.com/live_chat$domain=youtube.com
-||youtube.com/api/stats$domain=youtube.com
-||youtube.com/ptracking$domain=youtube.com
-||youtube.com/*/feedback$domain=youtube.com
-||youtube.com/*/pagead$domain=youtube.com
-||youtube.com/*adunit$domain=youtube.com
-||youtube.com/*event=$domain=youtube.com
-||youtube.com/*favicon$domain=youtube.com
-||youtube.com/*log_event$domain=youtube.com
-||youtube.com/*pagead-id.js$domain=youtube.com
-
-##.ytp-ad-progress-list$domain=youtube.com
-###player-ads$domain=youtube.com
-###offer-module$domain=youtube.com
-###merch-shelf$domain=youtube.com
-###masthead-ad$domain=youtube.com
-
-||google.*/js/bg/*.js$domain=youtube.com
-||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
 
 youtube.com#$#json-prune 'adPlacements playerAds'
 youtube.com#$#override-property-read 'ytInitialPlayerResponse adPlacements'
