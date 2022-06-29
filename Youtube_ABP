@@ -1,7 +1,7 @@
 [AdBlockPlus 3.10]
 !
 ! Version: 2022 
-! Title: Lenny's block rules for Youtube with uBlockOrigin scriptlets
+! Title: Lenny's block rules for Youtube with ABP scriptlets
 !
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
@@ -28,3 +28,6 @@
 
 ||google.*/js/bg/*.js$domain=youtube.com
 ||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
+
+youtube.com#$#json-prune 'adPlacements playerAds'
+youtube.com#$#override-property-read 'ytInitialPlayerResponse adPlacements'
