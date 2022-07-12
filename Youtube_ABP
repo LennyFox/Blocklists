@@ -1,18 +1,11 @@
-[AdBlockPlus 3.12]
-!
-! Version: 2022 
-! Title: Lenny's block rules for Youtube without AdBlockPlus snippets (add them manually)
-!
-! Expires: 365 days (I am still testing this under-development-list)
-! You are free to copy and distribute this file, but use at your own risk
 !
 ! *****************************************************************************************************
 ! Manually add these three lines in the 'Advanced, create your own filterlist' section
+! because snippets only work from trusted sources (a security measure of ABP)
 
 youtube.com#$#json-prune 'adPlacements playerAds'
 youtube.com#$#override-property-read 'ytInitialPlayerResponse adPlacements'
 youtube.com#$#override-property-read 'playerResponse adPlacements'
-
 
 !
 ! Youtube 
