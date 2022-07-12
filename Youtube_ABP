@@ -7,7 +7,7 @@
 ! You are free to copy and distribute this file, but use at your own risk
 !
 ! *****************************************************************************************************
-! Manually add these three lines in the 'Advanced, create your own filterlist'section
+! Manually add these three lines in the 'Advanced, create your own filterlist' section
 
 youtube.com#$#json-prune 'adPlacements playerAds'
 youtube.com#$#override-property-read 'ytInitialPlayerResponse adPlacements'
