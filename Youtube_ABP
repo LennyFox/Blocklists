@@ -2,13 +2,15 @@
 ! *****************************************************************************************************
 ! Manually add these three lines in the 'Advanced, create your own filterlist' section
 ! because snippets only work from trusted sources (a security measure of ABP)
-
+! *****************************************************************************************************
+! Copy all lines below and paste them into the 'My Filter List'
+!
+! Youtube 
+!
 youtube.com#$#json-prune 'adPlacements playerAds'
 youtube.com#$#override-property-read 'ytInitialPlayerResponse adPlacements'
 youtube.com#$#override-property-read 'playerResponse adPlacements'
 
-!
-! Youtube 
 ||youtube.com/live_chat$domain=youtube.com
 ||youtube.com/api/stats$domain=youtube.com
 ||youtube.com/ptracking$domain=youtube.com
