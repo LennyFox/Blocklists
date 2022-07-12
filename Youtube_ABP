@@ -1,12 +1,21 @@
 [AdBlockPlus 3.14]
 !
 ! Version: 2022 
-! Title: Lenny's block rules for Youtube with uBlockOrigin scriptlets
+! Title: Lenny's block rules for Youtube without AdBlockPlus snippets (add them manually)
 !
 ! Expires: 365 days (I am still testing this under-development-list)
 ! You are free to copy and distribute this file, but use at your own risk
 !
-! Youtube
+! *****************************************************************************************************
+! Manually add these three lines in the Advanced section, create your own filterlist, without leading ! 
+!
+!youtube.com#$#json-prune 'adPlacements playerAds'
+!youtube.com#$#override-property-read 'ytInitialPlayerResponse adPlacements'
+!youtube.com#$#override-property-read 'playerResponse adPlacements'
+!
+! *****************************************************************************************************
+!
+! Youtube 
 ||youtube.com/live_chat$domain=youtube.com
 ||youtube.com/api/stats$domain=youtube.com
 ||youtube.com/ptracking$domain=youtube.com
@@ -26,7 +35,3 @@
 
 ||google.*/js/bg/*.js$domain=youtube.com
 ||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
-
-youtube.com#$#json-prune 'adPlacements playerAds'
-youtube.com#$#override-property-read 'ytInitialPlayerResponse adPlacements'
-youtube.com#$#override-property-read 'playerResponse adPlacements'
