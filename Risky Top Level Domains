@@ -6,7 +6,8 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Bookmarked%20websites
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Risky%20Top%20Level%20Domains
+!
 ||*.cm^$doc
 ||*.cn^$doc
 ||*.ws^$doc
