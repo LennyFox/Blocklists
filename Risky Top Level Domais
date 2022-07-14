@@ -1,0 +1,57 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2022 
+! Title: Risky Top Level Domain - Goback or proceed with care! 
+!
+! Expires: 365 days 
+! You are free to copy and distribute this file, but use at your own risk
+! 
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Bookmarked%20websites
+||*.cm^$doc
+||*.cn^$doc
+||*.ws^$doc
+||*.ph^$doc
+||*.su^$doc
+||*.tw^$doc
+||*.gq^$doc
+||*.ml^$doc
+||*.cf^$doc
+||*.tk^$doc
+||*.uz^$doc
+||*.ua^$doc
+||*.cc^$doc
+||*.ua^$doc
+||*.vn^$doc
+||*.ko^$doc
+||*.pw^$doc
+||*.ga^$doc
+||*.sx^$doc
+||*.gg^$doc
+||*.me^$doc
+||*.surf^$doc
+||*.cam^$doc
+||*.shop^$doc
+||*.work^$doc
+||*.xyz^$doc
+||*.top^$doc
+||*.buzz^$doc
+||*.biz^$doc
+||*.mobi^$doc
+||*.travel^$doc
+||*.moe^$doc
+||*.club^$doc
+||*.sex^$doc
+||*.live^$doc
+||*.racing^$doc
+||*.stream^$doc
+||*.pro^$doc
+||*.work^$doc
+||*.loan^$doc
+||*.site^$doc
+||*.casa^$doc
+||*.win^$doc
+||*.science^$doc
+||*.trade^$doc
+||*.download^$doc
+||*.bid^$doc
+||*.online^$doc
