@@ -1,0 +1,26 @@
+! Expires: 365 days 
+! You are free to copy and distribute this file, but use at your own risk
+! 
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Risky%20Top%20Level%20Domains
+!
+||*.cm^$doc
+||*.cn^$doc
+||*.ws^$doc
+||*.ph^$doc
+||*.su^$doc
+||*.tw^$doc
+||*.gq^$doc
+||*.ml^$doc
+||*.cf^$doc
+||*.tk^$doc
+||*.uz^$doc
+||*.ua^$doc
+||*.cc^$doc
+||*.ua^$doc
+||*.vn^$doc
+||*.kp^$doc
+||*.pw^$doc
+||*.ga^$doc
+||*.sx^$doc
+||*.gg^$doc
+||*.me^$doc
