@@ -6,7 +6,7 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Risky%Country%Code
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Risky%Country%Codes
 !
 ||*.cm^$doc
 ||*.cn^$doc
