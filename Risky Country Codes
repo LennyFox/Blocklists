@@ -1,31 +1,35 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2022 
-! Title: Risky Country Code (often used for scams)
+! Title: Risky Country Code - only proceed when you trust this website
 !
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
 ! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Risky%Country%Codes
 !
+||*.am^$doc
+||*.bd^$doc
+||*.cc^$doc
+||*.cf^$doc
 ||*.cm^$doc
 ||*.cn^$doc
-||*.ws^$doc
-||*.ph^$doc
-||*.su^$doc
-||*.tw^$doc
-||*.gq^$doc
-||*.ml^$doc
-||*.cf^$doc
-||*.tk^$doc
-||*.uz^$doc
-||*.ua^$doc
-||*.cc^$doc
-||*.ua^$doc
-||*.vn^$doc
-||*.kp^$doc
-||*.pw^$doc
 ||*.ga^$doc
-||*.sx^$doc
 ||*.gg^$doc
+||*.gq^$doc
+||*.ke^$doc
+||*.kp^$doc
 ||*.me^$doc
+||*.ml^$doc
+||*.ph^$doc
+||*.pw^$doc
+||*.su^$doc
+||*.sx^$doc
+||*.tk^$doc
+||*.tw^$doc
+||*.ua^$doc
+||*.ua^$doc
+||*.uz^$doc
+||*.vn^$doc
+||*.ws^$doc
+||*.zw^$doc
