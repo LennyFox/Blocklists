@@ -23,7 +23,7 @@
 ||*.cc^$doc
 ||*.ua^$doc
 ||*.vn^$doc
-||*.ko^$doc
+||*.kp^$doc
 ||*.pw^$doc
 ||*.ga^$doc
 ||*.sx^$doc
