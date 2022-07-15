@@ -1,7 +1,12 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2022 
+! Title: Risky Top Country Code (scams) - Goback or proceed with care! 
+!
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Risky%20Top%20Level%20Domains
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Risky%Country%Code
 !
 ||*.cm^$doc
 ||*.cn^$doc
