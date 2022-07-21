@@ -15,6 +15,7 @@
 ||*.casa/^$doc
 ||*.club/^$doc
 ||*.download/^$doc
+||*.info/^$doc
 ||*.live/^$doc
 ||*.loan/^$doc
 ||*.mobi/^$doc
