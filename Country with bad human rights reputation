@@ -26,10 +26,14 @@
 ||*.mm/*$document
 ||*.ng/*$document
 ||*.kp/*$document
+||*.om/*$document
 ||*.pk/*$document
 ||*.ph/*$document
 ||*.ru/*$document
+||*.sa/*$document
+||*.sd/*$document
 ||*.ss/*$document
+||*.so/*$document
 ||*.sy/*$document
 ||*.uz/*$document
 ||*.ve/*$document
