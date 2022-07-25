@@ -6,7 +6,7 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Country with bad human rights reputation
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Country%20with%20bad%20human%20rights%20reputation
 !
 ||*.af/*$document
 ||*.by/*$document
