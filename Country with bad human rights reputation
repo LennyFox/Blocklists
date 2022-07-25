@@ -1,0 +1,36 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2022 
+! Title: Country with bad human rights reputation - do you really want to go there?
+!
+! Expires: 365 days 
+! You are free to copy and distribute this file, but use at your own risk
+! 
+! https://raw.githubusercontent.com/LennyFox/Blocklists/master/Risky%Country%Codes
+!
+!
+||*.af/*$document
+||*.by/*$document
+||*.kh/*$document
+||*.cf/*$document
+||*.cn/*$document
+||*.cd/*$document
+||*.er/*$document
+||*.ef/*$document
+||*.in/*$document
+||*.id/*$document
+||*.ir/*$document
+||*.iq/*$document
+||*.ly/*$document
+||*.mr/*$document
+||*.mm/*$document
+||*.ng/*$document
+||*.kp/*$document
+||*.pk/*$document
+||*.ph/*$document
+||*.ru/*$document
+||*.ss/*$document
+||*.sy/*$document
+||*.uz/*$document
+||*.ve/*$document
+
