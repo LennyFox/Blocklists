@@ -29,6 +29,7 @@
 ||*.site/*$document
 ||*.stream/*$document
 ||*.surf/*$document
+||*.tk/*$document
 ||*.top/*$document
 ||*.trade/*$document
 ||*.travel/*$document
