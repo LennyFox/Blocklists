@@ -83,21 +83,3 @@ volkskrant.nl##.artstyle__loader.loading
 ||*/temptation.js$script,domain=www.volkskrant.nl
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
-
-! Pornhub
-||*$script,subdocument,domain=pornhub.com
-@@phncdn.com$script,domain=pornhub.com
-/_xa/ads?$domain=pornhub.com,important
-/_xa/ads_batch?ads=$xmlhttprequest,script,domain=pornhub.com,important
-pornhub.com##.ad-link
-pornhub.com##.realsex
-pornhub.com##.adsbytrafficjunky
-pornhub.com##.homePageAds
-pornhub.com###pb_block
-pornhub.com###cmtWrapper
-pornhub.com##[src^="bloB"][src*="porn"]
-pornhub.com##a[href^="http://ads.trafficjunky.net/"]
-pornhub.com#%#//scriptlet('set-constant', 'page_params.holiday_promo', 'true')
-pornhub.com#%#Object.defineProperty(window,'tj_ads',{get:function(){return[]}});
-pornhub.com#%#Object.defineProperty(window, 'UAParser', { get: function() { return function() { }; } });
-pornhub.com#%#Object.defineProperty(Object.prototype, 'loadPopUnder', { get: function(){ return function() {}; }, set: function(){ return function() {}; }});
