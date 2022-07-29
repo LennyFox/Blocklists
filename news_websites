@@ -35,6 +35,8 @@ nu.nl##.h1.banner--h1.banner
 @@akamaized.net$domain=rtlnieuws.nl
 @@rtl.nl$domain=rtlnieuws.nl
 rtlnieuws.nl##.dfp-billboard-wrapper
+rtlnieuws.nl##.six_articles_with_ad__ad
+rtlnieuws.nl###rtln-ad-advertorial
 
 ! bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
