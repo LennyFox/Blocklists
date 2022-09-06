@@ -85,3 +85,33 @@ volkskrant.nl##.artstyle__loader.loading
 ||*/temptation.js$script,domain=www.volkskrant.nl
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
+
+! Youtube
+||youtube.com/live_chat$domain=youtube.com
+||youtube.com/api/stats$domain=youtube.com
+||youtube.com/ptracking$domain=youtube.com
+||youtube.com/*/feedback$domain=youtube.com
+||youtube.com/*/pagead$domain=youtube.com
+||youtube.com/*adunit$domain=youtube.com
+||youtube.com/*event=$domain=youtube.com
+||youtube.com/*favicon$domain=youtube.com
+||youtube.com/*log_event$domain=youtube.com
+||youtube.com/*pagead-id.js$domain=youtube.com
+
+##.ytp-ad-progress-list$domain=youtube.com
+###player-ads$domain=youtube.com
+###offer-module$domain=youtube.com
+###merch-shelf$domain=youtube.com
+###masthead-ad$domain=youtube.com
+
+||google.*/js/bg/*.js$domain=youtube.com
+||gstatic.com/youtube/img/promos/*.jpeg$image,domain=youtube.com
+
+youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+
+! block media sources with "porn"in name
+*##[src^="bloB"][src*="porn"]
+||*$third-party,domain=pornhub.com|eporner.com,denyallow=phncdn.com
+
