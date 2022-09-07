@@ -1,0 +1,17 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2022 
+! Title: Videos (like Youtube) without ads
+!
+! Expires: 365 days 
+! You are free to copy and distribute this file, but use at your own risk
+
+! Youtube videos
+
+! Adult Videos
+*$third-party,domain=eporner.com
+*$popup,domain=eporner.com
+@@eporner.com$popup,domain=eporner.com
+*$script,domain=pornhub.com,denyallow=phncdn.com
+*$popup,domain=pornhub.com
+@@pornhub.com$popup,domain=pornhub.com
