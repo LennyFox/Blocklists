@@ -30,13 +30,16 @@
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+
 ! Adult Videos
 *$third-party,domain=eporner.com
 *$popup,domain=eporner.com
 @@eporner.com$popup,domain=eporner.com
+
 *$script,domain=pornhub.com,denyallow=phncdn.com
 *$popup,domain=pornhub.com
 @@pornhub.com$popup,domain=pornhub.com
+
 *$third-party,domain=xnxx.com,denyallow=xnxx-cdn.com
 *$popup,domain=xnxx.com
 @@pornhub.com$popup,domain=xnxx.com
