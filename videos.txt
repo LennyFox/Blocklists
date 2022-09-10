@@ -5,6 +5,9 @@
 !
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
+! 
+! This blocklist uses ABP format and UBO scriptlets, Adguard (even MV3) can process this alsp
+!
 
 ! Youtube videos
 ||youtube.com/live_chat$domain=youtube.com
@@ -30,16 +33,3 @@
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-
-! Adult Videos
-*$third-party,domain=eporner.com
-*$popup,domain=eporner.com
-@@eporner.com$popup,domain=eporner.com
-
-*$third-party,script,domain=pornhub.com,denyallow=phncdn.com
-*$popup,domain=pornhub.com
-@@pornhub.com$popup,domain=pornhub.com
-
-*$third-party,domain=xnxx.com,denyallow=xnxx-cdn.com
-*$popup,domain=xnxx.com
-@@xnxx.com$popup,domain=xnxx.com
