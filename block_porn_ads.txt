@@ -1,3 +1,11 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2022 
+! Title: Block porn ads
+!
+! Expires: 365 days 
+! You are free to copy and distribute this file, but use at your own risk
+! 
 ||50onred.com^$important
 ||adcash.com^$important
 ||adextrem.com^$important
@@ -76,3 +84,8 @@
 ||xlovecam.com^$important
 ||zeropark.com^$important
 ||znqip.org^
+
+!
+! Block irretating popups 
+!
+||*$popup,third-party,domain=eporner.com|pornhub.com|xnxx.com
