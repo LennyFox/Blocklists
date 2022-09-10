@@ -1,11 +1,12 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2022 
-! Title: Block porn ads
+! Title: Porn nuisances blocklist
 !
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
+! Block porn adnetworks 
 ||50onred.com^ 
 ||adcash.com^ 
 ||adextrem.com^ 
