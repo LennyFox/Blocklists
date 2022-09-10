@@ -16,11 +16,13 @@
 ||adworldmedia.com^ 
 ||adxxx.com^ 
 ||amateur.tv^ 
+||bettermates.com^
 ||big7.com^ 
 ||bongacams.com^ 
 ||cam4.com^ 
 ||camcontacts.com^ 
 ||cams.com^ 
+||camsfinder.com^
 ||camsoda.com^ 
 ||clickadilla.com^ 
 ||clickadu.com^ 
@@ -41,10 +43,12 @@
 ||hilltopads.com^ 
 ||imlive.com^ 
 ||islive.nl^ 
+||jasmin.com^ 
 ||jerkmate.com^ 
 ||juicyads.com^ 
 ||livejasmin.com^ 
 ||livesexasian.com^ 
+||luckycrush.live^ 
 ||maturescam.com^ 
 ||myfreecams.com^ 
 ||olecams.com^ 
@@ -60,11 +64,12 @@
 ||ragazzeinvendita.tv^ 
 ||roxyfoxy.com^ 
 ||sakuralive.com^ 
-||sexchat.hu
+||sexedchat.com^
 ||showup.tv^ 
 ||sisterads.com^ 
 ||skyprivate.com^ 
 ||slimspots.com^ 
+||slutroulette.com^ 
 ||squren.com^ 
 ||stripchat.com^ 
 ||thuis.nl^ 
@@ -84,3 +89,7 @@
 ||xlovecam.com^ 
 ||zeropark.com^ 
 ||znqip.org^ 
+
+! block popups and scripts of 10 pornwebsites
+||*$third-party,popup,script,domain=eporner.com|pornhub.com|xnxx.com|xvideos.com|xhamster.com|cumlouder.com|youporn.com|drtuber.com|thumbzilla.com|pornhd.com
+/.*cdn\.com.*/$script,domain=eporner.com|pornhub.com|xnxx.com|xvideos.com|xhamster.com|cumlouder.com|youporn.com|drtuber.com|thumbzilla.com|pornhd.com
