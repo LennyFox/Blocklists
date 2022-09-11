@@ -1,7 +1,7 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2022 
-! Title: Porn nuisances blocklist
+! Title: Porn blocklist
 !
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
@@ -91,6 +91,6 @@
 ||zeropark.com^ 
 ||znqip.org^ 
 
-! block popups and scripts of 10 porn websites 
+! block popups and scripts on 10 porn websites 
 ||*$third-party,popup,script,domain=eporner.com|pornhub.com|xnxx.com|xvideos.com|xhamster.com|cumlouder.com|youporn.com|drtuber.com|thumbzilla.com|pornhd.com
 @@/.*cdn\.com.*/$script,domain=eporner.com|pornhub.com|xnxx.com|xvideos.com|xhamster.com|cumlouder.com|youporn.com|drtuber.com|thumbzilla.com|pornhd.com
