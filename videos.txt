@@ -10,6 +10,8 @@
 !
 
 ! Youtube videos
+||ads.youtube.com$domain=youtube.com
+||youtube.cleverads.*$domain=youtube.com
 ||youtube.com/live_chat$domain=youtube.com
 ||youtube.com/api/stats$domain=youtube.com
 ||youtube.com/ptracking$domain=youtube.com
