@@ -36,6 +36,27 @@ rtlnieuws.nl##.dfp-billboard-wrapper
 rtlnieuws.nl##.six_articles_with_ad__ad
 rtlnieuws.nl###rtln-ad-advertorial
 
+! Volkskrant.nl
+||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
+||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
+||volkskrant.nl/analytics.js$script,domain=volkskrant.nl
+||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script,domain=volkskrant.nl
+||volkskrant.nl/*/collect$ping,xmlhttprequest,domain=volkskrant.nl
+volkskrant.nl###LOGIN_BIG_BOTTOM
+volkskrant.nl###NEWSLETTER_BOTTOM
+volkskrant.nl###LOGIN_TOP
+volkskrant.nl###top1
+volkskrant.nl###PURCHASE
+volkskrant.nl##div[class*="app-overlay"]
+volkskrant.nl##div[class*="ad- -layer"]
+volkskrant.nl##[class*="app-bottom-navigation"]
+volkskrant.nl##[class*="subscribe-bar"]
+volkskrant.nl##[class*="banner"]
+volkskrant.nl##.artstyle__loader.loading
+||*/temptation.js$script,domain=www.volkskrant.nl
+||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
+@@persgroep.net$image,domain=volkskrant
+
 ! bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
@@ -62,24 +83,3 @@ cnn.com##.ad--mobile
 cnn.com###scrollover-ad-wrap
 @@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
 @@||prebid.adnxs.com^$xmlhttprequest,domain=cnn.com
-
-! Volkskrant.nl
-||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
-||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
-||volkskrant.nl/analytics.js$script,domain=volkskrant.nl
-||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script,domain=volkskrant.nl
-||volkskrant.nl/*/collect$ping,xmlhttprequest,domain=volkskrant.nl
-volkskrant.nl###LOGIN_BIG_BOTTOM
-volkskrant.nl###NEWSLETTER_BOTTOM
-volkskrant.nl###LOGIN_TOP
-volkskrant.nl###top1
-volkskrant.nl###PURCHASE
-volkskrant.nl##div[class*="app-overlay"]
-volkskrant.nl##div[class*="ad- -layer"]
-volkskrant.nl##[class*="app-bottom-navigation"]
-volkskrant.nl##[class*="subscribe-bar"]
-volkskrant.nl##[class*="banner"]
-volkskrant.nl##.artstyle__loader.loading
-||*/temptation.js$script,domain=www.volkskrant.nl
-||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
-@@persgroep.net$image,domain=volkskrant
