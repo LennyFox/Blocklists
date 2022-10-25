@@ -81,5 +81,5 @@ cnn.com##.ad-2
 cnn.com##.ad-1
 cnn.com##.ad--mobile
 cnn.com###scrollover-ad-wrap
-@@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
-@@||prebid.adnxs.com^$xmlhttprequest,domain=cnn.com
+!@@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
+!@@||prebid.adnxs.com^$xmlhttprequest,domain=cnn.com
