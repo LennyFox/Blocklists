@@ -12,7 +12,7 @@ nos.nl##[id*="regio"]
 !
 ! DPG media
 ||dpgmedia.cloud/web-advertising^$domain=nu.nl|volkskrant.nl
-||config.dpns-notifications.com/configurations^$domain=nu.nl|volkskrant.nl
+!||config.dpns-notifications.com/configurations^$domain=nu.nl|volkskrant.nl
 ||bigdata.dpgmmservices.nl$third-party
 ||313.nl$third-party
 
@@ -28,10 +28,6 @@ nu.nl##.h1.banner--h1.banner
 
 !
 !RTL nieuws
-||*$third-party,domain=rtlnieuws.nl
-@@cookielaw.org$domain=rtlnieuws.nl
-@@akamaized.net$domain=rtlnieuws.nl
-@@rtl.nl$domain=rtlnieuws.nl
 rtlnieuws.nl##.dfp-billboard-wrapper
 rtlnieuws.nl##.six_articles_with_ad__ad
 rtlnieuws.nl###rtln-ad-advertorial
