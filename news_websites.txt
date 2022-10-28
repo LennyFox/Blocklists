@@ -9,6 +9,7 @@
 ! nos.nl
 ||ster.nl^
 nos.nl##[id*="regio"]
+nos.nl###ccm_notification_wrapper
 !
 ! DPG media
 ||dpgmedia.cloud/web-advertising^$domain=nu.nl|volkskrant.nl
