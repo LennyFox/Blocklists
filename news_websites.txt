@@ -24,8 +24,11 @@ nos.nl###ccm_notification_wrapper
 nu.nl##.block-wrapper-image.block-wrapper
 nu.nl###header
 nu.nl##.active.webpush-popup.overlay
+nu.nl##.overlay.webpush-popup.active
 nu.nl##.article-login-wall
 nu.nl##.h1.banner--h1.banner
+nu.nl###header > div.zone.clearfix
+nu.nl###app__container > div > div.modal-layer__page-behind > main > aside.banner.banner--h1.h1
 
 !
 !RTL nieuws
