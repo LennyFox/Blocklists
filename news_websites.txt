@@ -33,6 +33,7 @@ nu.nl###app__container > div > div.modal-layer__page-behind > main > aside.banne
 !
 !RTL nieuws
 rtlnieuws.nl##.dfp-billboard-wrapper
+rtlnieuws.nl###dfp-wrapper-billboard1
 rtlnieuws.nl##.six_articles_with_ad__ad
 rtlnieuws.nl###rtln-ad-advertorial
 
