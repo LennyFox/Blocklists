@@ -71,11 +71,13 @@ bbc.com##.bbccom_advert
 ||turner.com/analytics/comscore/$domain=cnn.com
 cnn.com##.user-msg
 cnn.com##.player-under-ad
+cnn.com##..ad-slot-header
 cnn.com##.player-leaderboard-ad-wrapper
 cnn.com##.ad-3
 cnn.com##.ad-2
 cnn.com##.ad-1
 cnn.com##.ad--mobile
 cnn.com###scrollover-ad-wrap
+cnn.com##..market-feature-ribbon__content
 !@@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
 !@@||prebid.adnxs.com^$xmlhttprequest,domain=cnn.com
