@@ -92,5 +92,5 @@
 ||znqip.org^ 
 
 ! block popups, scripts and links of/to 10 porn websites 
-||*$third-party,popup,script,subdocument,domain=eporner.com|pornhub.com|xnxx.com|xvideos.com|xhamster.com|cumlouder.com|youporn.com|drtuber.com|thumbzilla.com|pornhd.com
-@@/.*cdn\.com.*/$script,domain=eporner.com|pornhub.com|xnxx.com|xvideos.com|xhamster.com|cumlouder.com|youporn.com|drtuber.com|thumbzilla.com|pornhd.com
+||*$third-party,popup,script,subdocument,domain=eporner.com|pornhub.com|xnxx.com|xvideos.com|xhamster.com|cumlouder.com|youporn.com|drtuber.com|thumbzilla.com|hqporner.com
+@@/.*cdn\.com.*/$script,domain=eporner.com|pornhub.com|xnxx.com|xvideos.com|xhamster.com|cumlouder.com|youporn.com|drtuber.com|thumbzilla.com|hqporner.com
