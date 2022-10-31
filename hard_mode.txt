@@ -6,3 +6,7 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
+! block popups, scripts and iframes
+||*$third-party,popup,script,subdocument
+! allow websites with cdn (content delivery network)
+@@/.*cdn\.com.*/$script
