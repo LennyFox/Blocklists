@@ -18,17 +18,30 @@ nos.nl###ccm_notification_wrapper
 ||313.nl$third-party
 
 ! NU.nl
-||nu.nl/dpns_sw.js$script,domain=nu.nl
-||static.qmusic.be/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
+/advert-$domain=nu.nl
+/prebid.$domain=nu.nl
+@@||dev.visualwebsiteoptimizer.com/j.php
 ||*/newrelic.js$script,domain=embed.kijk.nl|nu.nl
-nu.nl##.block-wrapper-image.block-wrapper
-nu.nl###header
-nu.nl##.active.webpush-popup.overlay
-nu.nl##.overlay.webpush-popup.active
-nu.nl##.article-login-wall
-nu.nl##.h1.banner--h1.banner
-nu.nl###header > div.zone.clearfix
+||advertising-cdn.dpgmedia.cloud^
+||googletagmanager.com/gtm.js$third-party
+||js-agent.newrelic.com^
+||jwpltx.com^$third-party
+||nu.nl/dpns_sw.js$script,domain=nu.nl
+||nu.nl^$cookie=temptation-id
+||static.qmusic.be/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
 nu.nl###app__container > div > div.modal-layer__page-behind > main > aside.banner.banner--h1.h1
+nu.nl###header
+nu.nl###header > div.block.toast.adblocker
+nu.nl###header > div.zone.clearfix
+nu.nl##.active.webpush-popup.overlay
+nu.nl##.ad-placement
+nu.nl##.article-login-wall
+nu.nl##.banner
+nu.nl##.block-wrapper-image.block-wrapper
+nu.nl##.h1.banner--h1.banner
+nu.nl##.overlay.webpush-popup.active
+nu.nl##.tealium
+nu.nl##a[href*="/advertorial-"]
 
 !
 !RTL nieuws
@@ -70,19 +83,50 @@ bbc.com##div[class*="breaking-news-banner"]
 bbc.com##.bbccom_advert
 
 ! cnn.com
+###scrollover-ad-wrap
+##.ad-slot
+##.ad-slot-top
+##div[id^="ad_bnr_"]
+.com/ads/$image,object,subdocument,domain=~developers.google.com|~sabotage-films.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|cnn.com
+||adnxs.com^$redirect=nooptext
+||adsafeprotected.com^
+||amazon-adsystem.com^
+||amplify.outbrain.com/cp/obtp.js
+||bounceexchange.com^$third-party
+||cnn.com/*/adzones.*.bundle.js$script,domain=cnn.com
 ||cnn.com/ad/$domain=cnn.com
 ||cnn.com/ads/$domain=cnn.com
-||cnn.com/*/adzones.*.bundle.js$script,domain=cnn.com
+||cnn.com/optimizelyjs/*.js
+||cws.conviva.com^
+||d2uap9jskdzp2.cloudfront.net^
+||dianomi.com^$third-party
+||fwmrm.net^
+||googlesyndication.com/pagead/
+||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt
+||id5-sync.com^$third-party
+||krxd.net^$third-party
+||live.rezync.com^
+||ntv.io^
+||pubmatic.com^$third-party
+||rubiconproject.com^
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com
+||s-onetag.com^$third-party
+||spotxchange.com^
+||tremorhub.com^
 ||turner.com/analytics/comscore/$domain=cnn.com
-cnn.com##.user-msg
-cnn.com##.player-under-ad
-cnn.com##..ad-slot-header
-cnn.com##.player-leaderboard-ad-wrapper
-cnn.com##.ad-3
-cnn.com##.ad-2
-cnn.com##.ad-1
-cnn.com##.ad--mobile
+||ugdturner.com^$third-party
+||warnermediacdn.com/csm/*&caid=$xmlhttprequest,removeparam=caid,domain=cnn.com
 cnn.com###scrollover-ad-wrap
+cnn.com##..ad-slot-header
 cnn.com##..market-feature-ribbon__content
-!@@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
-!@@||prebid.adnxs.com^$xmlhttprequest,domain=cnn.com
+cnn.com##.ad
+cnn.com##.ad-1
+cnn.com##.ad-2
+cnn.com##.ad-3
+cnn.com##.ad--mobile
+cnn.com##.player-leaderboard-ad-wrapper
+cnn.com##.player-under-ad
+cnn.com##.user-msg
+cnn.com#%#(()=>{window.FAVE=window.FAVE||{};window.FAVE=new Proxy(window.FAVE,{set:(a,b,c,d)=>(a?.settings?.ads?.ssai?.prod?.clips?.enabled&&(a.settings.ads.ssai.prod.clips.enabled=!1),Reflect.set(a,b,c,d))})})();
+cnn.com#%#(function(){window.AdFuel={queueRegistry(){},destroySlots(){}}})();
