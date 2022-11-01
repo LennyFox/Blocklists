@@ -83,11 +83,6 @@ bbc.com##div[class*="breaking-news-banner"]
 bbc.com##.bbccom_advert
 
 ! cnn.com
-###scrollover-ad-wrap
-##.ad-slot
-##.ad-slot-top
-##div[id^="ad_bnr_"]
-.com/ads/$image,object,subdocument,domain=~developers.google.com|~sabotage-films.com
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|cnn.com
 ||adnxs.com^$redirect=nooptext
 ||adsafeprotected.com^
@@ -117,6 +112,12 @@ bbc.com##.bbccom_advert
 ||turner.com/analytics/comscore/$domain=cnn.com
 ||ugdturner.com^$third-party
 ||warnermediacdn.com/csm/*&caid=$xmlhttprequest,removeparam=caid,domain=cnn.com
+.com/ads/$image,object,subdocument,domain=cnn.com
+cnn.com###scrollover-ad-wrap
+cnn.com##.ad-slot
+cnn.com##.ad-slot-top
+cnn.com##.ad-slot-header
+cnn.com##div[id^="ad_bnr_"]
 cnn.com###scrollover-ad-wrap
 cnn.com##..ad-slot-header
 cnn.com##..market-feature-ribbon__content
