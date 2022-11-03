@@ -12,9 +12,12 @@ nos.nl##[id*="regio"]
 nos.nl###ccm_notification_wrapper
 !
 ! DPG media
-||dpgmedia.cloud/web-advertising^$domain=nu.nl|volkskrant.nl
-!||config.dpns-notifications.com/configurations^$domain=nu.nl|volkskrant.nl
+||advertising-cdn.dpgmedia.cloud^
+||advertising-module.api.dpgmedia.cloud^
+||dpgmedia.cloud/web-advertising^
+!||config.dpns-notifications.com/configurations^
 ||bigdata.dpgmmservices.nl$third-party
+||sp.dpgmedia.net^$third-party
 ||313.nl$third-party
 
 ! NU.nl
