@@ -33,6 +33,7 @@ nu.nl###app__container > div > div.modal-layer__page-behind > main > aside.banne
 nu.nl###header
 nu.nl###header > div.block.toast.adblocker
 nu.nl###header > div.zone.clearfix
+nu.nl###overlay.webpush-popup
 nu.nl##.active.webpush-popup.overlay
 nu.nl##.ad-placement
 nu.nl##.article-login-wall
