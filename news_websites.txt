@@ -81,6 +81,7 @@ bbc.com##div[class*="leaderboard-ad"]
 bbc.com###breaking-news-container
 bbc.com##div[class*="breaking-news-banner"]
 bbc.com##.bbccom_advert
+bbc.com###cookiePrompt > section.bbccookies-banner
 
 ! cnn.com
 ||cnn.com/*/adzones.*.bundle.js$script
