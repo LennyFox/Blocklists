@@ -90,22 +90,3 @@
 ||xlovecam.com^ 
 ||zeropark.com^ 
 ||znqip.org^ 
-
-! And the nastiest of them all
-##.adsbytrafficjunky
-/_xa/ads_batch?ads=$xmlhttprequest,script
-9908ww.com,adelaidepawnbroker.com,bztube.com,disputeresolutionfinance.uk,hotovs.com,insuredhome.org,nudegista.com,pornluck.com,vidd.se,redtube.*,youpornru.com,tube8.com,tube8.es,tube8.fr,tube8.net,pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion#%#//scriptlet('set-constant', 'page_params.holiday_promo', 'true')
-mirrorcreator.com,fullmatchesandshows.com,tinypic.com,tube8.com,youporn.*,pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion#%#Object.defineProperty(window, 'UAParser', { get: function() { return function() { }; } });
-pornhub.com#?##relatedVideosCenter > .wrapVideoBlock:has(> .videoSpiceVidsBlock span.bg-spice-badge)
-pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion##.realsex
-pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
-pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion#%#Object.defineProperty(Object.prototype, 'loadPopUnder', { get: function(){ return function() {}; }, set: function(){ return function() {}; }});
-pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion#%#Object.defineProperty(window,'tj_ads',{get:function(){return[]}});
-pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion#%#window.opera = true;
-pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion#?#.sectionWrapper > div.psWrapper[-ext-has="a.removeAdsStyle"]
-pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion#?#.sectionWrapper > div[class*=" "][-ext-has='> div[class]:only-child > a.removeAdLink']
-pornhub.com,pornhub.org,pornhub.net,pornhubthbh7ap3u.onion#?#body > .wrapper + div[class][-ext-has='> .removeAdLink']
-pornhub.com,pornhubpremium.com##a[href*="?ats="]
-pornhub.com##a[href^="http://ads.trafficjunky.net/"]
-@@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
-
