@@ -92,7 +92,7 @@
 ||zeropark.com^ 
 ||znqip.org^ 
 
-! Mitigate malware from top 5 adult websites
+! Mitigate top 5 adult websites
 /http:\/\/.*/$script,subdocument,important,domain=eporner.com|pornhub.com|xhamster.com|xnxx.com|xvideos.com
 /https:\/\/.*/$script,subdocument,domain=eporner.com|pornhub.com|xhamster.com|xnxx.com|xvideos.com
 @@/.*cdn.*\.com/$script,domain=eporner.com|pornhub.com|xhamster.com|xnxx.com|xvideos.com
