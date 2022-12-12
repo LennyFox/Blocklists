@@ -43,6 +43,17 @@ rtlnieuws.nl###dfp-wrapper-billboard1
 rtlnieuws.nl##.six_articles_with_ad__ad
 rtlnieuws.nl###rtln-ad-advertorial
 
+! AD.nl
+ad.nl##.advertising-container-top
+ad.nl##.dfp-space
+ad.nl##.dfp
+ad.nl###PURCHASE_HYBRID__OVERLAY
+ad.nl###remaining-paid-content
+||statics.ad.nl/js/advertising-*.js$domain=ad.nl
+||t.ad.nl/analytics.js$domain=ad.nl
+||temptation.ad.nl/temptation.js$domain=ad.nl
+||cmp.ad.nl/unified/wrapperMessagingWithoutDetection.js$domain=ad.nl
+
 ! Volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
 ||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
@@ -99,12 +110,13 @@ cnn.com##.ad-slot-rail
 ||warnermediacdn.com/csm/*&caid=$xmlhttprequest,removeparam=caid,domain=cnn.com
 
 ! DPG media
-||advertising-cdn.dpgmedia.cloud^
-||advertising-module.api.dpgmedia.cloud^
-||dpgmedia.cloud/web-advertising^
+||advertising-cdn.dpgmedia.cloud^$third-party
+||advertising-module.api.dpgmedia.cloud^$third-party
+||dpgmedia.cloud/web-advertising^$third-party
 !||config.dpns-notifications.com/configurations^
 ||bigdata.dpgmmservices.nl$third-party
 ||sp.dpgmedia.net^$third-party
+
 
 ! Generic third-party blocks for above websites
 ||313.nl^
