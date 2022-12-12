@@ -35,6 +35,7 @@ nu.nl##.h1.banner--h1.banner
 nu.nl##.overlay.webpush-popup.active
 nu.nl##.tealium
 nu.nl##a[href*="/advertorial-"]
+nu.nl##.block.advertoriallist
 
 !
 !RTL nieuws
@@ -42,6 +43,7 @@ rtlnieuws.nl##.dfp-billboard-wrapper
 rtlnieuws.nl###dfp-wrapper-billboard1
 rtlnieuws.nl##.six_articles_with_ad__ad
 rtlnieuws.nl###rtln-ad-advertorial
+rtlnieuws.nl#?#.autoscalable-block-wrapper:-abp-has(.entity-block-title:-abp-contains(Van onze partners))
 
 ! AD.nl
 ad.nl##.advertising-container-top
