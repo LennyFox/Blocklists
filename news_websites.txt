@@ -10,6 +10,7 @@
 ||ster.nl^
 nos.nl##[id*="regio"]
 nos.nl###ccm_notification_wrapper
+nos.nl###ccm_notification_host
 ||*/newrelic.js$script,domain=embed.kijk.nl
 
 ! NU.nl
