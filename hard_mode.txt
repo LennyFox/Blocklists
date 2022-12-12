@@ -1,13 +1,13 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2022 
-! Title: Switch ON=block all third-party, Switch-OFF=normal browsing
+! Title: Switch ON=block all scripts & iframes, Switch-OFF=normal browsing
 !
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
 ! block all scripts and subdocuments with one exception
 /http:\/\/./$script,subdocument,important
-/https:\/\/./$script,subdocument,third-party
+/https:\/\/./$script,subdocument
 ! allow websites with cdn (content delivery network
 @@cdn$script,domain=com|net
