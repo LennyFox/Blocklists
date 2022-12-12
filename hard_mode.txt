@@ -1,6 +1,6 @@
 [AdBlockPlus 2.0]
 !
-! Version: 2022 
+! Version: 2023 
 ! Title: Switch ON=block all scripts & iframes, Switch-OFF=normal browsing
 !
 ! Expires: 365 days 
