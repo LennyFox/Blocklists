@@ -90,8 +90,3 @@
 ||xlovecam.com^$important 
 ||zeropark.com^$important 
 ||znqip.org^$important 
-
-
-! Mitigate top 5 adult websites
-||*^$script,subdocument,domain=eporner.com|pornhub.com|xhamster.com|xnxx.com|xvideos.com
-@@/.*cdn.*\.com/$script,domain=eporner.com|pornhub.com|xhamster.com|xnxx.com|xvideos.com
