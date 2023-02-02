@@ -18,7 +18,8 @@
 ||amateur.tv^$important 
 ||bettermates.com^$important
 ||big7.com^$important 
-||bongacams.com^$important 
+||bongacams.com^$important
+||brightonclick.com^$important
 ||cam4.com^$important 
 ||camcontacts.com^$important 
 ||cams.com^$important 
