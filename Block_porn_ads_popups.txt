@@ -31,6 +31,7 @@
 ||clubislive.net^$important 
 ||datingfactory.com^$important 
 ||datinggold.com^$important 
+||doppiocdn.com^$important 
 ||eroadvertising.com^$important 
 ||ero-advertising.com^$important 
 ||etahub.com^$important 
