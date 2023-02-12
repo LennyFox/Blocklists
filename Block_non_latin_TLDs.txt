@@ -1,6 +1,6 @@
 [AdBlockPlus 2.0]
 !
-! Version: 2022 
+! Version: 2023 
 ! Title: Block non-latin Top Level Domains
 !
 ! Expires: 365 days 
