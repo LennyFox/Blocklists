@@ -166,3 +166,4 @@ cnn.com##.ad-slot-rail
 ||ad-delivery.net^
 ||usabilla.com^
 ||gigya.com^
+||btloader.com^
