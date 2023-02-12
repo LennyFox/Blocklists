@@ -118,7 +118,7 @@ cnn.com##.ad-slot-rail
 ||advertising-cdn.dpgmedia.cloud^$third-party
 ||advertising-module.api.dpgmedia.cloud^$third-party
 ||dpgmedia.cloud/web-advertising^$third-party
-!||config.dpns-notifications.com/configurations^
+||dpns-notifications.com^$third-party
 ||bigdata.dpgmmservices.nl$third-party
 ||sp.dpgmedia.net^$third-party
 
@@ -159,3 +159,10 @@ cnn.com##.ad-slot-rail
 ||s-onetag.com^
 ||spotxchange.com^
 ||tremorhub.com^
+||edigitalsurvey.com^
+||gscontxt.net^
+||piano.io^
+||the-ozone-project.com^
+||ad-delivery.net^
+||usabilla.com^
+||gigya.com^
