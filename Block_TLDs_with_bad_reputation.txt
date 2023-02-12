@@ -34,7 +34,6 @@
 ||*.work/^$document
 ||*.review/^$document
 ||*.info/^$document
-||*.review/^$document
 ||*.icu/^$document
 ||*.xyz/^$document
 ||*.sbs/^$document
