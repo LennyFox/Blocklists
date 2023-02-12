@@ -27,11 +27,14 @@
 ||*.om/^$document
 ||*.pk/^$document
 ||*.ph/^$document
+||*.pw/^$document
 ||*.ru/^$document
 ||*.sa/^$document
 ||*.sd/^$document
 ||*.ss/^$document
 ||*.so/^$document
 ||*.sy/^$document
+||*.tk/^$document
 ||*.uz/^$document
 ||*.ve/^$document
+||*.vg/^$document
