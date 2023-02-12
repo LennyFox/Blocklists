@@ -1,6 +1,6 @@
 [AdBlockPlus 2.0]
 !
-! Version: 2021 
+! Version: 2023 
 ! Title: Allow list for Dutch payment services
 
 ! Expires: 365 days 
