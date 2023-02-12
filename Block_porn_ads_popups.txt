@@ -55,10 +55,10 @@
 ||myfreecams.com^$all,important 
 ||olecams.com^$all,important 
 ||opoxv.com^$all,important 
-||playbuy.agency
-||polluxnet^$all,important work.com^$all,important 
-||popads.net^$all,important ^$all,important
-||popcash.net^$all,important ^$all,important
+||playbuy.agency^$all,important 
+||polluxnet^$all,important 
+||popads.net^$all,important
+||popcash.net^$all,important
 ||popmyads.com^$all,important 
 ||popunder.net^$all,important 
 ||propellerads.com^$all,important 
@@ -93,6 +93,6 @@
 ||zeropark.com^$all,important 
 ||znqip.org^$all,important 
 
-! Safe hard mode for top 5 pornwebsites (allowing content delivery networks)
+! Hard mode for top 5 pornwebsites allowing third-party content delivery networks only 
 ||*$third-party,domain=eporner.com|pornhub.com|xhamster.com|xnxx.com|xvideos.com
 @@*cdn.com$domain=pornhub.com|xhamster.com|xnxx.com|xvideos.com
