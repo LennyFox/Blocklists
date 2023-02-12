@@ -93,5 +93,5 @@
 ||znqip.org^$important 
 
 ! Safe hard mode for top 5 pornwebsites (allowing content delivery networks)
-||*$third-party,domain=eporner.com|pornhub.com|xhanster.com|xnxx.com|xvideos.com
-@@*cdn.com$domain=pornhub.com|xhanster.com|xnxx.com|xvideos.com
+||*$third-party,domain=eporner.com|pornhub.com|xhamster.com|xnxx.com|xvideos.com
+@@*cdn.com$domain=pornhub.com|xhamster.com|xnxx.com|xvideos.com
