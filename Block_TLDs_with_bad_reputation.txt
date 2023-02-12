@@ -1,0 +1,52 @@
+[AdBlockPlus 2.0]
+!
+! Version: 2023 
+! Title: Block websites from Top Level Domains with bad reputation
+!
+! Expires: 365 days 
+! You are free to copy and distribute this file, but use at your own risk
+! 
+!
+||*.adult/^$document
+||*.porn/^$document
+||*.sex/^$document
+||*.sexy/^$document
+||*.xxx/^$document
+||*.webcam/^$document
+||*.cam/^$document
+||*.live/^$document
+||*.date/^$document
+||*.cyou/^$document
+||*.casino/^$document
+||*.poker/^$document
+||*.bet/^$document
+||*.best/^$document
+||*.win/^$document
+||*.racing/^$document
+||*.top/^$document
+||*.uno/^$document
+||*.support/^$document
+||*.help/^$document
+||*.email/^$document
+||*.stream/^$document
+||*.surf/^$document
+||*.site/^$document
+||*.work/^$document
+||*.review/^$document
+||*.info/^$document
+||*.review/^$document
+||*.icu/^$document
+||*.xyz/^$document
+||*.sbs/^$document
+||*.bid/^$document
+||*.moe/^$document
+||*.casa/^$document
+||*.club/^$document
+||*.rest/^$document
+||*.life/^$document
+||*.quest/^$document
+||*.gives^$document
+||*.fit/^$document
+||*.monster/^$document
+||*.tokyo/^$document
+||*.asia/^$document
