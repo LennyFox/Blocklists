@@ -81,6 +81,8 @@ volkskrant.nl##.artstyle__loader.loading
 ||*/temptation.js$script,domain=www.volkskrant.nl
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 
+! VI.nl
+@@||cmp.quantcast.com/choice/*/*vi.nl/choice.js$script,domain=vi.nl
 
 ! bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
