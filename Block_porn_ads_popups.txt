@@ -40,7 +40,7 @@
 ||exosrv.com^$all,important 
 ||exoticads.com^$all,important 
 ||flirt4free.com^$all,important 
-||flirtymania.plus
+||flirtymania.plus^$all,important
 ||fpctraffic.com^$all,important 
 ||hilltopads.com^$all,important 
 ||imlive.com^$all,important 
