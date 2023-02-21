@@ -17,9 +17,8 @@ nos.nl###ccm_notification_host
 @@||dev.visualwebsiteoptimizer.com/j.php
 /advert-$domain=nu.nl
 /prebid.$domain=nu.nl
-||*/newrelic.js$script,domain=|nu.nl
+||*/newrelic.js$script,domain=nu.nl
 ||nu.nl/dpns_sw.js$script,domain=nu.nl
-||nu.nl^$cookie=temptation-id
 ||static.qmusic.be/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
 nu.nl###app__container > div > div.modal-layer__page-behind > main > aside.banner.banner--h1.h1
 nu.nl###header
@@ -103,8 +102,6 @@ bbc.com##.bbccom_advert
 ||cnn.com/optimizelyjs/*.js
 ||cnn.com/ads/$image,object,subdocument
 ||cnn.com/media/sites/js/bundles/cnn-edition-adfuel.*.js
-cnn.com#%#(()=>{window.FAVE=window.FAVE||{};window.FAVE=new Proxy(window.FAVE,{set:(a,b,c,d)=>(a?.settings?.ads?.ssai?.prod?.clips?.enabled&&(a.settings.ads.ssai.prod.clips.enabled=!1),Reflect.set(a,b,c,d))})})();
-cnn.com#%#(function(){window.AdFuel={queueRegistry(){},destroySlots(){}}})();
 cnn.com##.ad
 cnn.com##div[id^="ad_bnr_"]
 cnn.com###scrollover-ad-wrap
