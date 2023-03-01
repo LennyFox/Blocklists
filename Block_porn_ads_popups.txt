@@ -93,6 +93,3 @@
 ||zeropark.com^$all,important 
 ||znqip.org^$all,important 
 
-! Hard mode for top 5 pornwebsites allowing third-party content delivery networks only 
-||*$third-party,domain=eporner.com|pornhub.com|xhamster.com|xnxx.com|xvideos.com
-@@*cdn.com$script,media,image,stylesheet,domain=pornhub.com|xhamster.com|xnxx.com|xvideos.com
