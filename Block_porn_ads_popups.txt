@@ -81,8 +81,8 @@
 ||traffichaus.com^$all,important 
 ||traffichunt.com^$all,important 
 ||trafficjunky.com^$all,important 
-||trafficjunky.net^$all,important 
-||trafficstars.com^$all,important 
+||trafficjunky.net^$all,important,popunder 
+||trafficstars.com^$all,important,popunder 
 ||tsdates.com^$all,important 
 ||tsyndicate.com^$all,important 
 ||tubecorporate.com^$all,important 
