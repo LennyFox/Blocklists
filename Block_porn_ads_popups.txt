@@ -76,6 +76,7 @@
 ||squren.com^$important 
 ||stripchat.com^$important 
 ||thuis.nl^$important 
+||trafficfactory.biz^$important 
 ||trafficfactory.com^$important 
 ||trafficforce.com^$important 
 ||traffichaus.com^$important 
