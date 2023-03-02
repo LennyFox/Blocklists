@@ -106,12 +106,5 @@
 ||zeropark.com^$important
 ||znqip.org^$important
 
-! Block third-party on 5 largest porn websites (works on AdGuard and uBlockOrigin)
-||*$third-party,domain=pornhub.com,denyallow=phncdn.com
-||*$third-party,domain=xhamster.com,denyallow=xnxx-cdn.com
-||*$third-party,domain=xvideos.com,denyallow=xvideos-cdn.com
-||*$third-party,domain=xnxx.com,denyallow=xnxx-cdn.com
-||*$third-party,domain=eporner.com
-
 ! Block annoying popups and popunders of some adnetworks redirecting to porn (works only for uBlockOrigin)
-||*$popup,popunder,to=trafficjunky.net|tsyndicate.com|opoxv.com
+||*$popup,popunder,to=trafficjunky.net|tsyndicate.com|opoxv.com,important
