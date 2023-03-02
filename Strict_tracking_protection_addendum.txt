@@ -6,28 +6,164 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-! Block advertisements and trackers which are allowed in STRICT tracking protection
+! --- Amazon
+||adtago.s3.amazonaws.com^$third-party
+||analyticsengine.s3.amazonaws.com^$third-party
+||analytics.s3.amazonaws.com^$third-party
+||advice-ads.s3.amazonaws.com^$third-party
+||advertising-api-eu.amazon.com^$third-party
+||amazon-adsystem.com^$third-party
+
+! --- Google Ads
+||pagead2.googlesyndication.com^$third-party
+||adservice.google.com^$third-party
+||pagead2.googleadservices.com^$third-party
+||afs.googlesyndication.com^$third-party
+||googlesyndication.com/pagead/^$third-party
+
+! --- Doubleclick.net
+||stats.g.doubleclick.net^$third-party
+||ad.doubleclick.net^$third-party
+||static.doubleclick.net^$third-party
+||m.doubleclick.net^$third-party
+||mediavisor.doubleclick.net^$third-party
+
+! --- Adcolony
+||ads30.adcolony.com^$third-party
+||adc3-launch.adcolony.com^$third-party
+||events3alt.adcolony.com^$third-party
+||wd.adcolony.com^$third-party
+||events3alt.adcolony.com^$third-party
+
+! --- Media.net
+||static.media.net^$third-party
+||media.net^$third-party
+||adservetx.media.net^$third-party
+
+
+!========= Analytics ==========
+
+! --- Google Analytics
+||app-measurement.com^$third-party
+||analytics.google.com^$third-party
+||click.googleanalytics.com^$third-party
+||google-analytics.com^$third-party
+||ssl.google-analytics.com^$third-party
+
+! --- Hotjar
+||adm.hotjar.com^$third-party
+||identify.hotjar.com^$third-party
+||insights.hotjar.com^$third-party
+||script.hotjar.com^$third-party
+||surveys.hotjar.com^$third-party
+||careers.hotjar.com^$third-party
+||events.hotjar.io^$third-party
+
+! --- MouseFlow
+||mouseflow.com^$third-party
+||api.mouseflow.com^$third-party
+||tools.mouseflow.com^$third-party
+||cdn-test.mouseflow.com^$third-party
+
+! --- FreshWorks
+||freshmarketer.com^$third-party
+||claritybt.freshmarketer.com^$third-party
+||fwtracks.freshmarketer.com^$third-party
+
+! --- Luckyorange
+||luckyorange.com^$third-party
+||api.luckyorange.com^$third-party
+||realtime.luckyorange.com^$third-party
+||cdn.luckyorange.com^$third-party
+||w1.luckyorange.com^$third-party
+||upload.luckyorange.net^$third-party
+||cs.luckyorange.net^$third-party
+||settings.luckyorange.net^$third-party
+
+! --- Stats WP Plugin
+||stats.wp.com^$third-party
+
+!====== Social Trackers =======
+
+! --- Facebook
+||pixel.facebook.com^$third-party
+||an.facebook.com^$third-party
+
+! --- Twitter
+||analytics.twitter.com^$third-party
+||static.ads-twitter.com^$third-party
+||ads-api.twitter.com^$third-party
+||ads.twitter.com^$third-party
+
+! --- LinkedIn
+||ads.linkedin.com^$third-party
+||analytics.pointdrive.linkedin.com^$third-party
+
+! --- Pinterest
+||ads.pinterest.com^$third-party
+||log.pinterest.com^$third-party
+||analytics.pinterest.com^$third-party
+||trk.pinterest.com^$third-party
+||widgets.pinterest.com^$third-party
+
+! --- Reddit
+||events.reddit.com^$third-party
+||events.redditmedia.com^$third-party
+
+! --- TikTok
+||ads-api.tiktok.com^$third-party
+||analytics.tiktok.com^$third-party
+||ads-sg.tiktok.com^$third-party
+||analytics-sg.tiktok.com^$third-party
+||analytics.tiktok.com^$third-party
+||business-api.tiktok.com^$third-party
+||ads.tiktok.com^$third-party
+
+! --- Yahoo
+||ads.yahoo.com^$third-party
+||analytics.yahoo.com^$third-party
+||geo.yahoo.com^$third-party
+||udc.yahoo.com^$third-party
+||udcm.yahoo.com^$third-party
+||advertising.yahoo.com^$third-party
+||analytics.query.yahoo.com^$third-party
+||partnerads.ysm.yahoo.com^$third-party
+||log.fc.yahoo.com^$third-party
+||gemini.yahoo.com^$third-party
+||adtech.yahooinc.com^$third-party
+
+! --- Yandex
+||extmaps-api.yandex.net^$third-party
+||appmetrica.yandex.ru^$third-party
+||adfstat.yandex.ru^$third-party
+||metrika.yandex.ru^$third-party
+||advertising.yandex.ru^$third-party
+||offerwall.yandex.net^$third-party
+||adfox.yandex.ru^$third-party
+
+! --- Unity
+||auction.unityads.unity3d.com^$third-party
+||webview.unityads.unity3d.com^$third-party
+||config.unityads.unity3d.com^$third-party
+||adserver.unityads.unity3d.com^$third-party
+
+
+!============ Mix =============
 ||313.nl^$third-party
 ||ad-delivery.net^$third-party
 ||adnxs.com^$third-party$redirect=nooptext
 ||adsafeprotected.com^$third-party
-||amazon-adsystem.com^$third-party
 ||amplify.outbrain.com/cp/obtp.js
-||bing.com^$third-party
 ||bitmovin.com^$third-party
 ||bounceexchange.com^$third-party
 ||btloader.com^$third-party
 ||conviva.com^$third-party
 ||dianomi.com^$third-party
 ||dotmetrics.net^$third-party
-||doubleclick.net^$third-party
 ||edigitalsurvey.com^$third-party
 ||fwmrm.net^$third-party
 ||gigya.com^$third-party
 ||google.nl^$third-party
-||googlesyndication.com/pagead/
-||googletagmanager.com/gtm.js
-||googletagservices.com/tag/js/gpt.js
 ||gscontxt.net^$third-party
 ||id5-sync.com^$third-party
 ||ingestion.contentinsights.com^$third-party
@@ -50,6 +186,8 @@
 ||spotxchange.com^$third-party
 ||the-ozone-project.com^$third-party
 ||tremorhub.com^$third-party
-||usabilla.com^$third-party
+
+!=== search engines
+||bing.com^$third-party
 ||yahoo.com^$third-party
 ||Yandex.com^$third-party
