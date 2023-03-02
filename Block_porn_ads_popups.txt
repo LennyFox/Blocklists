@@ -113,9 +113,5 @@
 ||*$third-party,domain=xnxx.com,denyallow=xnxx-cdn.com
 ||*$third-party,domain=eporner.com
 
-! Block annoying popups and popunders on 5 largest porn websites (works only for uBlockOrigin)
-||*$popup,popunder,from=pornhub.com,,to=~pornhub.com
-||*$popup,popunder,from=xhamster.com,to=~xhamster.com
-||*$popup,popunder,from=xnxx.com,to=~xnxx.com
-||*$popup,popunder,from=xvideos.com,to=~xvideos.com
-||*$popup,popunder,from=eporner.com,to=~eporner.com
+! Block annoying popups and popunders of some adnetworks redirecting to porn (works only for uBlockOrigin)
+||*$popup,popunder,to=trafficjunky.net|tsyndicate.com|opoxv.com
