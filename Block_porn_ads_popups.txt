@@ -64,7 +64,7 @@
 ||orbsrv.com^$important
 ||pics-city.space^$important
 ||playbuy.agency^$important
-||polluxnet^$important
+||polluxnet.com^$important
 ||popads.net^$important
 ||popcash.net^$important
 ||popmyads.com^$important
@@ -77,6 +77,7 @@
 ||realsrv.com^$important
 ||roxyfoxy.com^$important
 ||sakuralive.com^$important
+||sexchat.hu^$important
 ||sexedchat.com^$important
 ||showup.tv^$important
 ||sisterads.com^$important
