@@ -22,23 +22,16 @@
 ||afs.googlesyndication.com^$third-party
 
 ! --- Doubleclick.net
-||stats.g.doubleclick.net^$third-party
-||ad.doubleclick.net^$third-party
-||static.doubleclick.net^$third-party
-||m.doubleclick.net^$third-party
-||mediavisor.doubleclick.net^$third-party
+||doubleclick.net^$third-party
+
+! --- Scorecardresearch
+||scorecardresearch.com^$third-party
 
 ! --- Adcolony
-||ads30.adcolony.com^$third-party
-||adc3-launch.adcolony.com^$third-party
-||events3alt.adcolony.com^$third-party
-||wd.adcolony.com^$third-party
-||events3alt.adcolony.com^$third-party
+||adcolony.com^$third-party
 
 ! --- Media.net
-||static.media.net^$third-party
 ||media.net^$third-party
-||adservetx.media.net^$third-party
 
 
 !========= Analytics ==========
@@ -61,24 +54,13 @@
 
 ! --- MouseFlow
 ||mouseflow.com^$third-party
-||api.mouseflow.com^$third-party
-||tools.mouseflow.com^$third-party
-||cdn-test.mouseflow.com^$third-party
 
 ! --- FreshWorks
 ||freshmarketer.com^$third-party
-||claritybt.freshmarketer.com^$third-party
-||fwtracks.freshmarketer.com^$third-party
 
 ! --- Luckyorange
 ||luckyorange.com^$third-party
-||api.luckyorange.com^$third-party
-||realtime.luckyorange.com^$third-party
-||cdn.luckyorange.com^$third-party
-||w1.luckyorange.com^$third-party
-||upload.luckyorange.net^$third-party
-||cs.luckyorange.net^$third-party
-||settings.luckyorange.net^$third-party
+||luckyorange.net^$third-party
 
 ! --- Stats WP Plugin
 ||stats.wp.com^$third-party
@@ -119,12 +101,9 @@
 ||ads.tiktok.com^$third-party
 
 ! --- Unity
-||auction.unityads.unity3d.com^$third-party
-||webview.unityads.unity3d.com^$third-party
-||config.unityads.unity3d.com^$third-party
-||adserver.unityads.unity3d.com^$third-party
+||unityads.unity3d.com^$third-party
 
-!============ Mix =============
+! --- Mix
 ||313.nl^$third-party
 ||ad-delivery.net^$third-party
 ||adnxs.com^$third-party$redirect=nooptext
@@ -152,9 +131,8 @@
 ||pushengage.com^$third-party
 ||rezync.com^$third-party
 ||rubiconproject.com^$third-party
-||scorecardresearch.com^$third-party
-||segemnt.com^$third-party
-||segemnt.io^$third-party
+||segment.com^$third-party
+||segment.io^$third-party
 ||sentry.io^$third-party
 ||smartclip.net^$third-party
 ||smartocto.com^$third-party
