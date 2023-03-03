@@ -153,6 +153,8 @@
 ||rezync.com^$third-party
 ||rubiconproject.com^$third-party
 ||scorecardresearch.com^$third-party
+||segemnt.com^$third-party
+||segemnt.io^$third-party
 ||sentry.io^$third-party
 ||smartclip.net^$third-party
 ||smartocto.com^$third-party
