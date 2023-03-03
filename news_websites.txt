@@ -89,6 +89,8 @@ volkskrant.nl##.artstyle__loader.loading
 /breakingNewsBanner.js$domain=bbc.com
 bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc)
 bbc.com###dotcom-leaderboard
+bbc.com##.nw-c-leaderboard-ad
+bbc.com##.leaderboard-ad-placeholder.bbccom_slot
 bbc.com##div[class*="leaderboard-ad"]
 bbc.com###breaking-news-container
 bbc.com##div[class*="breaking-news-banner"]
