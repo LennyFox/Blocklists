@@ -6,20 +6,34 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-! --- Amazon
-||adtago.s3.amazonaws.com^$third-party
-||analyticsengine.s3.amazonaws.com^$third-party
-||analytics.s3.amazonaws.com^$third-party
-||advice-ads.s3.amazonaws.com^$third-party
-||advertising-api-eu.amazon.com^$third-party
-||amazon-adsystem.com^$third-party
-
-! --- Google Ads
+! --- Google 
 ||googlesyndication.com/pagead/^$third-party
 ||pagead2.googlesyndication.com^$third-party
 ||adservice.google.com^$third-party
 ||pagead2.googleadservices.com^$third-party
 ||afs.googlesyndication.com^$third-party
+||google.com/adsense^$third-party
+
+||app-measurement.com^$third-party
+||analytics.google.com^$third-party
+||googleanalytics.com^$third-party
+||google-analytics.com^$third-party 
+
+||googletagmanager.com^$third-party
+||googleoptimize.com^$third-party
+
+! --- Facebook
+||pixel.facebook.com^$third-party
+||an.facebook.com^$third-party
+
+! --- Hotjar
+||adm.hotjar.com^$third-party
+||identify.hotjar.com^$third-party
+||insights.hotjar.com^$third-party
+||script.hotjar.com^$third-party
+||surveys.hotjar.com^$third-party
+||careers.hotjar.com^$third-party
+||events.hotjar.io^$third-party
 
 ! --- Doubleclick.net
 ||doubleclick.net^$third-party
@@ -33,25 +47,6 @@
 ! --- Media.net
 ||media.net^$third-party
 
-
-!========= Analytics ==========
-
-! --- Google Analytics
-||app-measurement.com^$third-party
-||analytics.google.com^$third-party
-||click.googleanalytics.com^$third-party
-||google-analytics.com^$third-party
-||ssl.google-analytics.com^$third-party
-
-! --- Hotjar
-||adm.hotjar.com^$third-party
-||identify.hotjar.com^$third-party
-||insights.hotjar.com^$third-party
-||script.hotjar.com^$third-party
-||surveys.hotjar.com^$third-party
-||careers.hotjar.com^$third-party
-||events.hotjar.io^$third-party
-
 ! --- MouseFlow
 ||mouseflow.com^$third-party
 
@@ -64,12 +59,6 @@
 
 ! --- Stats WP Plugin
 ||stats.wp.com^$third-party
-
-!====== Social Trackers =======
-
-! --- Facebook
-||pixel.facebook.com^$third-party
-||an.facebook.com^$third-party
 
 ! --- Twitter
 ||analytics.twitter.com^$third-party
@@ -102,6 +91,14 @@
 
 ! --- Unity
 ||unityads.unity3d.com^$third-party
+
+! --- Amazon
+||adtago.s3.amazonaws.com^$third-party
+||analyticsengine.s3.amazonaws.com^$third-party
+||analytics.s3.amazonaws.com^$third-party
+||advice-ads.s3.amazonaws.com^$third-party
+||advertising-api-eu.amazon.com^$third-party
+||amazon-adsystem.com^$third-party
 
 ! --- Mix
 ||313.nl^$third-party
