@@ -41,6 +41,9 @@
 ! --- Scorecardresearch
 ||scorecardresearch.com^$third-party
 
+! --- CloudflareAnalytics
+||cloudflareanalytics.com^$third-party
+
 ! --- Adcolony
 ||adcolony.com^$third-party
 
