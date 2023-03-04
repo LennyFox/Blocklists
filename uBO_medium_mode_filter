@@ -14,6 +14,7 @@
 ||adcolony.com^$third-party
 ||ad-delivery.net^$third-party
 ||adform.net^$third-party
+||adhese.com^$third-party
 ||adnxs.com^$third-party
 ||adnxs.com^$third-party$redirect=nooptext
 ||ads.linkedin.com^$third-party
@@ -23,6 +24,7 @@
 ||adsafeprotected.com^$third-party
 ||ads-api.tiktok.com^$third-party
 ||ads-api.twitter.com^$third-party
+||adscale.com^$third-party
 ||adservice.google.com^$third-party
 ||adsrvr.org^$third-party
 ||ads-sg.tiktok.com^$third-party
@@ -60,6 +62,7 @@
 ||clean.gg^$third-party
 ||cloudflareanalytics.com^$third-party
 ||conviva.com^$third-party
+||crazyegg.com^$third-party
 ||cxense.com^$third-party
 ||d2uap9jskdzp2.cloudfront.net^$third-party
 ||demdex.net^$third-party
@@ -115,11 +118,14 @@
 ||outbrainimg.com^$third-party
 ||pexi.nl^$third-party
 ||piano.io^$third-party
+||polyfill.io^$third-party
+||popt.in^$third-party
 ||pubmatic.com^$third-party
 ||pushengage.com^$third-party
 ||quantcount.com^$third-party
 ||quantserve.com^$third-party
 ||rezync.com^$third-party
+||robinhq.com^$third-party
 ||rubiconproject.com^$third-party
 ||scorecardresearch.com^$third-party
 ||segment.com^$third-party
@@ -129,6 +135,7 @@
 ||smartocto.com^$third-party
 ||s-onetag.com^$third-party
 ||spotxchange.com^$third-party
+||squeezely.tech^$third-party
 ||static.ads-twitter.com^$third-party
 ||stats.wp.com^$third-party
 ||stickyadstv.com^$third-party
@@ -138,6 +145,8 @@
 ||trk.pinterest.com^$third-party
 ||unityads.unity3d.com^$third-party
 ||usabilla.com^$third-party
+||userzoom.com^$third-party
+||visualwebsiteoptimizer.com^$third-party
 ||widgets.pinterest.com^$third-party
 ||yahoo.com^$third-party
 ||Yandex.com^$third-party
