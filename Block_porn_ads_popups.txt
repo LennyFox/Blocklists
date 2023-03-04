@@ -110,7 +110,7 @@
 ! Block annoying popups and popunders of some adnetworks redirecting to porn (works only for uBlockOrigin)
 ||*$popup,popunder,to=trafficjunky.net|tsyndicate.com|opoxv.com,important
 
-! Generic blocks preventing pre-loading and popu-ups
+! Generic blocks preventing pre-loading and popups
 /ads_batch?ads=true
 /service-worker-fake.js
 /dot/pop4.php
