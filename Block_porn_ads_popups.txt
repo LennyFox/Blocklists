@@ -111,8 +111,8 @@
 ||*$popup,popunder,to=trafficjunky.net|tsyndicate.com|opoxv.com,important
 
 ! Generic blocks preventing pre-loading and popu-ups
-||*/ads_batch?ads=true$1p
-||*/service-worker-fake.js$1p
-||*/dot/pop4.php$1p
-||*/widgets-live-popup.js$3p
-||*/htmlPauseRoll/pb_block.js$3p
+||*/ads_batch?ads=true
+||*/service-worker-fake.js
+||*/dot/pop4.php
+||*/widgets-live-popup.js
+||*/htmlPauseRoll/pb_block.js
