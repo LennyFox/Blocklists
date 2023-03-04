@@ -111,8 +111,11 @@
 ||*$popup,popunder,to=trafficjunky.net|tsyndicate.com|opoxv.com,important
 
 ! Generic blocks preventing pre-loading and popu-ups
-||*/ads_batch?ads=true
-||*/service-worker-fake.js
-||*/dot/pop4.php
-||*/widgets-live-popup.js
-||*/htmlPauseRoll/pb_block.js
+/ads_batch?ads=true
+/service-worker-fake.js
+/dot/pop4.php
+/widgets-live-popup.js
+*/htmlPauseRoll/pb_block.js
+
+! Fool porn websites with promo action
+/.*porn.*/##+js(set-constant, page_params.holiday_promo, true)
