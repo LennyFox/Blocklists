@@ -1,7 +1,7 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2023 
-! Title: Switch ON=block all scripts & iframes, Switch-OFF=normal browsing
+! Title: Block unsafe code from HTTP (insecure) websites
 !
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
