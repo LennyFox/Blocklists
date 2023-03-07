@@ -1,7 +1,7 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2023 
-! Title: Block websites from countries with bad reputation
+! Title: Warn for websites from countries with bad reputation
 !
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
