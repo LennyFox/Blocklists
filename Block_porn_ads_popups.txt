@@ -63,6 +63,7 @@
 ||opoxv.com^$important
 ||orbsrv.com^$important
 ||pics-city.space^$important
+||picsofdream.space^$important
 ||playbuy.agency^$important
 ||polluxnet.com^$important
 ||popads.net^$important
