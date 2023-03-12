@@ -27,7 +27,7 @@
 ||*$popup,popunder,to=trafficjunky.net|tsyndicate.com|opoxv.com|realsrv.com|twinrdsrv.com,important
 
 ! Contain some adult websites for `safe browsing
-||*$third-party,domain=3Movs.com|4Tube.com|AnyPorn.com|CollectionOfBestPorn.com|EmpFlix.com|Eporner.com|Fux.com|MomPornOnly.com|PornDoe.com|PornFeat.com|PornOne.com|Porntube.com|Pornwhite.com|SexTVx.com|
+||*$third-party,domain=3Movs.com|4Tube.com|AnyPorn.com|CollectionOfBestPorn.com|EmpFlix.com|Eporner.com|Fux.com|MomPornOnly.com|PornDoe.com|PornFeat.com|PornOne.com|Porntube.com|Pornwhite.com|SexTVx.com
 ||*$third-party,script,subdocument,domain=CumLouder.com|lecoinporno.fr|PornDig.com|PornHat.com|PornHits.com
 ||*$third-party,domain=Analdin.com,denyallow=ahcdn.com
 ||*$third-party,domain=AnySex.com,denyallow=cdn
