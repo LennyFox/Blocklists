@@ -30,7 +30,7 @@
 ||*$third-party,domain=3Movs.com|4Tube.com|AnyPorn.com|CollectionOfBestPorn.com|EmpFlix.com|Eporner.com|Fux.com
 ||*$third-party,domain=MomPornOnly.com|PornDoe.com|PornFeat.com|PornOne.com|Porntube.com|Pornwhite.com|SexTVx.com
 ||*$third-party,script,subdocument,domain=CumLouder.com|lecoinporno.fr|PornDig.com|PornHat.com|PornHits.com
-||*$third-party,domain=PornHub.com|tube8.com|redtube.com|pornmd.com|thumbzilla.com,denyallow=phncdn.com|t8cdn.com|rdtcdn.com|ypncdn.com|jquery.com
+||*$third-party,domain=PornHub.com|tube8.com|redtube.com|pornmd.com|youporn.com,denyallow=phncdn.com|t8cdn.com|rdtcdn.com|ypncdn.com
 ||*$third-party,domain=Analdin.com,denyallow=ahcdn.com
 ||*$third-party,domain=drTubber.com.com,denyallow=drtst.com
 ||*$third-party,domain=Porn00.com,denyallow=b-cdn.net
@@ -40,5 +40,5 @@
 ||*$third-party,domain=Xvideos.com,denyallow=xvideos-cdn.com
 
 ! Fool websites with promo action
-pornhub.com##+js(set-constant, page_params.holiday_promo, true)
+pornhub.com,tube8.com,redtube.com,youpor,##+js(set-constant, page_params.holiday_promo, true)
 
