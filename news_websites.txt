@@ -89,6 +89,8 @@ bbc.com##div[class*="leaderboard-ad"]
 bbc.com###breaking-news-container
 bbc.com##div[class*="breaking-news-banner"]
 bbc.com##.bbccom_advert
+bbc.com##.zephr-wrapper
+bbc.com##.zephr-overlay
 
 ! cnn.com
 @@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
