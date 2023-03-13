@@ -9,11 +9,11 @@
 ! block content of adult advertising networks (works on AdBlock, AdBlockPlus, AdGuard and uBlockOrigin) 
 
 ! Hard and medium mode containment for 30 adult websites (works on AdGuard and uBlockOrigin)
-||*$third-party,domain=3Movs.com|4Tube.com|AnyPorn.com|CollectionOfBestPorn.com|EmpFlix.com|Eporner.com|Fux.com
+||*$third-party,domain=3Movs.com|4Tube.com|CollectionOfBestPorn.com|EmpFlix.com|Eporner.com|Fux.com
 ||*$third-party,domain=MomPornOnly.com|PornDoe.com|PornFeat.com|PornOne.com|Porntube.com|Pornwhite.com|SexTVx.com
 ||*$third-party,script,subdocument,domain=CumLouder.com|lecoinporno.fr|PornDig.com|PornHat.com|PornHits.com
 ||*$third-party,domain=PornHub.com|tube8.com|redtube.com|pornmd.com|youporn.com,denyallow=phncdn.com|t8cdn.com|rdtcdn.com|ypncdn.com
-||*$third-party,domain=Analdin.com,denyallow=ahcdn.com
+||*$third-party,domain=Analdin.com|AnyPorn.com|,denyallow=ahcdn.com
 ||*$third-party,domain=drTubber.com.com,denyallow=drtst.com
 ||*$third-party,domain=Porn00.com,denyallow=b-cdn.net
 ||*$third-party,domain=Porntrex.com,denyallow=cdntrex.com
