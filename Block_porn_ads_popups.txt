@@ -8,7 +8,7 @@
 ! 
 ! block content of adult advertising networks (works on AdBlock, AdBlockPlus, AdGuard and uBlockOrigin) 
 
-! Contain 30 adult websites for `safe browsing (works on AdGuard and uBlockOrigin)
+! Hard and medium mode containment for 30 adult websites (works on AdGuard and uBlockOrigin)
 ||*$third-party,domain=3Movs.com|4Tube.com|AnyPorn.com|CollectionOfBestPorn.com|EmpFlix.com|Eporner.com|Fux.com
 ||*$third-party,domain=MomPornOnly.com|PornDoe.com|PornFeat.com|PornOne.com|Porntube.com|Pornwhite.com|SexTVx.com
 ||*$third-party,script,subdocument,domain=CumLouder.com|lecoinporno.fr|PornDig.com|PornHat.com|PornHits.com
