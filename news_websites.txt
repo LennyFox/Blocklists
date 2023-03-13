@@ -52,12 +52,6 @@ ad.nl###PURCHASE_HYBRID__OVERLAY
 ad.nl###remaining-paid-content
 ad.nl###fjs-login-gate
 ad.nl##.fjs-login-gate
-||statics.ad.nl/js/advertising-*.js$domain=ad.nl
-||t.ad.nl/analytics.js$domain=ad.nl
-||statics.ad.nl/js/main-*.js$domain=ad.nl
-||temptation.ad.nl/temptation.js$domain=ad.nl
-||cmp.ad.nl/unified/wrapperMessagingWithoutDetection.js$domain=ad.nl
-
 
 ! Volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
