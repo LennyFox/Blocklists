@@ -17,7 +17,7 @@
 
 
 ! Fool websites with promo action (works on AdGuard and uBlockOrigin)
-pornhub.com,tube8.com,redtube.com,youpor,##+js(set-constant, page_params.holiday_promo, true)
+pornhub.com,tube8.com,redtube.com,youporn.com##+js(set-constant, page_params.holiday_promo, true)
 
 ! Block annoying popups and popunders of some adnetworks redirecting to porn (works only for uBlockOrigin)
 ||*$popup,popunder,to=trafficjunky.net|adtng.com|exoclick.com|tsyndicate.com|opoxv.com|realsrv.com|twinrdsrv.com,important
