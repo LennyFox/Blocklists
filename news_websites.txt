@@ -6,6 +6,7 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
+
 ! nos.nl
 ||ster.nl^
 nos.nl##[id*="regio"]
@@ -53,10 +54,16 @@ ad.nl###remaining-paid-content
 ad.nl###fjs-login-gate
 ad.nl##.fjs-login-gate
 
+! NRC
+nrc.nl##+js(cookie-remover, counter)
+||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
+nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
+
+
 ! Volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
-||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
 ||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
+||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
 ||volkskrant.nl/analytics.js$script,domain=volkskrant.nl
 ||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script,domain=volkskrant.nl
 ||volkskrant.nl/*/collect$ping,xmlhttprequest,domain=volkskrant.nl
@@ -71,8 +78,9 @@ volkskrant.nl##[class*="app-bottom-navigation"]
 volkskrant.nl##[class*="subscribe-bar"]
 volkskrant.nl##[class*="banner"]
 volkskrant.nl##.artstyle__loader.loading
-||*/temptation.js$script,domain=www.volkskrant.nl
+||temptation.*/temptation.js$script,domain=www.volkskrant.nl
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
+
 
 ! VI.nl
 @@||cmp.quantcast.com/choice/*/*vi.nl/choice.js$script,domain=vi.nl
@@ -118,3 +126,5 @@ cnn.com##.ad-slot-rail
 ||dpns-notifications.com^$third-party
 ||bigdata.dpgmmservices.nl$third-party
 ||sp.dpgmedia.net^$third-party
+
+
