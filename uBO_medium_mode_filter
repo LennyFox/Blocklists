@@ -35,7 +35,6 @@
 ||acstat.com^$third-party
 ||actonsoftware.com^$third-party
 ||acuityplatform.com^$third-party
-||ad.gt^$third-party
 ||adacado.com^$third-party
 ||adalyser.com^$third-party
 ||adaraanalytics.com^$third-party
@@ -79,7 +78,6 @@
 ||ads-api.twitter.com^$third-party
 ||adscale.com^$third-party
 ||adscale.de^$third-party
-||adsco.re^$third-party
 ||ad-score.com^$third-party
 ||adservice.google.com^$third-party
 ||adskeeper.com^$third-party
@@ -130,7 +128,6 @@
 ||amazon-adsystem.com^$third-party
 ||a-mo.net^$third-party
 ||amplitude.com^$third-party
-||analitits.com^$third-party
 ||analytics.google.com^$third-party
 ||analytics.pinterest.com^$third-party
 ||analytics.pointdrive.linkedin.com^$third-party
@@ -401,7 +398,6 @@
 ||googleadservices.com^$third-party
 ||googleanalytics.com^$third-party
 ||google-analytics.com^$third-party
-||google-analytics.com^$third-party 
 ||googleoptimize.com^$third-party
 ||googlesyndication.com^$third-party
 ||googletagmanager.com^$third-party
