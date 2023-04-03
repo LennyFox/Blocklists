@@ -1,11 +1,18 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2023 
-! Title: uBlockOrigin medium mode blocklist
+! Title: uBlockOrigin easy medium mode blocklist
 !
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
+! Block third-party except on some trusted Top Level Domains
+!
+||*$third-party,to=~NL|~BE|~DE|~UK|~com|~edu|~io|~net|~org|~tv|~video
+! 
+!
+! Block advertising and tracking servers on allowed TLD's
+!
 ||1rx.io^$third-party
 ||2cnt.net^$third-party
 ||2mdn.net^$third-party
