@@ -8,7 +8,7 @@
 ! 
 ! Block third-party except on some trusted Top Level Domains
 !
-||*$third-party,to=~NL|~BE|~DE|~UK|~com|~edu|~io|~net|~org|~tv|~video
+||*$third-party,to=~NL|~BE|~DE|~UK|~com|~edu|~io|~net|~org|~cloud|~tv|~video
 ! 
 !
 ! Block advertising and tracking servers on allowed TLD's
