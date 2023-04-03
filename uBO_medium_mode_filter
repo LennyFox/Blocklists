@@ -7,10 +7,9 @@
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
 ! I block third-party except on some trusted Top Level Domains 
-! (uBlockOrigin syntax)  ||*$third-party,to=~NL|~BE|~DE|~UK|~EU|~com|~edu|~net|~org|~cloud|~io|~tv|~video
-! (AdGuard syntax)  ||*$third-party,denyallow=NL|BE|DE|UK|EU|com|edu|net|org|cloud|io|tv|video
+! (uBlockOrigin syntax)  ||*$third-party,to=~NL|~BE|~DE|~UK|~EU|~com|~edu|~net|~org|~io
+! (AdGuard syntax)  ||*$third-party,denyallow=NL|BE|DE|UK|EU|com|edu|net|org|io
 !
-! Block advertising and tracking servers on allowed TLD's in easy medium mode
 !
 ||1dmp.io^$third-party
 ||1rx.io^$third-party
@@ -242,7 +241,6 @@
 ||clicktale.net^$third-party
 ||clientgear.com^$third-party
 ||clipcentric.com^$third-party
-||clive.cloud^$third-party
 ||clmbtech.com^$third-party
 ||cloudflareaccess.com^$third-party
 ||cloudflareanalytics.com^$third-party
@@ -311,7 +309,6 @@
 ||doubleclick.net^$third-party
 ||doublepimp.com^$third-party
 ||doubleverify.com^$third-party
-||dpgmedia.cloud^$third-party
 ||dpmsrv.com^$third-party
 ||dsspn.com^$third-party
 ||dstillery.com^$third-party
@@ -503,7 +500,6 @@
 ||mateti.net^$third-party
 ||matheranalytics.com^$third-party
 ||mathtag.com^$third-party
-||matomo.cloud^$third-party
 ||matomo.org^$third-party
 ||mavencoalition.io^$third-party
 ||maxmind.com^$third-party
