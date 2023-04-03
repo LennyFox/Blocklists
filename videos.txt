@@ -35,3 +35,15 @@
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+
+! block content of top adult advertising networks (works on AdBlock, AdBlockPlus, AdGuard and uBlockOrigin) 
+
+! Hard and medium mode containment for adult websites (works on AdGuard and uBlockOrigin)
+||*$third-party,domain=3Movs.com|4Tube.com|Eporner.com|Fux.com|Porntube.com|Pornwhite.com|SexTVx.com
+||*$third-party,domain=PornHub.com|tube8.com|redtube.com|pornmd.com|youporn.com,denyallow=phncdn.com|t8cdn.com|rdtcdn.com|ypncdn.com
+||*$third-party,domain=Xhamster.com,denyallow=xhcdn.com
+||*$third-party,domain=Xnxx.com,denyallow=xnxx-cdn.com
+||*$third-party,domain=Xvideos.com,denyallow=xvideos-cdn.com
+
+! Block annoying popups and popunders of some adnetworks redirecting to porn (works only for uBlockOrigin)
+||*$popup,popunder,to=trafficjunky.net|adtng.com|exoclick.com|tsyndicate.com|opoxv.com|realsrv.com|twinrdsrv.com,important
