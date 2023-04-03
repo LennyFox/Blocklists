@@ -7,8 +7,8 @@
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
 ! I block third-party except on some trusted Top Level Domains 
-! (uBlockOrigin syntax)  ||*$third-party,to=~NL|~BE|~DE|~UK|~com|~edu|~net|~org|~cloud|~io|~tv|~video
-! (AdGuard syntax)  ||*$third-party,denyallow=NL|BE|DE|UK|com|edu|net|org|cloud|io|tv|video
+! (uBlockOrigin syntax)  ||*$third-party,to=~NL|~BE|~DE|~UK|~EU|~com|~edu|~net|~org|~cloud|~io|~tv|~video
+! (AdGuard syntax)  ||*$third-party,denyallow=NL|BE|DE|UK|EU|com|edu|net|org|cloud|io|tv|video
 !
 ! Block advertising and tracking servers on allowed TLD's in easy medium mode
 !
@@ -25,7 +25,6 @@
 ||3lift.com^$third-party
 ||4dex.io^$third-party
 ||4dsply.com^$third-party
-||6sc.co^$third-party
 ||6sense.com^$third-party
 ||7eer.net^$third-party
 ||aamsitecertifier.com^$third-party
@@ -63,10 +62,7 @@
 ||adobedtm.com^$third-party,domain=~adobe.com
 ||adobetag.com^$third-party
 ||adobetarget.com^$third-party
-||adocean.pl^$third-party
-||adop.cc^$third-party
 ||adotmob.com^$third-party
-||adpartner.pro^$third-party
 ||adpnut.com^$third-party
 ||adpone.com^$third-party
 ||adpushup.com^$third-party
@@ -119,7 +115,6 @@
 ||afp.ai^$third-party
 ||agilone.com^$third-party
 ||agkn.com^$third-party
-||agora.pl^$third-party
 ||aidata.io^$third-party
 ||aimediagroup.com^$third-party
 ||aiproxies.com^$third-party
@@ -134,7 +129,6 @@
 ||altitude-arena.com^$third-party
 ||amazon-adsystem.com^$third-party
 ||a-mo.net^$third-party
-||amplify.outbrain.com/cp/obtp.js
 ||amplitude.com^$third-party
 ||analitits.com^$third-party
 ||analytics.google.com^$third-party
@@ -224,7 +218,6 @@
 ||btloader.com^$third-party
 ||bttrack.com^$third-party
 ||btttag.com^$third-party
-||buckridge.link^$third-party
 ||bugherd.com^$third-party
 ||bullionyield.com^$third-party
 ||bumlam.com^$third-party
@@ -286,7 +279,6 @@
 ||coremetrics.com^$third-party
 ||coub.com^$third-party
 ||coveo.com^$third-party
-||cpex.cz^$third-party
 ||cpmstar.com^$third-party
 ||cpx.to^$third-party
 ||cquotient.com^$third-party
@@ -303,10 +295,8 @@
 ||curalate.com^$third-party
 ||customer.io^$third-party
 ||cxense.com^$third-party
-||d41.co^$third-party
 ||dable.io^$third-party
 ||datacygnal.io^$third-party
-||datadome.co^$third-party
 ||datasteam.io^$third-party
 ||daum.net^$third-party
 ||deepintent.com^$third-party
@@ -402,13 +392,11 @@
 ||giraff.io^$third-party
 ||glassboxdigital.io^$third-party
 ||globalwebindex.net^$third-party
-||gnetwork.me^$third-party
 ||gnpge.com^$third-party
 ||go.com^$third-party
 ||go-mpulse.net^$third-party
 ||google.com/adsense^$third-party
-||google.com/adsense^^$third-party
-||google.com/pagead^^$third-party
+||google.com/pagead^$third-party
 ||google.nl^$third-party
 ||googleadservices.com^$third-party
 ||googleanalytics.com^$third-party
@@ -429,18 +417,14 @@
 ||hexagon-analytics.com^$third-party
 ||highwire.org^$third-party
 ||hinet.net^$third-party
-||hit.ua^$third-party
 ||holmesmind.com^$third-party
 ||hotjar.com^$third-party
 ||hotjar.io^$third-party
 ||hushly.com^$third-party
-||hybrid.ai^$third-party
 ||ibeat-analytics.com^$third-party
 ||ib-ibi.com^$third-party
 ||id5-sync.com^$third-party
 ||idealmedia.io^$third-party
-||idio.co^$third-party
-||idx.lat^$third-party
 ||iesnare.com^$third-party
 ||igaw.io^$third-party
 ||igodigital.com^$third-party
@@ -455,11 +439,9 @@
 ||informz.net^$third-party
 ||infusionsoft.app^$third-party
 ||ingage.tech^$third-party
-||ingestion.contentinsights.com^$third-party
 ||inmobi.com^$third-party
 ||innity.com^$third-party
 ||innovid.com^$third-party
-||insent.ai^$third-party
 ||insightexpressai.com^$third-party
 ||inskinad.com^$third-party
 ||inspectlet.com^$third-party
@@ -506,7 +488,6 @@
 ||leadsrx.com^$third-party
 ||liadm.com^$third-party
 ||lijit.com^$third-party
-||line.me^$third-party
 ||linkconnector.com^$third-party
 ||linksynergy.com^$third-party
 ||listenloop.com^$third-party
@@ -516,7 +497,6 @@
 ||lockerdome.com^$third-party
 ||log.pinterest.com^$third-party
 ||loggly.com^$third-party
-||loopme.me^$third-party
 ||lotlinx.com^$third-party
 ||lr-in.com^$third-party
 ||luckyorange.com^$third-party
@@ -541,12 +521,10 @@
 ||mavencoalition.io^$third-party
 ||maxmind.com^$third-party
 ||mdhv.io^$third-party
-||meba.kr^$third-party
 ||media.net^$third-party
 ||media6degrees.com^$third-party
 ||mediaad.org^$third-party
 ||mediacategory.com^$third-party
-||mediacorp.sg^$third-party
 ||mediafuse.com^$third-party
 ||mediago.io^$third-party
 ||mediaplex.com^$third-party
@@ -599,7 +577,6 @@
 ||newrelic.com^$third-party
 ||newscgp.com^$third-party
 ||newsmaxwidget.com^$third-party
-||newsroom.bi^$third-party
 ||nimbleswan.io^$third-party
 ||ninthdecimal.com^$third-party
 ||nmrodam.com^$third-party
@@ -638,13 +615,10 @@
 ||pardot.com^$third-party
 ||parsely.com^$third-party
 ||pathfactory.com^$third-party
-||pbbl.co^$third-party
 ||pbstck.com^$third-party
 ||perfdrive.com^$third-party
 ||perfectmarket.com^$third-party
-||performax.cz^$third-party
 ||perf-serving.com^$third-party
-||permutive.app^$third-party
 ||permutive.com^$third-party
 ||petametrics.com^$third-party
 ||pexi.nl^$third-party
@@ -656,20 +630,15 @@
 ||pixfuture.com^$third-party
 ||pixlee.com^$third-party
 ||placed.com^$third-party
-||playground.xyz^$third-party
 ||pointmediatracker.com^$third-party
 ||polyfill.io^$third-party
-||popin.cc^$third-party
 ||popt.in^$third-party
 ||popupmaker.com^$third-party
 ||postaffiliatepro.com^$third-party
 ||postrelease.com^$third-party
-||powerad.ai^$third-party
 ||prdredir.com^$third-party
 ||presage.io^$third-party
 ||pressekompass.net^$third-party
-||prfct.co^$third-party
-||primis.tech^$third-party
 ||pro-market.net^$third-party
 ||proofpoint.com^$third-party
 ||proper.io^$third-party
@@ -698,9 +667,7 @@
 ||reichelcormier.bid^$third-party
 ||relap.io^$third-party
 ||relevant-digital.com^$third-party
-||research-int.se^$third-party
 ||researchnow.com^$third-party
-||resetdigital.co^$third-party
 ||reson8.com^$third-party
 ||retargetly.com^$third-party
 ||revcontent.com^$third-party
@@ -729,10 +696,7 @@
 ||sabavision.com^$third-party
 ||salecycle.com^$third-party
 ||salesloft.com^$third-party
-||salesmanago.pl^$third-party
-||samandehi.ir^$third-party
 ||samba.tv^$third-party
-||samplicio.us^$third-party
 ||sanjagh.com^$third-party
 ||sascdn.com^$third-party
 ||scarabresearch.com^$third-party
@@ -742,7 +706,6 @@
 ||sc-static.net^$third-party
 ||scupio.com^$third-party
 ||sddan.com^$third-party
-||searchiq.co^$third-party
 ||secondstreetapp.com^$third-party
 ||securedvisit.com^$third-party
 ||securitytrfx.com^$third-party
@@ -750,7 +713,6 @@
 ||segment.com^$third-party
 ||segment.io^$third-party
 ||sekindo.com^$third-party
-||selectmedia.asia^$third-party
 ||semantiqo.com^$third-party
 ||semasio.net^$third-party
 ||sensic.net^$third-party
@@ -761,16 +723,11 @@
 ||serving-sys.com^$third-party
 ||sessioncam.com^$third-party
 ||sexad.net^$third-party
-||seznam.cz^$third-party
 ||sharedid.org^$third-party
-||shop.app^$third-party
-||shop.pe^$third-party
 ||sibautomation.com^$third-party
 ||sift.com^$third-party
 ||siftscience.com^$third-party
-||signal.co^$third-party
 ||signifyd.com^$third-party
-||simpli.fi^$third-party
 ||singular.net^$third-party
 ||site24x7rum.com^$third-party
 ||sitedataprocessing.com^$third-party
@@ -806,7 +763,6 @@
 ||spiceworks.com^$third-party
 ||spokenlayer.com^$third-party
 ||sportradarserving.com^$third-party
-||spotim.market^$third-party
 ||spotxchange.com^$third-party
 ||springserve.com^$third-party
 ||squeezely.tech^$third-party
@@ -828,7 +784,6 @@
 ||supplyframe.com^$third-party
 ||survata.com^$third-party
 ||svtrd.com^$third-party
-||t.co^$third-party
 ||taboola.com^$third-party
 ||tag4arm.com^$third-party
 ||tagboard.com^$third-party
@@ -841,7 +796,6 @@
 ||taplytics.com^$third-party
 ||taptapnetworks.com^$third-party
 ||tavoos.net^$third-party
-||tctm.co^$third-party
 ||teads.tv^$third-party
 ||tealiumiq.com^$third-party
 ||techlab-cdn.com^$third-party
@@ -861,7 +815,6 @@
 ||trackersimulator.org^$third-party
 ||tradedoubler.com^$third-party
 ||trafficbass.com^$third-party
-||trafficguard.ai^$third-party
 ||traffichunt.com^$third-party
 ||trafficjunky.com^$third-party
 ||trafficjunky.net^$third-party
@@ -875,7 +828,6 @@
 ||trendmd.com^$third-party
 ||tribalfusion.com^$third-party
 ||tribl.io^$third-party
-||trinitymedia.ai^$third-party
 ||trk.pinterest.com^$third-party
 ||trkn.us^$third-party
 ||truefitcorp.com^$third-party
