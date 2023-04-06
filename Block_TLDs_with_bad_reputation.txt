@@ -6,7 +6,6 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-!
 ||*.adult/^
 ||*.porn/^
 ||*.sex/^
