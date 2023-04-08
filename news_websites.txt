@@ -76,7 +76,6 @@ volkskrant.nl##.artstyle__loader.loading
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
 /breakingNewsBanner.js$domain=bbc.com
-bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc)
 bbc.com###dotcom-leaderboard
 bbc.com##.nw-c-leaderboard-ad
 bbc.com##.leaderboard-ad-placeholder.bbccom_slot
