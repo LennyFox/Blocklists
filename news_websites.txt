@@ -15,7 +15,8 @@ nos.nl###ccm_notification_host
 ||*/newrelic.js$script,domain=embed.kijk.nl
 
 ! NU.nl
-@@||dev.visualwebsiteoptimizer.com/j.php
+@@||dev.visualwebsiteoptimizer.com$domain=nu.nl
+@@||fwmrm.net$domain=nu.nl
 /advert-$domain=nu.nl
 /prebid.$domain=nu.nl
 ||*/newrelic.js$script,domain=nu.nl
