@@ -12,14 +12,12 @@
 nos.nl##[id*="regio"]
 nos.nl###ccm_notification_wrapper
 nos.nl###ccm_notification_host
-||*/newrelic.js$script,domain=embed.kijk.nl
+
 
 ! NU.nl
 /advert-$domain=nu.nl
 /prebid.$domain=nu.nl
-||*/newrelic.js$script,domain=nu.nl
 ||nu.nl/dpns_sw.js$script,domain=nu.nl
-||static.qmusic.be/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
 nu.nl###app__container > div > div.modal-layer__page-behind > main > aside.banner.banner--h1.h1
 nu.nl###header
 nu.nl###header > div.block.toast.adblocker
@@ -86,7 +84,6 @@ bbc.com##.zephr-wrapper
 bbc.com##.zephr-overlay
 
 ! cnn.com
-@@||amazon-adsystem.com/aax2/apstag.js$domain=cnn.com
 ||cnn.com/*/adzones.*.bundle.js$script
 ||cnn.com/ad/
 ||cnn.com/ads/
@@ -102,7 +99,6 @@ cnn.com##.ad-slot
 cnn.com##.ad-slot-rail
 ||ugdturner.com^$third-party
 ||turner.com/analytics/comscore/$domain=cnn.com
-||warnermediacdn.com/csm/*&caid=$xmlhttprequest,removeparam=caid,domain=cnn.com
 
 ! DPG media
 ||advertising-cdn.dpgmedia.cloud^$third-party
