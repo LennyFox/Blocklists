@@ -15,9 +15,9 @@ nos.nl###ccm_notification_host
 
 
 ! NU.nl
+||nu.nl/dpns_sw.js$script
 /advert-$domain=nu.nl
 /prebid.$domain=nu.nl
-||nu.nl/dpns_sw.js$script,domain=nu.nl
 nu.nl###app__container > div > div.modal-layer__page-behind > main > aside.banner.banner--h1.h1
 nu.nl###header
 nu.nl###header > div.block.toast.adblocker
@@ -43,18 +43,18 @@ rtlnieuws.nl###rtln-ad-advertorial
 rtlnieuws.nl#?#.autoscalable-block-wrapper:-abp-has(.entity-block-title:-abp-contains(Van onze partners))
 
 ! NRC
-nrc.nl##+js(cookie-remover, counter)
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
+nrc.nl##+js(cookie-remover, counter)
 nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
 
 
 ! Volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
-||volkskrant.nl/temptation/resolve$domain=volkskrant.nl
-||volkskrant.nl/articlestyle/article-*.js$domain=volkskrant.nl
-||volkskrant.nl/analytics.js$script,domain=volkskrant.nl
-||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script,domain=volkskrant.nl
-||volkskrant.nl/*/collect$ping,xmlhttprequest,domain=volkskrant.nl
+||volkskrant.nl/temptation/resolve
+||volkskrant.nl/articlestyle/article-*.js
+||volkskrant.nl/analytics.js$script
+||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script
+||volkskrant.nl/*/collect$ping,xmlhttprequest
 volkskrant.nl###LOGIN_BIG_BOTTOM
 volkskrant.nl###NEWSLETTER_BOTTOM
 volkskrant.nl###LOGIN_TOP
