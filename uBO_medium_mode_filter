@@ -363,7 +363,7 @@
 ||freshmarketer.com^$third-party
 ||fullstory.com^$third-party
 ||fuseplatform.net^$third-party
-||fwmrm.net^$third-party
+||fwmrm.net^$third-party,~xmlhttprequest
 ||g2.com^$third-party
 ||gaug.es^$third-party
 ||gbqofs.io^$third-party
