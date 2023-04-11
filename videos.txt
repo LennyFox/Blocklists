@@ -36,9 +36,4 @@ youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 
-! Hard mode containment for adult video websites (works with ABP, AdGuard and uBlockOrigin)
-||*$third-party,domain=4Tube.com|Eporner.com|Porntube.com|SexTVx.com
-! Medium mode containment for adult video websites (works with AdGuard and uBlockOrigin)
-||*$third-party,domain=pornmd.com|PornHub.com|tube8.com|redtube.com|youporn.com|xhamster.com|xnxx.com|xvideos.com,denyallow=phncdn.com|t8cdn.com|rdtcdn.com|ypncdn.com|xhcdn.com|ahcdn.com|xnxx-cdn.com|xvideos-cdn.com
-! Block popunders and popups leading to adult video websites (works with uBlockOrigin)
-||*$popup,popunder,to=trafficjunky.net|adtng.com|exoclick.com|tsyndicate.com|opoxv.com|realsrv.com|twinrdsrv.com,important
+||*$popup,popunder,to=trafficjunky.net|exoclick.com|tsyndicate.com|opoxv.com,important
