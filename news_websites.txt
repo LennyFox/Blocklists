@@ -14,63 +14,7 @@ nos.nl###ccm_notification_wrapper
 nos.nl###ccm_notification_host
 
 
-! NU.nl
-/advert-$domain=nu.nl
-/prebid.$domain=nu.nl
-||metrics.nu.nl^
-||nu.nl/dpns_sw.js$script
-nu.nl###header
-nu.nl###overlay.webpush-popup
-nu.nl##.active.webpush-popup.overlay
-nu.nl##.ad-placement
-nu.nl##.article-login-wall
-nu.nl##.banner
-nu.nl##.block.advertoriallist
-nu.nl##.block-wrapper-image.block-wrapper
-nu.nl##.h1.banner--h1.banner
-nu.nl##.overlay.webpush-popup.active
-nu.nl##.tealium
-nu.nl##+js(set-constant, isAdBlockEnabled, false) 
-nu.nl##a[href*="/advertorial-"]
-nu.nl##body:style(overflow: visible !important;) 
 
-!
-!RTL nieuws
-rtlnieuws.nl##.dfp-billboard-wrapper
-rtlnieuws.nl###dfp-wrapper-billboard1
-rtlnieuws.nl##.six_articles_with_ad__ad
-rtlnieuws.nl###rtln-ad-advertorial
-rtlnieuws.nl#?#.autoscalable-block-wrapper:-abp-has(.entity-block-title:-abp-contains(Van onze partners))
-rtlnieuws.nl##.autoscalable-block-wrapper:has(.entity-block-title:has-text(Van onze partners))
-/akam/13/*$domain=rtlnieuws.nl
-
-
-! NRC
-||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
-nrc.nl##+js(cookie-remover, counter)
-nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
-
-
-! Volkskrant.nl
-@@persgroep.net$image,domain=volkskrant
-||volkskrant.nl/temptation/resolve
-||volkskrant.nl/articlestyle/article-*.js
-||volkskrant.nl/analytics.js$script
-||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script
-||volkskrant.nl/*/collect$ping,xmlhttprequest
-volkskrant.nl###LOGIN_BIG_BOTTOM
-volkskrant.nl###NEWSLETTER_BOTTOM
-volkskrant.nl###LOGIN_TOP
-volkskrant.nl###top1
-volkskrant.nl###PURCHASE
-volkskrant.nl##div[class*="app-overlay"]
-volkskrant.nl##div[class*="ad- -layer"]
-volkskrant.nl##[class*="app-bottom-navigation"]
-volkskrant.nl##[class*="subscribe-bar"]
-volkskrant.nl##[class*="banner"]
-volkskrant.nl##.artstyle__loader.loading
-||temptation.*/temptation.js$script,domain=www.volkskrant.nl
-||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 
 
 ! DPG media
