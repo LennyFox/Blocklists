@@ -77,19 +77,46 @@ volkskrant.nl##.artstyle__loader.loading
 ||sp.dpgmedia.net^$third-party
 
 ! BBC.COM
-||gn-web-assets.api.bbc.com/ngas/*/dotcom-ads.js 
-||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
-||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
+ @@||files.bbci.co.uk^*/cookie-banner/$script,from=bbc.co.uk||
 /breakingNewsBanner.js$domain=bbc.com
-bbc.com###dotcom-leaderboard
-bbc.com##.nw-c-leaderboard-ad
-bbc.com##.leaderboard-ad-placeholder.bbccom_slot
-bbc.com##div[class*="leaderboard-ad"]
+||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
+||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
+||bbci.co.uk/*/cookie-banner/
+||bbci.co.uk/*-consent-banner.
+||bbc.com/*/dotcom-ads.js 
 bbc.com###breaking-news-container
-bbc.com##div[class*="breaking-news-banner"]
+bbc.com###dotcom-leaderboard
+bbc.com###leaderboard-aside-content 
+bbc.com###mpu-side-aside-content 
+bbc.com###zephr-message 
+bbc.com##.ad_fullwidth 
+bbc.com##.ad_top_right 
+bbc.com##.ads336x280 
+bbc.com##.advert--leaderboard 
 bbc.com##.bbccom_advert
-bbc.com##.zephr-wrapper
+bbc.com##.bbccom_advert 
+bbc.com##.bing-native-ad 
+bbc.com##.dotcom-ad 
+bbc.com##.fc-consent-root 
+bbc.com##.FooterAds 
+bbc.com##.leaderboard_adv 
+bbc.com##.leaderboard-ad-placeholder.bbccom_slot
+bbc.com##.m_banner_ads 
+bbc.com##.nw-c-breaking-news-banner 
+bbc.com##.nw-c-leaderboard-ad
+bbc.com##.nw-c-leaderboard-ad 
+bbc.com##.opaAd 
+bbc.com##.PushdownAd 
 bbc.com##.zephr-overlay
+bbc.com##.zephr-wrapper
+bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
+bbc.com##body div.fc-consent-root 
+bbc.com##body:has(div[class*="Styled"][class*="Container"] [data-testid="bbc-logo-wrapper"]) > .fc-consent-root:style(display: flex !important) 
+bbc.com##body:style(overflow: auto !important;) 
+bbc.com##div[class*="breaking-news-banner"]
+bbc.com##div[class*="leaderboard-ad"]
+bbc.com##div[id^="piano-inline"] 
+bbc.com##iframe[name="googlefcPresent"]
 
 ! CNN.COM
 /optimizelyjs/*$domain=cnn.com
