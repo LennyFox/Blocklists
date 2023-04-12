@@ -50,6 +50,9 @@ rtlnieuws.nl###dfp-wrapper-billboard1
 rtlnieuws.nl##.six_articles_with_ad__ad
 rtlnieuws.nl###rtln-ad-advertorial
 rtlnieuws.nl#?#.autoscalable-block-wrapper:-abp-has(.entity-block-title:-abp-contains(Van onze partners))
+rtlnieuws.nl ##.autoscalable-block-wrapper:has(.entity-block-title:has-text(Van onze partners)) 
+/akam/13/* $domain=rtlnieuws.nl
+
 
 ! NRC
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
