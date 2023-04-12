@@ -15,9 +15,17 @@ nos.nl###ccm_notification_host
 
 
 ! NU.nl
-||nu.nl/dpns_sw.js$script
 /advert-$domain=nu.nl
 /prebid.$domain=nu.nl
+||metrics.nu.nl^
+||nu.nl/dpns_sw.js$script
+nu.nl ###app__container > div > div.modal-layer__page-behind > main > aside.banner.banner--h1.h1 
+nu.nl ##.ad-placement 
+nu.nl ##.banner 
+nu.nl ##.h1.banner--h1.banner 
+nu.nl ##+js(set-constant, isAdBlockEnabled, false) 
+nu.nl ##a[href*="/advertorial-"] 
+nu.nl ##body:style(overflow: visible !important;) 
 nu.nl###app__container > div > div.modal-layer__page-behind > main > aside.banner.banner--h1.h1
 nu.nl###header
 nu.nl###header > div.block.toast.adblocker
@@ -27,12 +35,13 @@ nu.nl##.active.webpush-popup.overlay
 nu.nl##.ad-placement
 nu.nl##.article-login-wall
 nu.nl##.banner
+nu.nl##.block.advertoriallist
 nu.nl##.block-wrapper-image.block-wrapper
 nu.nl##.h1.banner--h1.banner
 nu.nl##.overlay.webpush-popup.active
 nu.nl##.tealium
 nu.nl##a[href*="/advertorial-"]
-nu.nl##.block.advertoriallist
+
 
 !
 !RTL nieuws
