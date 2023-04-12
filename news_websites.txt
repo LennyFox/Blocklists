@@ -116,7 +116,7 @@ bbc.com##div[class*="leaderboard-ad"]
 
 ! CNN.COM
 /optimizelyjs/*$domain=cnn.com
-://lightning.*/launch/$domain=cnn.com
+/lightning.*/launch/$domain=cnn.com
 ||cdn.cnn.com/ads/ 
 ||cnn.com/*/adzones.*.bundle.js$script
 ||cnn.com/ad/
