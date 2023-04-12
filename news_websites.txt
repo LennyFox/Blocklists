@@ -77,7 +77,7 @@ volkskrant.nl##.artstyle__loader.loading
 ||sp.dpgmedia.net^$third-party
 
 ! BBC.COM
- @@||files.bbci.co.uk^*/cookie-banner/$script,from=bbc.co.uk||
+@@||files.bbci.co.uk^*/cookie-banner/$script,from=bbc.co.uk||
 /breakingNewsBanner.js$domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
