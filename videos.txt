@@ -24,26 +24,26 @@
 ||youtube.com/api/stats
 ||youtube.com/live_chat
 ||youtube.com/ptracking
-youtube.com ###masthead-ad 
-youtube.com ###merch-shelf 
-youtube.com ###offer-module 
-youtube.com ###player-ads 
-youtube.com ###ticker.ytd-masthead 
-youtube.com ##.ad-showing > .html5-video-container 
-youtube.com ##.annotation.iv-branding 
-youtube.com ##.video-annotations 
-youtube.com ##.ytd-companion-slot-renderer 
-youtube.com ##.ytd-player-legacy-desktop-watch-ads-renderer 
-youtube.com ##.ytp-ad-button 
-youtube.com ##.ytp-ad-player-overlay-flyout-cta 
-youtube.com ##.ytp-ad-progress-list 
-youtube.com ##.ytp-cards-teaser 
-youtube.com ##.ytp-paid-content-overlay 
-youtube.com ##.ytp-share-button 
-youtube.com ##+js(set-constant, playerResponse.adPlacements, undefined) 
-youtube.com ##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined) 
-youtube.com ##ytd-companion-slot-renderer 
+youtube.com###masthead-ad 
+youtube.com###merch-shelf 
+youtube.com###offer-module 
+youtube.com###player-ads 
+youtube.com###ticker.ytd-masthead 
+youtube.com##.ad-showing > .html5-video-container 
+youtube.com##.annotation.iv-branding 
+youtube.com##.video-annotations 
+youtube.com##.ytd-companion-slot-renderer 
+youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer 
+youtube.com##.ytp-ad-button 
+youtube.com##.ytp-ad-player-overlay-flyout-cta 
+youtube.com##.ytp-ad-progress-list 
+youtube.com##.ytp-cards-teaser 
+youtube.com##.ytp-paid-content-overlay 
+youtube.com##.ytp-share-button 
+youtube.com##ytd-companion-slot-renderer 
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtube-nocookie.com##+js(set-constant, playerResponse.adPlacements, undefined) 
+youtube.com,youtube-nocookie.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined) 
 ||*$popup,popunder,to=trafficjunky.net|exoclick.com|tsyndicate.com|opoxv.com,important
