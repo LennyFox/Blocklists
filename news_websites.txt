@@ -82,9 +82,13 @@ volkskrant.nl##.artstyle__loader.loading
 ||sp.dpgmedia.net^$third-party
 
 ! BBC.COM
+||gn-web-assets.api.bbc.com/ngas/*/dotcom-ads.js 
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
-/breakingNewsBanner.js$domain=bbc.com
+||a1.api.bbc.co.uk^ 
+||r.bbci.co.uk^ 
+||bbci.co.uk/plugins/dfpadshtml/ 
+||mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag- 
 bbc.com###breaking-news-container
 bbc.com###dotcom-leaderboard
 bbc.com###zephr-message 
@@ -97,22 +101,14 @@ bbc.com##.nw-c-leaderboard-ad
 bbc.com##.zephr-overlay
 bbc.com##.zephr-wrapper
 bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc)
-bbc.com##body div.fc-consent-root 
-bbc.com##body:has(div[class*="Styled"][class*="Container"] [data-testid="bbc-logo-wrapper"]) > .fc-consent-root:style(display: flex !important) 
-bbc.com##body:style(overflow: auto !important;) 
+bbc.com##body div.fc-consent-root
+bbc.com##body:style(overflow: auto !important;)
 bbc.com##div[class*="breaking-news-banner"]
 bbc.com##div[class*="leaderboard-ad"]
+/breakingNewsBanner.js$domain=bbc.com
+||fundingchoicesmessages.google.com^@domain=bbc.com
 
-/cookie-banner$domain=bbc.com
--consent-banner.$domain=bbc.com
-@@||files.bbci.co.uk^*/cookie-banner/$script,from=bbc.co.uk|
-@@||fundingchoicesmessages.google.com^$script,from=bbc.com 
-||a1.api.bbc.co.uk^ 
-||bbci.co.uk/plugins/dfpadshtml/ 
-||fundingchoicesmessages.google.com^ 
-||gn-web-assets.api.bbc.com/ngas/*/dotcom-ads.js 
-||mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag- 
-||r.bbci.co.uk^ 
+
 
 ! CNN.COM
 /optimizelyjs/*$domain=cnn.com
