@@ -27,6 +27,7 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ||youtube.com/ptracking$xhr,domain=www.youtube.com
 ||youtube.com/youtubei/v1/log_event$xhr,domain=www.youtube.com
 ||youtube.com/api/stats/*$xhr,domain=www.youtube.com
+||www.youtube.com/live_chat$subdocument
 ||gstatic.com/youtube/img/promos/$image$domain=youtube.com
 
 ||*$popup,popunder,to=trafficjunky.net|exoclick.com|tsyndicate.com|opoxv.com,important
