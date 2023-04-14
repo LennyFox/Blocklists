@@ -39,24 +39,24 @@ nu.nl##body:style(overflow: visible !important;)
  /analytics-ingress-$domain=rtlnieuws.nl
  -adobe-analytics.$domain=rtlnieuws.nl
 snowplowanalytics.$domain=rtlnieuws.nl
-rtlnieuws.nl#@##onetrust-consent-sdk 
-rtlnieuws.nl###dfp-billboard1 
-rtlnieuws.nl###dfp-billboard2 
-rtlnieuws.nl###dfp-rectangle1 
+rtlnieuws.nl#@##onetrust-consent-sdk
+rtlnieuws.nl###dfp-billboard1
+rtlnieuws.nl###dfp-billboard2
+rtlnieuws.nl###dfp-rectangle1
 rtlnieuws.nl###dfp-wrapper-billboard1
 rtlnieuws.nl###rtln-ad-advertorial
-rtlnieuws.nl##.article-content__social 
-rtlnieuws.nl##.article-sidebar__ad 
+rtlnieuws.nl##.article-content__social
+rtlnieuws.nl##.article-sidebar__ad
 rtlnieuws.nl##.autoscalable-block-wrapper:has(.entity-block-title:has-text(Van onze partners))
-rtlnieuws.nl##.autoscalable-block-wrapper:has-text(/van onze partners/i) 
+rtlnieuws.nl##.autoscalable-block-wrapper:has-text(/van onze partners/i)
 rtlnieuws.nl##.dfp-billboard-wrapper
-rtlnieuws.nl##.dfp-billboard-wrapper 
-rtlnieuws.nl##.dfp-rectangle-wrapper 
-rtlnieuws.nl##.onetrust-pc-dark-filter 
+rtlnieuws.nl##.dfp-rectangle-wrapper
+rtlnieuws.nl##.onetrust-pc-dark-filter
 rtlnieuws.nl##.six_articles_with_ad__ad
-rtlnieuws.nl##a[href^="//twitter.com/intent/tweet?"] 
-rtlnieuws.nl##a[href^="whatsapp://send"] 
-rtlnieuws.nl##div[class$="_with_ad__ad"] 
+rtlnieuws.nl##a[href^="//twitter.com/intent/tweet?"]
+rtlnieuws.nl##a[href^="whatsapp://send"]
+rtlnieuws.nl##div[class$="_with_ad__ad"]
+
 
 ! NRC
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
@@ -93,12 +93,11 @@ volkskrant.nl##.artstyle__loader.loading
 ||sp.dpgmedia.net^$third-party
 
 ! BBC.COM
-@@||files.bbci.co.uk^*/cookie-banner/$script,from=bbc.co.uk||
 /breakingNewsBanner.js$domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*/analytics.js$script,domain=bbc.com
 ||bbc.co.uk/bbcdotcom/*adverts.js$script,domain=bbc.com
-||bbci.co.uk/*/cookie-banner/
-||bbci.co.uk/*-consent-banner.
+||bbci.co.uk/*/cookie-banner/$domain=bbc.com
+||bbci.co.uk/*-consent-banner$domain=bbc.com
 ||bbc.com/*/dotcom-ads.js 
 bbc.com###breaking-news-container
 bbc.com###dotcom-leaderboard
@@ -110,7 +109,6 @@ bbc.com##.ad_top_right
 bbc.com##.ads336x280 
 bbc.com##.advert--leaderboard 
 bbc.com##.bbccom_advert
-bbc.com##.bbccom_advert 
 bbc.com##.bing-native-ad 
 bbc.com##.dotcom-ad 
 bbc.com##.fc-consent-root 
@@ -120,7 +118,6 @@ bbc.com##.leaderboard-ad-placeholder.bbccom_slot
 bbc.com##.m_banner_ads 
 bbc.com##.nw-c-breaking-news-banner 
 bbc.com##.nw-c-leaderboard-ad
-bbc.com##.nw-c-leaderboard-ad 
 bbc.com##.opaAd 
 bbc.com##.PushdownAd 
 bbc.com##.zephr-overlay
@@ -137,11 +134,9 @@ bbc.com##iframe[name="googlefcPresent"]
 ! CNN.COM
 /optimizelyjs/*$domain=cnn.com
 /lightning.*/launch/$domain=cnn.com
-||cdn.cnn.com/ads/ 
 ||cnn.com/*/adzones.*.bundle.js$script
 ||cnn.com/ad/
 ||cnn.com/ads/
-||cnn.com/ads/$image,object,subdocument
 ||cnn.com/media/sites/js/bundles/cnn-edition-adfuel.*.js
 ||cnn.com/optimizelyjs/*.js
 ||d2uap9jskdzp2.cloudfront.net^$domain=cnn.com 
@@ -169,4 +164,3 @@ cnn.com##.user-msg
 cnn.com##+js(set-constant, apstag, undefined)
 cnn.com##div[id^="ad_bnr_"]
 cnn.com##section.layout__end > div[class^="toast-popup__container"][data-uri^="archive.cms.cnn.com"]
-
