@@ -30,4 +30,4 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 ||www.youtube.com/live_chat$subdocument
 ||gstatic.com/youtube/img/promos/$image$domain=youtube.com
 
-||*$popup,popunder,to=trafficjunky.net|exoclick.com|tsyndicate.com|opoxv.com,important
+
