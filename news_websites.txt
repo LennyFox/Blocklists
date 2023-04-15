@@ -35,7 +35,7 @@ nu.nl##body:style(overflow: visible !important;)
 
 !
 !RTL nieuws
- /akam/13/$domain=rtlnieuws.nl
+||rtlnieuws.nl/akam/13/^$domain=rtlnieuws.nl
  /analytics-ingress-$domain=rtlnieuws.nl
  -adobe-analytics.$domain=rtlnieuws.nl
 snowplowanalytics.$domain=rtlnieuws.nl
@@ -56,7 +56,6 @@ rtlnieuws.nl##.six_articles_with_ad__ad
 rtlnieuws.nl##a[href^="//twitter.com/intent/tweet?"]
 rtlnieuws.nl##a[href^="whatsapp://send"]
 rtlnieuws.nl##div[class$="_with_ad__ad"]
-
 
 ! NRC
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
@@ -133,12 +132,12 @@ bbc.com##iframe[name="googlefcPresent"]
 
 ! CNN.COM
 /optimizelyjs/*$domain=cnn.com
-/lightning.*/launch/$domain=cnn.com
 ||cnn.com/*/adzones.*.bundle.js$script
-||cnn.com/ad/
-||cnn.com/ads/
+||cnn.com/ad/^
+||cnn.com/ads/^
 ||cnn.com/media/sites/js/bundles/cnn-edition-adfuel.*.js
 ||cnn.com/optimizelyjs/*.js
+||lightning.cnn.com/launch^
 ||d2uap9jskdzp2.cloudfront.net^$domain=cnn.com 
 ||turner.com/analytics/comscore/$domain=cnn.com
 ||ugdturner.com^$third-party
