@@ -14,15 +14,16 @@ youtube.com/api/stats/$xhr
 youtube.com/generate_204$image
 youtube.com/ptracking$xhr
 youtube.com/youtubei/v1/log_event$xhr
-youtube.com ##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined) 
-youtube.com ##+js(set-constant, playerResponse.adPlacements, undefined) 
-youtube.com ##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds) 
-youtube.com ##.annotation.iv-branding 
-youtube.com ##.video-annotations 
-youtube.com ##.ytp-share-button 
-youtube.com ##.ytp-paid-content-overlay 
-youtube.com ##.ytp-cards-teaser 
-youtube.com ###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action) 
-youtube.com ###offer-module 
-youtube.com ###ticker.ytd-masthead 
-youtube.com ###masthead-ad 
+
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined) 
+youtube.com##+js(set-constant, playerResponse.adPlacements, undefined) 
+youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds) 
+youtube.com##.annotation.iv-branding 
+youtube.com##.video-annotations 
+youtube.com##.ytp-share-button 
+youtube.com##.ytp-paid-content-overlay 
+youtube.com##.ytp-cards-teaser 
+youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action) 
+youtube.com###offer-module 
+youtube.com###ticker.ytd-masthead 
+youtube.com###masthead-ad 
