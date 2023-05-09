@@ -27,7 +27,9 @@ nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
 /prebid.$domain=nu.nl
 ||metrics.nu.nl^
 ||nu.nl/dpns_sw.js$script
+||nu.nl^$cookie=temptation-id
 nu.nl###header
+nu.nl###header > .zone
 nu.nl###overlay.webpush-popup
 nu.nl##.active.webpush-popup.overlay
 nu.nl##.ad-placement
@@ -38,6 +40,7 @@ nu.nl##.block-wrapper-image.block-wrapper
 nu.nl##.h1.banner--h1.banner
 nu.nl##.overlay.webpush-popup.active
 nu.nl##.tealium
+nu.nl##.zone > div[id^="block-"][data-context*="Adverteerders"]
 nu.nl##+js(set-constant, isAdBlockEnabled, false) 
 nu.nl##a[href*="/advertorial-"]
 nu.nl##body:style(overflow: visible !important;) 
