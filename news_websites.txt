@@ -8,10 +8,19 @@
 ! 
 
 ! nos.nl
-||ster.nl^
-nos.nl##[id*="regio"]
-nos.nl###ccm_notification_wrapper
+||adcdn.ster.nl^$domain=nos.nl
+||adconfig.ster.nl^$domain=nos.nl
+||atconnect.npo.nl^$domain=nos.nl
+||imasdk.googleapis.com^$domain=nos.nl
+||nos.nl^$cookie=atidvisitor
+||nos.nl^$cookie=atuserid
 nos.nl###ccm_notification_host
+nos.nl###regio-onboarding
+nos.nl##a[href^="https://api.whatsapp.com/send?text="]
+nos.nl##a[href^="https://twitter.com/intent/tweet?"]
+nos.nl##a[href^="https://www.facebook.com/sharer/sharer.php"]
+nos.nl##div[data-testid="share-dropdown"]
+nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
 
 ! NU.nl
 /advert-$domain=nu.nl
@@ -64,23 +73,18 @@ nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
 
 ! Volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
-||volkskrant.nl/temptation/resolve
-||volkskrant.nl/articlestyle/article-*.js
-||volkskrant.nl/analytics.js$script
-||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script
-||volkskrant.nl/*/collect$ping,xmlhttprequest
-volkskrant.nl###LOGIN_BIG_BOTTOM
-volkskrant.nl###NEWSLETTER_BOTTOM
-volkskrant.nl###LOGIN_TOP
-volkskrant.nl###top1
-volkskrant.nl###PURCHASE
-volkskrant.nl##div[class*="app-overlay"]
-volkskrant.nl##div[class*="ad- -layer"]
-volkskrant.nl##[class*="app-bottom-navigation"]
-volkskrant.nl##[class*="subscribe-bar"]
-volkskrant.nl##[class*="banner"]
-volkskrant.nl##.artstyle__loader.loading
+||volkskrant.nl^$cookie=_ga
+||volkskrant.nl^$cookie=_gid
 ||temptation.*/temptation.js$script,domain=www.volkskrant.nl
+||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script
+||volkskrant.nl/temptation/resolve
+volkskrant.nl###top1
+volkskrant.nl##[class*="app-bottom-navigation"]
+volkskrant.nl##div[class*="app-overlay"]
+volkskrant.nl##.AdSense
+volkskrant.nl##.teaser-advertisement
+volkskrant.nl##.teaser-branded
+
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 
 ! DPG media
