@@ -27,18 +27,22 @@ nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
 ||nu.nl/dpns_sw.js$script
 ||nu.nl^$cookie=temptation-id
 metrics.nu.nl^ 
-nu.nl ##+js(set-constant, isAdBlockEnabled, false) 
-nu.nl ###header 
-nu.nl ###header > .zone 
-nu.nl ##.ad-placement 
-nu.nl ##.banner 
-nu.nl ##.block.advertoriallist 
-nu.nl ##.block-wrapper-image.block-wrapper 
-nu.nl ##.h1.banner--h1.banner 
-nu.nl ##.tealium 
-nu.nl ##.zone > div[id^="block-"][data-context*="Adverteerders"] 
-nu.nl ##a[href*="/advertorial-"] 
-nu.nl ##body:style(overflow: visible !important;) 
+nu.nl##+js(set-constant, isAdBlockEnabled, false) 
+nu.nl###header 
+nu.nl###header > .zone 
+nu.nl##.ad-placement 
+nu.nl##.banner 
+nu.nl##.block.advertoriallist 
+nu.nl##.block-wrapper-image.block-wrapper 
+nu.nl##.h1.banner--h1.banner 
+nu.nl##.tealium 
+nu.nl##.toast.adblocker
+nu.nl##.zone > div[id^="block-"][data-context*="Adverteerders"]
+nu.nl##.zone > div[id^="block-"][data-context*="Adverteerders"] 
+nu.nl##+js(set-constant, isAdBlockEnabled, false) 
+nu.nl##a[href*="/advertorial-"] 
+nu.nl##body:style(overflow: visible !important;) 
+nu.nl#$?#body { overflow: visible !important; }
 
 !
 !RTL nieuws
