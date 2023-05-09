@@ -67,9 +67,13 @@ rtlnieuws.nl##a[href^="whatsapp://send"]
 rtlnieuws.nl##div[class$="_with_ad__ad"]
 
 ! NRC
+||nrc.nl/tag/tag.js
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
-nrc.nl##+js(cookie-remover, counter)
+nrc.nl##.banner
+nrc.nl##.socialbuttons
 nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
+nrc.nl##div[class^="native-ad-"]
+nrc.nl##.emailwall
 
 ! Volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
@@ -84,7 +88,6 @@ volkskrant.nl##div[class*="app-overlay"]
 volkskrant.nl##.AdSense
 volkskrant.nl##.teaser-advertisement
 volkskrant.nl##.teaser-branded
-
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
 
 ! DPG media
