@@ -10,24 +10,19 @@
 !
 
 ! Youtube videos
-youtube.com##.annotation.iv-branding 
-youtube.com##.video-annotations 
-youtube.com##.ytp-share-button 
-youtube.com##.ytp-paid-content-overlay 
-youtube.com##.ytp-cards-teaser 
-youtube.com###masthead-ad
-youtube.com###action-companion-click-target
-youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action) 
-youtube.com###offer-module 
-youtube.com###ticker.ytd-masthead 
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds) 
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined) 
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined) 
-||youtube.com/generate_204$image,domain=www.youtube.com
-||youtube.com/ptracking$xhr,domain=www.youtube.com
-||youtube.com/youtubei/v1/log_event$xhr,domain=www.youtube.com
-||youtube.com/api/stats/*$xhr,domain=www.youtube.com
-||www.youtube.com/live_chat$subdocument
-||gstatic.com/youtube/img/promos/$image$domain=youtube.com
-
-
+youtube.com/api/stats/$xhr
+youtube.com/generate_204$image
+youtube.com/ptracking$xhr
+youtube.com/youtubei/v1/log_event$xhr
+youtube.com ##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined) 
+youtube.com ##+js(set-constant, playerResponse.adPlacements, undefined) 
+youtube.com ##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds) 
+youtube.com ##.annotation.iv-branding 
+youtube.com ##.video-annotations 
+youtube.com ##.ytp-share-button 
+youtube.com ##.ytp-paid-content-overlay 
+youtube.com ##.ytp-cards-teaser 
+youtube.com ###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action) 
+youtube.com ###offer-module 
+youtube.com ###ticker.ytd-masthead 
+youtube.com ###masthead-ad 
