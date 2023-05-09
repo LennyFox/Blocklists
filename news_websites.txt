@@ -42,27 +42,25 @@ nu.nl ##body:style(overflow: visible !important;)
 
 !
 !RTL nieuws
-||rtlnieuws.nl/akam/13/^$domain=rtlnieuws.nl
- /analytics-ingress-$domain=rtlnieuws.nl
- -adobe-analytics.$domain=rtlnieuws.nl
-snowplowanalytics.$domain=rtlnieuws.nl
-rtlnieuws.nl#@##onetrust-consent-sdk
-rtlnieuws.nl###dfp-billboard1
-rtlnieuws.nl###dfp-billboard2
-rtlnieuws.nl###dfp-rectangle1
-rtlnieuws.nl###dfp-wrapper-billboard1
-rtlnieuws.nl###rtln-ad-advertorial
-rtlnieuws.nl##.article-content__social
-rtlnieuws.nl##.article-sidebar__ad
-rtlnieuws.nl##.autoscalable-block-wrapper:has(.entity-block-title:has-text(Van onze partners))
-rtlnieuws.nl##.autoscalable-block-wrapper:has-text(/van onze partners/i)
-rtlnieuws.nl##.dfp-billboard-wrapper
-rtlnieuws.nl##.dfp-rectangle-wrapper
-rtlnieuws.nl##.onetrust-pc-dark-filter
-rtlnieuws.nl##.six_articles_with_ad__ad
-rtlnieuws.nl##a[href^="//twitter.com/intent/tweet?"]
-rtlnieuws.nl##a[href^="whatsapp://send"]
-rtlnieuws.nl##div[class$="_with_ad__ad"]
+/analytics-ingress-$domain=rtlnieuws.nl 
+adobe-analytics.$domain=rtlnieuws.nl 
+snowplowanalytics.$domain=rtlnieuws.nl 
+rtlnieuws.nl ###dfp-billboard1 
+rtlnieuws.nl ###dfp-billboard2 
+rtlnieuws.nl ###dfp-rectangle1 
+rtlnieuws.nl ###dfp-wrapper-billboard1 
+rtlnieuws.nl ###rtln-ad-advertorial 
+rtlnieuws.nl ##.article-content__social 
+rtlnieuws.nl ##.article-sidebar__ad 
+rtlnieuws.nl ##.autoscalable-block-wrapper:has(.entity-block-title:has-text(Van onze partners)) 
+rtlnieuws.nl ##.autoscalable-block-wrapper:has-text(/van onze partners/i) 
+rtlnieuws.nl ##.dfp-billboard-wrapper 
+rtlnieuws.nl ##.dfp-rectangle-wrapper 
+rtlnieuws.nl ##.onetrust-pc-dark-filter 
+rtlnieuws.nl ##.six_articles_with_ad__ad 
+rtlnieuws.nl ##a[href^="//twitter.com/intent/tweet?"] 
+rtlnieuws.nl ##a[href^="whatsapp://send"] 
+rtlnieuws.nl ##div[class$="_with_ad__ad"] 
 
 ! NRC
 ||nrc.nl/tag/tag.js
