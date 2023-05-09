@@ -49,22 +49,22 @@ nu.nl#$?#body { overflow: visible !important; }
 /analytics-ingress-$domain=rtlnieuws.nl 
 adobe-analytics.$domain=rtlnieuws.nl 
 snowplowanalytics.$domain=rtlnieuws.nl 
-rtlnieuws.nl ###dfp-billboard1 
-rtlnieuws.nl ###dfp-billboard2 
-rtlnieuws.nl ###dfp-rectangle1 
-rtlnieuws.nl ###dfp-wrapper-billboard1 
-rtlnieuws.nl ###rtln-ad-advertorial 
-rtlnieuws.nl ##.article-content__social 
-rtlnieuws.nl ##.article-sidebar__ad 
-rtlnieuws.nl ##.autoscalable-block-wrapper:has(.entity-block-title:has-text(Van onze partners)) 
-rtlnieuws.nl ##.autoscalable-block-wrapper:has-text(/van onze partners/i) 
-rtlnieuws.nl ##.dfp-billboard-wrapper 
-rtlnieuws.nl ##.dfp-rectangle-wrapper 
-rtlnieuws.nl ##.onetrust-pc-dark-filter 
-rtlnieuws.nl ##.six_articles_with_ad__ad 
-rtlnieuws.nl ##a[href^="//twitter.com/intent/tweet?"] 
-rtlnieuws.nl ##a[href^="whatsapp://send"] 
-rtlnieuws.nl ##div[class$="_with_ad__ad"] 
+rtlnieuws.nl###dfp-billboard1 
+rtlnieuws.nl###dfp-billboard2 
+rtlnieuws.nl###dfp-rectangle1 
+rtlnieuws.nl###dfp-wrapper-billboard1 
+rtlnieuws.nl###rtln-ad-advertorial 
+rtlnieuws.nl##.article-content__social 
+rtlnieuws.nl##.article-sidebar__ad 
+rtlnieuws.nl##.autoscalable-block-wrapper:has(.entity-block-title:has-text(Van onze partners)) 
+rtlnieuws.nl##.autoscalable-block-wrapper:has-text(/van onze partners/i) 
+rtlnieuws.nl##.dfp-billboard-wrapper 
+rtlnieuws.nl##.dfp-rectangle-wrapper 
+rtlnieuws.nl##.onetrust-pc-dark-filter 
+rtlnieuws.nl##.six_articles_with_ad__ad 
+rtlnieuws.nl##a[href^="//twitter.com/intent/tweet?"] 
+rtlnieuws.nl##a[href^="whatsapp://send"] 
+rtlnieuws.nl##div[class$="_with_ad__ad"] 
 
 ! NRC
 ||nrc.nl/tag/tag.js
@@ -99,41 +99,40 @@ volkskrant.nl##.teaser-branded
 ||sp.dpgmedia.net^$third-party
 
 ! BBC.COM
-bbc.com  ##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
-bbc.com  ##body:style(overflow: auto !important;) 
-bbc.com ###dotcom-leaderboard 
-bbc.com ###zephr-message 
-bbc.com ##.bbccom_advert 
-bbc.com ##.dotcom-ad 
-bbc.com ##.leaderboard-ad-placeholder.bbccom_slot 
-bbc.com ##.zephr-overlay 
-bbc.com ##.zephr-wrapper 
-bbc.com ##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
-bbc.com ##body:style(overflow: auto !important;) 
-bbc.com ##div[class*="leaderboard-ad"] 
+
 bbc.com/*/dotcom-ads.js 
 bbci.co.uk/*/cookie-banner/$domain=bbc.com 
 bbci.co.uk/*-consent-banner$domain=bbc.com 
-
+bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
+bbc.com##body:style(overflow: auto !important;) 
+bbc.com###dotcom-leaderboard 
+bbc.com###zephr-message 
+bbc.com##.bbccom_advert 
+bbc.com##.dotcom-ad 
+bbc.com##.leaderboard-ad-placeholder.bbccom_slot 
+bbc.com##.zephr-overlay 
+bbc.com##.zephr-wrapper 
+bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
+bbc.com##body:style(overflow: auto !important;) 
+bbc.com##div[class*="leaderboard-ad"] 
 
 ! CNN.COM
 cnn.com/media/sites/js/bundles/cnn-edition-adfuel.*.js 
 lightning.cnn.com/launch^ 
-cnn.com ###onetrust-consent-sdk 
-cnn.com ###onetrust-banner-sdk 
-cnn.com ##.social-share__share-links 
-cnn.com ##.social-share 
-cnn.com ##.ad-slot-top 
-cnn.com ##.ad-slot 
-cnn.com ##.ad-feedback-link-container 
-cnn.com ##.ad 
-cnn.com ##+js(set-constant, apstag, undefined) 
-cnn.com ##div[id^="ad_bnr_"] 
-cnn.com ##.adSlotHeaderContainer 
-cnn.com ##.ad-slot-header 
-cnn.com ###ad_rect_btf_01 
-cnn.com ###ad_bnr_atf_01 
-cnn.com ##section.layout__end > div[class^="toast-popup__container"][data-uri^="archive.cms.cnn.com"] 
-cnn.com ##.ad-slot-rail 
-cnn.com ###ad_rect_btf_02 
-
+cnn.com###onetrust-consent-sdk 
+cnn.com###onetrust-banner-sdk 
+cnn.com##.social-share__share-links 
+cnn.com##.social-share 
+cnn.com##.ad-slot-top 
+cnn.com##.ad-slot 
+cnn.com##.ad-feedback-link-container 
+cnn.com##.ad 
+cnn.com##+js(set-constant, apstag, undefined) 
+cnn.com##div[id^="ad_bnr_"] 
+cnn.com##.adSlotHeaderContainer 
+cnn.com##.ad-slot-header 
+cnn.com###ad_rect_btf_01 
+cnn.com###ad_bnr_atf_01 
+cnn.com##section.layout__end > div[class^="toast-popup__container"][data-uri^="archive.cms.cnn.com"] 
+cnn.com##.ad-slot-rail 
+cnn.com###ad_rect_btf_02 
