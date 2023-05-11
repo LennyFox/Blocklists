@@ -112,7 +112,6 @@ bbc.com##.dotcom-ad
 bbc.com##.leaderboard-ad-placeholder.bbccom_slot 
 bbc.com##.zephr-overlay 
 bbc.com##.zephr-wrapper 
-bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
 bbc.com##body:style(overflow: auto !important;) 
 bbc.com##div[class*="leaderboard-ad"] 
 
@@ -127,12 +126,12 @@ cnn.com##.ad-slot-top
 cnn.com##.ad-slot 
 cnn.com##.ad-feedback-link-container 
 cnn.com##.ad 
-cnn.com##+js(set-constant, apstag, undefined) 
+!cnn.com##+js(set-constant, apstag, undefined) 
 cnn.com##div[id^="ad_bnr_"] 
 cnn.com##.adSlotHeaderContainer 
 cnn.com##.ad-slot-header 
 cnn.com###ad_rect_btf_01 
 cnn.com###ad_bnr_atf_01 
-cnn.com##section.layout__end > div[class^="toast-popup__container"][data-uri^="archive.cms.cnn.com"] 
+!cnn.com##section.layout__end > div[class^="toast-popup__container"][data-uri^="archive.cms.cnn.com"] 
 cnn.com##.ad-slot-rail 
 cnn.com###ad_rect_btf_02 
