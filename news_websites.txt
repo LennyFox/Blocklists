@@ -8,8 +8,7 @@
 ! 
 
 ! nos.nl
-||adcdn.ster.nl^$domain=nos.nl
-||adconfig.ster.nl^$domain=nos.nl
+||ster.nl^$domain=nos.nl
 ||atconnect.npo.nl^$domain=nos.nl
 ||imasdk.googleapis.com^$domain=nos.nl
 ||nos.nl^$cookie=atidvisitor
