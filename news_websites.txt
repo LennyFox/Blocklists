@@ -101,8 +101,10 @@ volkskrant.nl##.teaser-branded
 ! BBC.COM
 
 bbc.com/*/dotcom-ads.js 
-bbci.co.uk/*/cookie-banner/$domain=bbc.com 
-bbci.co.uk/*-consent-banner$domain=bbc.com 
+
+||a1.api.bbc.co.uk/hit.^$image,domain=bbc.com
+||bbci.co.uk/*/cookie-banner/$domain=bbc.com 
+||bbci.co.uk/*-consent-banner$domain=bbc.com 
 bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
 bbc.com##body:style(overflow: auto !important;) 
 bbc.com###dotcom-leaderboard 
