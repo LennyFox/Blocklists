@@ -98,10 +98,8 @@ volkskrant.nl##.teaser-branded
 ||sp.dpgmedia.net^$third-party
 
 ! BBC.COM
-
-bbc.com/*/dotcom-ads.js 
-
-||bbc.co.uk/hit.*^$image,domain=bbc.com
+||bbc.com/*/dotcom-ads.js 
+||bbc.co.uk/hit.*$image,domain=bbc.com
 ||bbci.co.uk/*/cookie-banner/$domain=bbc.com 
 ||bbci.co.uk/*-consent-banner$domain=bbc.com 
 bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
