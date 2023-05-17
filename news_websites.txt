@@ -82,6 +82,7 @@ nrc.nl##.emailwall
 ||temptation.*/temptation.js$script,domain=www.volkskrant.nl
 ||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script
 ||volkskrant.nl/temptation/resolve
+||volkskrant.nl/optiext/optiextension.dll$subdocument
 volkskrant.nl###top1
 volkskrant.nl##[class*="app-bottom-navigation"]
 volkskrant.nl##div[class*="app-overlay"]
