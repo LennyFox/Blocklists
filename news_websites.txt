@@ -25,7 +25,7 @@ nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
 ||metrics.nu.nl^
 ||nu.nl/dpns_sw.js$script
 ||nu.nl^$cookie=temptation-id
-||temptation.nu.nl/
+!||temptation.nu.nl/
 ||*MessagingWithoutDetection.js^$domain=nu.nl
 metrics.nu.nl^ 
 nu.nl##+js(set-constant, isAdBlockEnabled, false) 
