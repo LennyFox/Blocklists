@@ -25,6 +25,8 @@ nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
 ||metrics.nu.nl^
 ||nu.nl/dpns_sw.js$script
 ||nu.nl^$cookie=temptation-id
+||temptation.nu.nl/
+||*MessagingWithoutDetection.js^$domain=nu.nl
 metrics.nu.nl^ 
 nu.nl##+js(set-constant, isAdBlockEnabled, false) 
 nu.nl###header 
@@ -98,10 +100,13 @@ volkskrant.nl##.teaser-branded
 ||sp.dpgmedia.net^$third-party
 
 ! BBC.COM
-||bbc.com/*/dotcom-ads.js 
+||bbc.com/userinfo
+||*/analytics.js^$domain=bbc.com
+||*/dotcom-ads.js^$domain=$bbc.com 
+||*/dotcom-preroll.js^$domain=$bbc.com 
+||*/cookie-banner^$domain=bbc.com 
+||*/consent-banner^$domain=bbc.com 
 ||bbc.co.uk/hit.*$image,domain=bbc.com
-||*/cookie-banner$domain=bbc.com 
-||*/consent-banner$domain=bbc.com 
 bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
 bbc.com##body:style(overflow: auto !important;) 
 bbc.com###dotcom-leaderboard 
