@@ -121,13 +121,14 @@ cnn.com###onetrust-consent-sdk
 cnn.com###onetrust-banner-sdk 
 cnn.com##.social-share__share-links 
 cnn.com##.social-share 
+cnn.com##.ad-slot-header__wrapper
+cnn.com##.ad-slot-header 
 cnn.com##.ad-slot-top 
 cnn.com##.ad-slot 
 cnn.com##.ad-feedback-link-container 
 cnn.com##.ad 
 cnn.com##div[id^="ad_bnr_"] 
 cnn.com##.adSlotHeaderContainer 
-cnn.com##.ad-slot-header 
 cnn.com###ad_rect_btf_01 
 cnn.com###ad_bnr_atf_01 
 cnn.com##.ad-slot-rail 
