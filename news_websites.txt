@@ -133,3 +133,6 @@ cnn.com###ad_rect_btf_01
 cnn.com###ad_bnr_atf_01 
 cnn.com##.ad-slot-rail 
 cnn.com###ad_rect_btf_02 
+||cookielaw.org^$domain=cnn.com
+||browser-intake-datadoghq.com^$domain=cnn.com
+||events.brightline.tv/track^$domain=cnn.com
