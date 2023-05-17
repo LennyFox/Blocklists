@@ -113,6 +113,7 @@ bbc.com##.zephr-overlay
 bbc.com##.zephr-wrapper 
 bbc.com##body:style(overflow: auto !important;) 
 bbc.com##div[class*="leaderboard-ad"] 
+bbc.co.uk##.bbccookies-banner
 
 ! CNN.COM
 cnn.com/media/sites/js/bundles/cnn-edition-adfuel.*.js 
