@@ -102,8 +102,8 @@ volkskrant.nl##.teaser-branded
 ! BBC.COM
 ||bbc.com/userinfo
 ||*/analytics.js^$domain=bbc.com
-||*/dotcom-ads.js^$domain=$bbc.com 
-||*/dotcom-preroll.js^$domain=$bbc.com 
+||*/dotcom-ads.js^$domain=bbc.com 
+||*/dotcom-preroll.js^$domain=bbc.com 
 ||*/cookie-banner^$domain=bbc.com 
 ||*/consent-banner^$domain=bbc.com 
 ||bbc.co.uk/hit.*$image,domain=bbc.com
