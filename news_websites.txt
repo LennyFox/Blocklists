@@ -70,6 +70,7 @@ rtlnieuws.nl##div[class$="_with_ad__ad"]
 ! NRC
 ||nrc.nl/tag/tag.js
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
+nrc.nl##+js(cookie-remover, counter)
 nrc.nl##.banner
 nrc.nl##.socialbuttons
 nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
@@ -80,10 +81,11 @@ nrc.nl##.emailwall
 @@persgroep.net$image,domain=volkskrant
 ||volkskrant.nl^$cookie=_ga
 ||volkskrant.nl^$cookie=_gid
-||temptation.*/temptation.js$script,domain=www.volkskrant.nl
 ||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script
 ||volkskrant.nl/temptation/resolve
 ||volkskrant.nl/optiext/optiextension.dll$subdocument
+||temptation.*/temptation.js$script,domain=www.volkskrant.nl
+/temptation/resolve$xmlhttprequest,~third-party,domain=volkskrant.nl
 volkskrant.nl###top1
 volkskrant.nl##[class*="app-bottom-navigation"]
 volkskrant.nl##div[class*="app-overlay"]
