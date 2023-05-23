@@ -28,6 +28,7 @@ nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
 ||temptation.nu.nl/
 metrics.nu.nl^ 
 nu.nl##+js(set-constant, isAdBlockEnabled, false) 
+nu.nl##+js(remove-class, authorized-content, div.authorized-content)
 nu.nl###header 
 nu.nl###header > .zone 
 nu.nl##.ad-placement 
