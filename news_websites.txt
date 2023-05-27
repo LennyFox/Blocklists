@@ -68,6 +68,7 @@ rtlnieuws.nl##.six_articles_with_ad__ad
 rtlnieuws.nl##a[href^="//twitter.com/intent/tweet?"] 
 rtlnieuws.nl##a[href^="whatsapp://send"] 
 rtlnieuws.nl##div[class$="_with_ad__ad"] 
+||cookielaw.org^$domain=rtlnieuws.nl
 
 ! NRC
 ||nrc.nl/tag/tag.js
