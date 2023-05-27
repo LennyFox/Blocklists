@@ -6,13 +6,10 @@
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-
 ! nos.nl
 ||ster.nl^$domain=nos.nl
 ||atconnect.npo.nl^$domain=nos.nl
 ||imasdk.googleapis.com^$domain=nos.nl
-||nos.nl^$cookie=atidvisitor
-||nos.nl^$cookie=atuserid
 nos.nl###ccm_notification_host
 nos.nl###regio-onboarding
 nos.nl##a[href^="https://api.whatsapp.com/send?text="]
@@ -24,12 +21,9 @@ nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
 ! NU.nl
 ||metrics.nu.nl^
 ||nu.nl/dpns_sw.js$script
-||nu.nl^$cookie=temptation-id
-||temptation.nu.nl/
-metrics.nu.nl^ 
+||temptation.nu.nl^
 nu.nl##+js(set-constant, isAdBlockEnabled, false) 
 nu.nl##+js(remove-class, authorized-content, div.authorized-content)
-nu.nl##+js(rc, authorized-content, div.authorized-content)
 nu.nl##.login-wall
 nu.nl###header 
 nu.nl###header > .zone 
@@ -40,12 +34,9 @@ nu.nl##.block-wrapper-image.block-wrapper
 nu.nl##.h1.banner--h1.banner 
 nu.nl##.tealium 
 nu.nl##.toast.adblocker
-nu.nl##.zone > div[id^="block-"][data-context*="Adverteerders"]
-nu.nl##.zone > div[id^="block-"][data-context*="Adverteerders"] 
-nu.nl##+js(set-constant, isAdBlockEnabled, false) 
 nu.nl##a[href*="/advertorial-"] 
+nu.nl##.zone > div[id^="block-"][data-context*="Adverteerders"]
 nu.nl##body:style(overflow: visible !important;) 
-nu.nl#$?#body { overflow: visible !important; }
 
 !
 !RTL nieuws
@@ -82,8 +73,6 @@ nrc.nl##.emailwall
 
 ! Volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
-||volkskrant.nl^$cookie=_ga
-||volkskrant.nl^$cookie=_gid
 ||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script
 ||volkskrant.nl/temptation/resolve
 ||volkskrant.nl/optiext/optiextension.dll$subdocument
@@ -122,7 +111,6 @@ bbc.com##.dotcom-ad
 bbc.com##.leaderboard-ad-placeholder.bbccom_slot 
 bbc.com##.zephr-overlay 
 bbc.com##.zephr-wrapper 
-bbc.com##body:style(overflow: auto !important;) 
 bbc.com##div[class*="leaderboard-ad"] 
 bbc.co.uk##.bbccookies-banner
 ||mybbc-analytics.files.bbci.co.uk^$domain=bbc.com
