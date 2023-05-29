@@ -60,6 +60,12 @@ rtlnieuws.nl##a[href^="//twitter.com/intent/tweet?"]
 rtlnieuws.nl##a[href^="whatsapp://send"] 
 rtlnieuws.nl##div[class$="_with_ad__ad"] 
 ||cookielaw.org^$domain=rtlnieuws.nl
+||rtlnieuws.nl/core/misc/jquery.once.bc.js$script,domain=rtlnieuws.nl
+||rtlnieuws.nl/modules/custom/rtlbase/js/autoscalable-blocks.js$script,domain=rtlnieuws.nl
+||rtlnieuws.nl/modules/custom/rtluser/js/*.js$script,domain=rtlnieuws.nl
+||rtlnieuws.nl/*/hidden.module.css$stylesheet,domain=rtlnieuws.nl
+/.*cookie.*/$script,1p,domain=rtlnieuws.nl
+||api.rtl.nl/monitoring/opentelemetry-collector-frontend/*^$domain=rtlnieuws.nl
 
 ! NRC
 ||nrc.nl/tag/tag.js
