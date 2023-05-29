@@ -17,6 +17,10 @@ nos.nl##a[href^="https://twitter.com/intent/tweet?"]
 nos.nl##a[href^="https://www.facebook.com/sharer/sharer.php"]
 nos.nl##div[data-testid="share-dropdown"]
 nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
+||nu.nl/block/lean_json/articlelist^$xhr,domain=nu.nl
+||nu.nl/api/widget-data^$xhr,domain=nu.nl
+||login.nu.nl^$xhr,domain=nu.nl
+||nu.nl/api/config/live_database_shards^$xhr,domain=nu.nl
 
 ! NU.nl
 ||metrics.nu.nl^
