@@ -32,9 +32,10 @@
 ||*.sa/^$document,script,websocket
 ||*.sd/^$document,script,websocket
 ||*.ss/^$document,script,websocket
+||*.tk/^$document,script,websocket
 ||*.so/^$document,script,websocket
 ||*.sy/^$document,script,websocket
 ||*.uz/^$document,script,websocket
 ||*.ve/^$document,script,websocket
 ||*.vg/^$document,script,websocket
-||*.info/^$document,script,websocket,domain=~hardware.info
+||*.vn/^$document,script,websocket
