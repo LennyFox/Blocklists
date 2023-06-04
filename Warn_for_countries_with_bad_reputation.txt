@@ -40,5 +40,5 @@
 ||*.ve/^$script
 ||*.vg/^$script
 ||*.vn/^$script
-||*.asia^$script
-||*.tokyo^$script
+||*.asia/^$script
+||*.tokyo/^$script
