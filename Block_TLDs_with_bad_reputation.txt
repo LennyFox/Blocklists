@@ -1,7 +1,7 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2023 
-! Title: WARNING: Top Level Domains used for phishing and malware, for your safety scripts are blocked
+! Title: WARNING: This Top Level Domain is often used for phishing and malware, for your safety scripts are blocked
 
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
