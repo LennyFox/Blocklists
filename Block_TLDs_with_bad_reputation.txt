@@ -1,48 +1,48 @@
 [AdBlockPlus 2.0]
 !
 ! Version: 2023 
-! Title: Block Top Level Domains used for phishing and malware
+! Title: Block scripts on Top Level Domains used for phishing and malware
 
 ! Expires: 365 days 
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
-||*.adult/^
-||*.best/^
-||*.bet/^
-||*.bid/^
-||*.cam/^
-||*.casa/^
-||*.casino/^
-||*.club/^
-||*.cyou/^
-||*.date/^
-||*.email/^
-||*.fit/^
-||*.gives/^
-||*.help/^
-||*.icu/^
-||*.life/^
-||*.live/^
-||*.moe/^
-||*.monster/^
-||*.poker/^
-||*.porn/^
-||*.quest/^
-||*.racing/^
-||*.rest/^
-||*.review/^
-||*.sbs/^
-||*.sex/^
-||*.sexy/^
-||*.site/^
-||*.stream/^
-||*.support/^
-||*.surf/^
-||*.top/^
-||*.uno/^
-||*.webcam/^
-||*.win/^
-||*.work/^
-||*.xxx/^
-||*.xyz/^
+||*.adult/^$script
+||*.best/^$script
+||*.bet/^$script
+||*.bid/^$script
+||*.cam/^$script
+||*.casa/^$script
+||*.casino/^$script
+||*.club/^$script
+||*.cyou/^$script
+||*.date/^$script
+||*.email/^$script
+||*.fit/^$script
+||*.gives/^$script
+||*.help/^$script
+||*.icu/^$script
+||*.life/^$script
+||*.live/^$script
+||*.moe/^$script
+||*.monster/^$script
+||*.poker/^$script
+||*.porn/^$script
+||*.quest/^$script
+||*.racing/^$script
+||*.rest/^$script
+||*.review/^$script
+||*.sbs/^$script
+||*.sex/^$script
+||*.sexy/^$script
+||*.site/^$script
+||*.stream/^$script
+||*.support/^$script
+||*.surf/^$script
+||*.top/^$script
+||*.uno/^$script
+||*.webcam/^$script
+||*.win/^$script
+||*.work/^$script
+||*.xxx/^$script
+||*.xyz/^$script
 
