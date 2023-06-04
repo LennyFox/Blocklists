@@ -7,7 +7,6 @@
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
 ||*.adult/^
-||*.asia/^
 ||*.best/^
 ||*.bet/^
 ||*.bid/^
@@ -39,7 +38,6 @@
 ||*.stream/^
 ||*.support/^
 ||*.surf/^
-||*.tokyo/^
 ||*.top/^
 ||*.uno/^
 ||*.webcam/^
