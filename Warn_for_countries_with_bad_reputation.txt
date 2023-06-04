@@ -34,7 +34,7 @@
 ||*.ss/^$document,script,websocket
 ||*.so/^$document,script,websocket
 ||*.sy/^$document,script,websocket
-||*.tk/^$document,script,websocket
 ||*.uz/^$document,script,websocket
 ||*.ve/^$document,script,websocket
 ||*.vg/^$document,script,websocket
+||*.info/^$document,script,websocket,domain=~hardware.info
