@@ -82,6 +82,7 @@ nrc.nl##div[class^="native-ad-"]
 nrc.nl##.emailwall
 nrc.nl##.user-confirmation-screen__inner
 nrc.nl##.bericht__actions
+nrc.nl##.luister-naar
 
 
 ! Volkskrant.nl
