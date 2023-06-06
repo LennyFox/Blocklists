@@ -104,7 +104,7 @@ volkskrant.nl##.teaser-branded
 ||bigdata.dpgmmservices.nl$third-party
 ||sp.dpgmedia.net^$third-party
 
-! BBC.COM
+! BBC 
 ||bbc.com/userinfo
 ||*/analytics.js^$domain=bbc.com
 ||*/dotcom-ads.js^$domain=bbc.com 
@@ -126,7 +126,7 @@ bbc.co.uk##.bbccookies-banner
 ||mybbc-analytics.files.bbci.co.uk^$domain=bbc.com
 ||privacy-mgmt.com^$domain=bbc.com
 
-! CNN.COM
+! CNN 
 cnn.com/media/sites/js/bundles/cnn-edition-adfuel.*.js 
 lightning.cnn.com/launch^ 
 cnn.com###onetrust-consent-sdk 
@@ -148,3 +148,12 @@ cnn.com###ad_rect_btf_02
 ||cookielaw.org^$domain=cnn.com
 ||browser-intake-datadoghq.com^$domain=cnn.com
 ||events.brightline.tv/track^$domain=cnn.com
+
+! ABC News
+abcnews.go.com##.ad-slot
+abcnews.go.com##div[data-ad-placeholder]
+abcnews.go.com##.taboola
+abcnews.go.com###taboola-below-article-thumbnails
+||abcnews.com/assets/dtci/js/at.js
+||abcnews.com/assets/dtci/js/abcnews_visitorid.js
+||dcf.espn.com^$domain=abcnews.*
