@@ -80,6 +80,9 @@ nrc.nl##.socialbuttons
 nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
 nrc.nl##div[class^="native-ad-"]
 nrc.nl##.emailwall
+nrc.nl##.user-confirmation-screen__inner
+nrc.nl##.bericht__actions
+
 
 ! Volkskrant.nl
 @@persgroep.net$image,domain=volkskrant
