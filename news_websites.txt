@@ -154,6 +154,7 @@ abcnews.go.com##.ad-slot
 abcnews.go.com##div[data-ad-placeholder]
 abcnews.go.com##.taboola
 abcnews.go.com###taboola-below-article-thumbnails
+abcnews.go.com##div>a:has-text(/sticky-ad/)
 ||abcnews.com/assets/dtci/js/at.js
 ||abcnews.com/assets/dtci/js/abcnews_visitorid.js
 ||dcf.espn.com^$domain=abcnews.*
