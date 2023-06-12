@@ -1,4 +1,11 @@
-
+[AdBlockPlus 2.0]
+!
+! Version: 2023 
+! Title: uBlockOrigin easy medium mode blocklist
+!
+! Expires: 365 days 
+! You are free to copy and distribute this file, but use at your own risk
+! 
 ! Block advertising and tracking networks
 ||0emm.com^$third-party
 ||0stats.com^$third-party
