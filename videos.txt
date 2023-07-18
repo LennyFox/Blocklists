@@ -28,6 +28,3 @@ youtube.com###offer-module
 youtube.com###ticker.ytd-masthead 
 youtube.com###masthead-ad 
 
-!
-! Block popups,popunders to annoying malvertising networks
-||*$popup,popunder,to=trafficjunky.*|trafficfactory.*|trafficforce.*|tsyndicate.*|exoclick.*|orbsrv.*|opoxv.*,important
