@@ -47,6 +47,7 @@ nu.nl##body:style(overflow: visible !important;)
 /analytics-ingress-$domain=rtlnieuws.nl 
 adobe-analytics.$domain=rtlnieuws.nl 
 snowplowanalytics.$domain=rtlnieuws.nl 
+rtlnieuws.nl##.region--content-top
 rtlnieuws.nl###dfp-billboard1 
 rtlnieuws.nl###dfp-billboard2 
 rtlnieuws.nl###dfp-rectangle1 
