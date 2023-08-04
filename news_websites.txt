@@ -93,6 +93,7 @@ nrc.nl##.luister-naar
 ||volkskrant.nl/optiext/optiextension.dll$subdocument
 ||temptation.*/temptation.js$script,domain=www.volkskrant.nl
 /temptation/resolve$xmlhttprequest,~third-party,domain=volkskrant.nl
+volkskrant.nl##.fjs-hide-on-paywall.ad--top
 volkskrant.nl###top1
 volkskrant.nl##[class*="app-bottom-navigation"]
 volkskrant.nl##div[class*="app-overlay"]
@@ -134,6 +135,8 @@ bbc.co.uk##.bbccookies-banner
 ! CNN 
 cnn.com/media/sites/js/bundles/cnn-edition-adfuel.*.js 
 lightning.cnn.com/launch^ 
+cnn.com##.ad-slot-header
+cnn.com##.ad-slot-header__wrapper
 cnn.com###onetrust-consent-sdk 
 cnn.com###onetrust-banner-sdk 
 cnn.com##.social-share__share-links 
