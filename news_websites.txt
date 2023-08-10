@@ -17,13 +17,13 @@ nos.nl##a[href^="https://twitter.com/intent/tweet?"]
 nos.nl##a[href^="https://www.facebook.com/sharer/sharer.php"]
 nos.nl##div[data-testid="share-dropdown"]
 nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
-||nu.nl/block/lean_json/articlelist^$xhr,domain=nu.nl
-||nu.nl/api/widget-data^$xhr,domain=nu.nl
-||login.nu.nl^$xhr,domain=nu.nl
-||nu.nl/api/config/live_database_shards^$xhr,domain=nu.nl
 
 ! NU.nl
+||nu.nl/block/lean_json/articlelist^$xhr
+||nu.nl/api/widget-data^$xhr
+||nu.nl/api/config/live_database_shards^$xhr
 ||metrics.nu.nl^
+||login.nu.nl^$xhr
 ||nu.nl/dpns_sw.js$script
 ||temptation.nu.nl^
 nu.nl##+js(set-constant, isAdBlockEnabled, false) 
@@ -45,8 +45,8 @@ nu.nl##body:style(overflow: visible !important;)
 !
 !RTL nieuws
 /analytics-ingress-$domain=rtlnieuws.nl 
-adobe-analytics.$domain=rtlnieuws.nl 
-snowplowanalytics.$domain=rtlnieuws.nl 
+adobe-analytics.*$domain=rtlnieuws.nl 
+snowplowanalytics.*$domain=rtlnieuws.nl 
 rtlnieuws.nl##.region--content-top
 rtlnieuws.nl###dfp-billboard1 
 rtlnieuws.nl###dfp-billboard2 
@@ -65,10 +65,10 @@ rtlnieuws.nl##a[href^="//twitter.com/intent/tweet?"]
 rtlnieuws.nl##a[href^="whatsapp://send"] 
 rtlnieuws.nl##div[class$="_with_ad__ad"] 
 ||cookielaw.org^$domain=rtlnieuws.nl
-||rtlnieuws.nl/core/misc/jquery.once.bc.js$script,domain=rtlnieuws.nl
-||rtlnieuws.nl/modules/custom/rtlbase/js/autoscalable-blocks.js$script,domain=rtlnieuws.nl
-||rtlnieuws.nl/modules/custom/rtluser/js/*.js$script,domain=rtlnieuws.nl
-||rtlnieuws.nl/*/hidden.module.css$stylesheet,domain=rtlnieuws.nl
+||rtlnieuws.nl/core/misc/jquery.once.bc.js$script
+||rtlnieuws.nl/modules/custom/rtlbase/js/autoscalable-blocks.js$script
+||rtlnieuws.nl/modules/custom/rtluser/js/*.js$script
+||rtlnieuws.nl/*/hidden.module.css$stylesheet
 /.*cookie.*/$script,1p,domain=rtlnieuws.nl
 ||api.rtl.nl/monitoring/opentelemetry-collector-frontend/*^$domain=rtlnieuws.nl
 
@@ -117,7 +117,7 @@ volkskrant.nl##.teaser-branded
 ||*/dotcom-preroll.js^$domain=bbc.com 
 ||*/cookie-banner^$domain=bbc.com 
 ||*/consent-banner^$domain=bbc.com 
-||bbc.co.uk/hit.*$image,domain=bbc.com
+||bbc.co.uk/hit.^$image,domain=bbc.com
 bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
 bbc.com##body:style(overflow: auto !important;) 
 bbc.com###dotcom-leaderboard 
@@ -141,8 +141,6 @@ cnn.com###onetrust-consent-sdk
 cnn.com###onetrust-banner-sdk 
 cnn.com##.social-share__share-links 
 cnn.com##.social-share 
-cnn.com##.ad-slot-header__wrapper
-cnn.com##.ad-slot-header 
 cnn.com##.ad-slot-top 
 cnn.com##.ad-slot 
 cnn.com##.ad-feedback-link-container 
