@@ -38,6 +38,7 @@ nu.nl##.block-wrapper-image.block-wrapper
 nu.nl##.h1.banner--h1.banner 
 nu.nl##.tealium 
 nu.nl##.toast.adblocker
+nu.nl##.headerimage__image
 nu.nl##a[href*="/advertorial-"] 
 nu.nl##.zone > div[id^="block-"][data-context*="Adverteerders"]
 nu.nl##body:style(overflow: visible !important;) 
