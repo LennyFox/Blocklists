@@ -15,7 +15,6 @@
 ||*.afamilycompany/^$script,document,important
 ||*.afl/^$script,document,important
 ||*.airbus^$script,document,important
-||*.airforce/^$script,document,important
 ||*.alfaromeo/^$script,document,important
 ||*.alibaba/^$script,document,important
 ||*.alibaba/^$script,document,important
@@ -36,13 +35,12 @@
 ||*.bbc/^$script,document,important
 ||*.bbva/^$script,document,important
 ||*.bentley/^$script,document,important
-||*.bestbuy/^$script,document,important
+||*.bmw/^$script,document,important
 ||*.boehringer/^$script,document,important
 ||*.bosch/^$script,document,important
 ||*.bridgestone/^$script,document,important
 ||*.bugatti/^$script,document,important
 ||*.calvinklein/^$script,document,important
-||*.cancerresearch/^$script,document,important
 ||*.canon/^$script,document,important
 ||*.capitalone/^$script,document,important
 ||*.cern/^$script,document,important
@@ -50,8 +48,6 @@
 ||*.clubmed/^$script,document,important
 ||*.comcast/^$script,document,important
 ||*.commbank/^$script,document,important
-||*.cookingchannel/^$script,document,important
-||*.creditcard/^$script,document,important
 ||*.creditunion/^$script,document,important
 ||*.datsun/^$script,document,important
 ||*.dell/^$script,document,important
@@ -174,7 +170,6 @@
 ||*.toshiba/^$script,document,important
 ||*.total/^$script,document,important
 ||*.toyota/^$script,document,important
-||*.travelchannel/^$script,document,important
 ||*.ubank/^$script,document,important
 ||*.ubs/^$script,document,important
 ||*.ups/^$script,document,important
