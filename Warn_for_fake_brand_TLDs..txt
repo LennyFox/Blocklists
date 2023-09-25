@@ -14,7 +14,7 @@
 ||*.aetna/^$script,document,important
 ||*.afamilycompany/^$script,document,important
 ||*.afl/^$script,document,important
-||*.airbus/^$script,document,important
+||*.airbus^$script,document,important
 ||*.alfaromeo/^$script,document,important
 ||*.alibaba/^$script,document,important
 ||*.allfinanz/^$script,document,important
@@ -160,7 +160,6 @@
 ||*.statefarm/^$script,document,important
 ||*.stcgroup/^$script,document,important
 ||*.suzuki/^$script,document,important
-||*.accenture/^$script,document,important
 ||*.swatch/^$script,document,important
 ||*.swiftcover/^$script,document,important
 ||*.teva/^$script,document,important
