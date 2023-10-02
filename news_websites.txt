@@ -48,6 +48,7 @@ nu.nl##body:style(overflow: visible !important;)
 /analytics-ingress-$domain=rtlnieuws.nl 
 adobe-analytics.*$domain=rtlnieuws.nl 
 snowplowanalytics.*$domain=rtlnieuws.nl 
+rtlnieuws.nl##.region--content-top > div
 rtlnieuws.nl##.region--content-top
 rtlnieuws.nl###dfp-billboard1 
 rtlnieuws.nl###dfp-billboard2 
@@ -120,6 +121,7 @@ volkskrant.nl##.teaser-branded
 ||*/consent-banner^$domain=bbc.com 
 ||bbc.co.uk/hit.^$image,domain=bbc.com
 bbc.com##+js(set-constant, bbcdotcom.config.isAdsEnabled, falseFunc) 
+bbc.com###leaderboard-aside-content
 bbc.com##body:style(overflow: auto !important;) 
 bbc.com###dotcom-leaderboard 
 bbc.com###zephr-message 
