@@ -35,7 +35,9 @@ nu.nl##.ad-placement
 nu.nl##.banner 
 nu.nl##.block.advertoriallist 
 nu.nl##.block-wrapper-image.block-wrapper 
-nu.nl##.h1.banner--h1.banner 
+nu.nl##.h1.banner--h1.banner
+nu.nl##.h1.banner--hide-single-column.banner--h1.banner
+nu.nl##.h1.banner--h1.banner > .banner__slot
 nu.nl##.tealium 
 nu.nl##.toast.adblocker
 nu.nl##.headerimage__image
