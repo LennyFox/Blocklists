@@ -28,3 +28,9 @@ youtube.com###offer-module
 youtube.com###ticker.ytd-masthead 
 youtube.com###masthead-ad 
 
+! Contain adult websites
+||*$third-party,domain=eporner.com|pornhub.com|xhamster.com
+@@xhcdn.com$domain=xhamster.com
+@@cdn13.com$domain=xhamster.com
+@@phncdn.com$domain=pornhub.com
+
