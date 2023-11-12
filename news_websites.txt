@@ -7,51 +7,53 @@
 ! You are free to copy and distribute this file, but use at your own risk
 ! 
 ! nos.nl
-||ster.nl^$domain=nos.nl
-||atconnect.npo.nl^$domain=nos.nl
-||imasdk.googleapis.com^$domain=nos.nl
 nos.nl###ccm_notification_host
 nos.nl###regio-onboarding
+nos.nl##.ccm_notification_content
+nos.nl##.ccm_responsive_top
 nos.nl##a[href^="https://api.whatsapp.com/send?text="]
 nos.nl##a[href^="https://twitter.com/intent/tweet?"]
 nos.nl##a[href^="https://www.facebook.com/sharer/sharer.php"]
 nos.nl##div[data-testid="share-dropdown"]
 nos.nl#?#main > div > div:-abp-has(> p:contains(/^Deel artikel/))
+||atconnect.npo.nl^$domain=nos.nl
+||imasdk.googleapis.com^$domain=nos.nl
+||ster.nl^$domain=nos.nl
 
-! NU.nl
-||nu.nl/block/lean_json/articlelist^$xhr
-||nu.nl/api/widget-data^$xhr
-||nu.nl/api/config/live_database_shards^$xhr
-||metrics.nu.nl^
-||login.nu.nl^$xhr
-||nu.nl/dpns_sw.js$script
-||temptation.nu.nl^
-nu.nl##+js(set-constant, isAdBlockEnabled, false) 
-nu.nl##+js(remove-class, authorized-content, div.authorized-content)
-nu.nl##.login-wall
 nu.nl###header 
 nu.nl###header > .zone 
+nu.nl##+js(remove-class, authorized-content, div.authorized-content)
+nu.nl##+js(set-constant, isAdBlockEnabled, false) 
 nu.nl##.ad-placement 
 nu.nl##.banner 
-nu.nl##.block.advertoriallist 
+nu.nl##.banner__slot
 nu.nl##.block-wrapper-image.block-wrapper 
+nu.nl##.block.advertoriallist 
+nu.nl##.breaking-push-modal.modal
 nu.nl##.h1.banner--h1.banner
-nu.nl##.h1.banner--hide-single-column.banner--h1.banner
 nu.nl##.h1.banner--h1.banner > .banner__slot
+nu.nl##.h1.banner--hide-single-column.banner--h1.banner
+nu.nl##.headerimage__image
+nu.nl##.login-wall
+nu.nl##.modal-layer__shade
 nu.nl##.tealium 
 nu.nl##.toast.adblocker
-nu.nl##.headerimage__image
-nu.nl##a[href*="/advertorial-"] 
 nu.nl##.zone > div[id^="block-"][data-context*="Adverteerders"]
+nu.nl##a[href*="/advertorial-"] 
 nu.nl##body:style(overflow: visible !important;) 
+||login.nu.nl^$xhr
+||metrics.nu.nl^
+||nu.nl/api/config/live_database_shards^$xhr
+||nu.nl/api/widget-data^$xhr
+||nu.nl/block/lean_json/articlelist^$xhr
+||nu.nl/dpns_sw.js$script
+||temptation.nu.nl^
 
 !
 !RTL nieuws
+/.*cookie.*/$script,1p,domain=rtlnieuws.nl
 /analytics-ingress-$domain=rtlnieuws.nl 
 adobe-analytics.*$domain=rtlnieuws.nl 
-snowplowanalytics.*$domain=rtlnieuws.nl 
-rtlnieuws.nl##.region--content-top > div
-rtlnieuws.nl##.region--content-top
 rtlnieuws.nl###dfp-billboard1 
 rtlnieuws.nl###dfp-billboard2 
 rtlnieuws.nl###dfp-rectangle1 
@@ -61,50 +63,53 @@ rtlnieuws.nl##.article-content__social
 rtlnieuws.nl##.article-sidebar__ad 
 rtlnieuws.nl##.autoscalable-block-wrapper:has(.entity-block-title:has-text(Van onze partners)) 
 rtlnieuws.nl##.autoscalable-block-wrapper:has-text(/van onze partners/i) 
-rtlnieuws.nl##.dfp-billboard-wrapper 
+rtlnieuws.nl##.dfp-billboard-wrapper
 rtlnieuws.nl##.dfp-rectangle-wrapper 
 rtlnieuws.nl##.onetrust-pc-dark-filter 
+rtlnieuws.nl##.ot-fade-in.onetrust-pc-dark-filter
+rtlnieuws.nl##.ot-sdk-columns.ot-sdk-twelve
+rtlnieuws.nl##.region--content-top
 rtlnieuws.nl##.six_articles_with_ad__ad 
 rtlnieuws.nl##a[href^="//twitter.com/intent/tweet?"] 
 rtlnieuws.nl##a[href^="whatsapp://send"] 
 rtlnieuws.nl##div[class$="_with_ad__ad"] 
+snowplowanalytics.*$domain=rtlnieuws.nl 
+||api.rtl.nl/monitoring/opentelemetry-collector-frontend/*^$domain=rtlnieuws.nl
 ||cookielaw.org^$domain=rtlnieuws.nl
+||rtlnieuws.nl/*/hidden.module.css$stylesheet
 ||rtlnieuws.nl/core/misc/jquery.once.bc.js$script
 ||rtlnieuws.nl/modules/custom/rtlbase/js/autoscalable-blocks.js$script
 ||rtlnieuws.nl/modules/custom/rtluser/js/*.js$script
-||rtlnieuws.nl/*/hidden.module.css$stylesheet
-/.*cookie.*/$script,1p,domain=rtlnieuws.nl
-||api.rtl.nl/monitoring/opentelemetry-collector-frontend/*^$domain=rtlnieuws.nl
 
 ! NRC
-||nrc.nl/tag/tag.js
-||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
 nrc.nl##+js(cookie-remover, counter)
 nrc.nl##.banner
-nrc.nl##.socialbuttons
-nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
-nrc.nl##div[class^="native-ad-"]
-nrc.nl##.emailwall
-nrc.nl##.user-confirmation-screen__inner
 nrc.nl##.bericht__actions
+nrc.nl##.emailwall
 nrc.nl##.luister-naar
+nrc.nl##.socialbuttons
+nrc.nl##.user-confirmation-screen__inner
+nrc.nl##div[class^="native-ad-"]
+nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
+||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
+||nrc.nl/tag/tag.js
 
 
 ! Volkskrant.nl
-@@persgroep.net$image,domain=volkskrant
-||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script
-||volkskrant.nl/temptation/resolve
-||volkskrant.nl/optiext/optiextension.dll$subdocument
-||temptation.*/temptation.js$script,domain=www.volkskrant.nl
 /temptation/resolve$xmlhttprequest,~third-party,domain=volkskrant.nl
-volkskrant.nl##.fjs-hide-on-paywall.ad--top
+@@persgroep.net$image,domain=volkskrant
 volkskrant.nl###top1
-volkskrant.nl##[class*="app-bottom-navigation"]
-volkskrant.nl##div[class*="app-overlay"]
 volkskrant.nl##.AdSense
+volkskrant.nl##.fjs-hide-on-paywall.ad--top
 volkskrant.nl##.teaser-advertisement
 volkskrant.nl##.teaser-branded
+volkskrant.nl##div[class*="app-overlay"]
+volkskrant.nl##[class*="app-bottom-navigation"]
 ||*/browser-plugin-browser-features.js$script,domain=volkskrant.nl
+||temptation.*/temptation.js$script,domain=www.volkskrant.nl
+||volkskrant.nl/*/wrapperMessagingWithoutDetection.js$script
+||volkskrant.nl/optiext/optiextension.dll$subdocument
+||volkskrant.nl/temptation/resolve
 
 ! DPG media
 ||advertising-cdn.dpgmedia.cloud^$third-party
@@ -139,34 +144,28 @@ bbc.co.uk##.bbccookies-banner
 ||privacy-mgmt.com^$domain=bbc.com
 
 ! CNN 
-cnn.com/media/sites/js/bundles/cnn-edition-adfuel.*.js 
-lightning.cnn.com/launch^ 
+cnn.com###ad_bnr_atf_01 
+cnn.com###ad_rect_btf_01 
+cnn.com###ad_rect_btf_02 
+cnn.com###onetrust-banner-sdk 
+cnn.com###onetrust-consent-sdk 
+cnn.com##.ad 
+cnn.com##.ad-feedback-link-container 
+cnn.com##.ad-slot 
 cnn.com##.ad-slot-header
 cnn.com##.ad-slot-header__wrapper
-cnn.com###onetrust-consent-sdk 
-cnn.com###onetrust-banner-sdk 
-cnn.com##.social-share__share-links 
-cnn.com##.social-share 
-cnn.com##.ad-slot-top 
-cnn.com##.ad-slot 
-cnn.com##.ad-feedback-link-container 
-cnn.com##.ad 
-cnn.com##div[id^="ad_bnr_"] 
-cnn.com##.adSlotHeaderContainer 
-cnn.com###ad_rect_btf_01 
-cnn.com###ad_bnr_atf_01 
 cnn.com##.ad-slot-rail 
-cnn.com###ad_rect_btf_02 
-||cookielaw.org^$domain=cnn.com
+cnn.com##.ad-slot-top 
+cnn.com##.adSlotHeaderContainer 
+cnn.com##.social-share 
+cnn.com##.social-share__share-links 
+cnn.com##div[id^="ad_bnr_"] 
+cnn.com/media/sites/js/bundles/cnn-edition-adfuel.*.js 
+edition.cnn.com###onetrust-consent-sdk
+edition.cnn.com##.ad-slot-header
+edition.cnn.com##.ad-slot-header__wrapper
+edition.cnn.com##.ot-sdk-container
+lightning.cnn.com/launch^ 
 ||browser-intake-datadoghq.com^$domain=cnn.com
+||cookielaw.org^$domain=cnn.com
 ||events.brightline.tv/track^$domain=cnn.com
-
-! ABC News
-abcnews.go.com##.ad-slot
-abcnews.go.com##div[data-ad-placeholder]
-abcnews.go.com##.taboola
-abcnews.go.com###taboola-below-article-thumbnails
-abcnews.go.com##div>a:has-text(/sticky-ad/)
-||abcnews.com/assets/dtci/js/at.js
-||abcnews.com/assets/dtci/js/abcnews_visitorid.js
-||dcf.espn.com^$domain=abcnews.*
